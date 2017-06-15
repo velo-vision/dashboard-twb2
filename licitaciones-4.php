@@ -18,7 +18,7 @@
             <!-- Main content -->
             <section class="content">
               <div class="row">
-                <div class="col-md-9">
+                <div class="col-md-11">
                   <div class="box box-primary">
                     <div class="box-header with-border">
                       <h3 class="box-title"><span>The Wedding Bible</span></h3>

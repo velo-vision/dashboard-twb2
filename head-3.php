@@ -184,7 +184,7 @@
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
-          <ul class="treeview-menu">
+          <ul class="treeview-menu nomargin">
             <li class="nomargin">
               <a href="licitaciones.php">Mis licitaciones</a>
             </li>
@@ -194,7 +194,7 @@
         <li class="treeview">
           <a href="mensajes-1.php">
             <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-            <span>Mensajes</span> <span class="number-mensagges">3</span>
+            <span>Mensajes<span class="number-mensagges mover-bg">3</span></span>
           </a>
         </li>
         <li class="treeview">
@@ -210,7 +210,7 @@
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
-          <ul class="treeview-menu">
+          <ul class="treeview-menu nomargin">
             <li class="">
               <a href="#!"><i class="fa fa-caret-right" aria-hidden="true"></i> Mis proveedores</a>
               <ul class="treeview-menu">

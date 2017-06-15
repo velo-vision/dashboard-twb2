@@ -126,7 +126,7 @@
             <small>jl.event planner@mailtest.mx</small>
           </p>
         </div>
-        <div id="capa-variable" class="top-50 centers">
+        <div id="capa-variable" class="top-50 centers margin-est">
           <div class="star-rating">
             <fieldset>
               <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Outstanding">5 stars</label>
@@ -199,7 +199,7 @@
         <li class="treeview">
           <a href="mensajes-1.php">
             <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-            <span>Mensajes</span> <span class="number-mensagges">3</span>
+            <span>Mensajes<span class="number-mensagges mover-bg">3</span></span>
           </a>
         </li>
         <li class="treeview">
@@ -209,8 +209,8 @@
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
-          <ul class="treeview-menu">
-            <li class="">
+          <ul class="treeview-menu nomargin">
+            <li class="" style="border:none;">
               <a href="#!"><i class="fa fa-caret-right" aria-hidden="true"></i> Mi Red</a>
               <ul class="treeview-menu">
                 <li class="active"><a href="red-colaboracion.php">Colaboladores</a></li>
@@ -227,12 +227,12 @@
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
-          <ul class="treeview-menu">
+          <ul class="treeview-menu nomargin">
             <li class="">
               <a href="#!"><i class="fa fa-caret-right" aria-hidden="true"></i> Mis proveedores</a>
               <ul class="treeview-menu">
                 <li class="active"><a href="#!">Galería</a></li>
-                <li class="active"><a href="#!">Lorem Ipsum</a></li>
+                <li class="active" style="border:none;"><a href="#!">Lorem Ipsum</a></li>
               </ul>
             </li>
             <li class=""><a href="#!">Mis proveedores</a></li>

@@ -932,6 +932,7 @@ figure.snip1084.hover:after {
 .btn-primary{
   border-color: #67cfe3;
   background: #67cfe3;
+  width: 100% !important;
 }
 .btn-primary i{
   margin-right: 5px;
@@ -1240,7 +1241,16 @@ input[type=number]::-webkit-inner-spin-button {
 .sidebar-menu .treeview-menu > li {
   border-bottom: 1px dotted #e9e9e9;
   margin: 0;
+  background: #68cfe0;
   padding: 4px 0;
+  padding-left: 5px;
+}
+.skin-blue .treeview-menu > li > a {
+    color: #fff;
+}
+.skin-blue .treeview-menu > li.active > a, .skin-blue .treeview-menu > li > a:hover {
+    color: #fff !important;
+    font-weight: 500;
 }
 .categiria-active{
   color: #ffffff;
@@ -1833,27 +1843,122 @@ input:checked + .slider:before {
   text-align: center;
 }
 /*MEDIAS*/
-@media only screen and (min-width:768px) and (max-width:992px){
-.prev-next img {
-  margin: 0 7px;
-}
-.editar {
-  font-size: .8em;
-  margin-right: 7px;
-}
-.prev-next {
-  font-size: .8em;
-  margin-top: 7px !important;
-}
-.margin-tamano{
-  margin-top: 40px !important;
-}
-.margin-muro{
-  margin-top: 110px !important;
-}
-}
-
 @media only screen and (min-width:200px) and (max-width:768px){
+  .centrar1{
+   text-align: center;
+  }
+  .margin-cat{
+    margin-top: 10px;
+  }
+  .dotted-down {
+    border-bottom: 2px dotted #969090;
+}
+  .check-cuadro input{
+    margin-top: 12px;
+  }
+  .save {
+    margin-left: 20px;
+  }
+  .detalle {
+    width: 80%;
+    margin-left: 10%;
+}
+  .logo-registro img {
+    margin: 2em 0 !important;
+    width: 50%;
+  }
+  .top-50 {
+    margin-top: 30px !important;
+  }
+  .bg-mobile{
+    background: url(images/dashboard/bg-mobile.svg);
+    height: 100%;
+    background-size:cover;
+  }
+  .foto-perfil img {
+    width: 60%;
+  }
+  .iniciales {
+    color: #b1b1b1;
+    font-family: 'Montez', cursive;
+    font-size: 5em !important;
+    margin-top: 40%;
+  }
+  .content-muro {
+    margin-top: -30px !important;
+  }
+  .box .knob-label {
+    font-size: 1em;
+  }
+  .nav-tabs>li {
+    font-size: .75em !important;
+  }
+  .content-face {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .res-10{
+    margin-top: 10px;
+  }
+  .boton-detalle {
+    margin: 0px 5px !important;
+    padding: 5px 10px !important;
+  }
+  .borde-derecho {
+    border-right: 0px solid #e8e9e5;
+  }
+  .logo-mobile img{
+    width: 180px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .foto-perfil {
+    margin-top: 0px !important;
+  }
+  .content-popoup {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .margin-responsive{
+    padding: 0px;
+  }
+  .carousel-indicators {
+    bottom: -30px;
+  }
+  .propietario {
+    font-size: .6em;
+    margin-top: 10px;
+  }
+  .titulo-perfil {
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+  .invitado {
+    font-size: .85em;
+  }
+  .añadir-invitados {
+    font-size: .8em;
+    max-width: 100%;
+  }
+  .boton-invitados {
+    width: 80% !important;
+    margin-left: 10% !important;
+  }
+  .box-header > .fa, .box-header > .glyphicon, .box-header > .ion, .box-header .box-title {
+    font-size: .85em;
+  }
+  .content-wrapper, .right-side, .main-footer {
+    margin-left: 0%;
+  }
+  .carousel-control > img {
+    width: 25px;
+  }
+  .margen-xs{
+    margin: 5px 0 !important;
+  }
+  .content-drop-xs{
+    margin-left: 10% !important;
+  }
   .mailbox-read-time {
     margin-top: 5px;
 }
@@ -1883,4 +1988,402 @@ input:checked + .slider:before {
     -o-transform: translate(113px, 0);
     transform: translate(113px, 0);
 }
+  /****************VELOSOFT FRONT-2 STYLE JRG************************/
+.style-detalle {
+  margin: 100px 130px 0;
+}
+.editar {
+  width: 80%;
+  margin-left: 10%;
+}
+.box {
+  background: transparent;
+}
+.guardar-right{
+  text-align: right;
+}
+.nombre-oculto span{
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.email-oculto span{
+  font-size: 12px;
+  margin-left: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.acompañante-oculto span{
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.confirma-acompañante-oculto span{
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.confirma{
+  display: none;
+}
+.ocultar{
+  display: none;
+}
+.margin-izq{
+  margin-left: 15px;
+}
+.margin-izq1{
+  margin-left: 25px;
+}
+.confirmar-check{
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+.centrar{
+  text-align: center;
+}
+  /****************VELOSOFT FRONT-2 STYLE JRG************************/
+}
+@media only screen and (min-width:1300px) and (max-width:1500px){
+  .boton-favoritos img {
+    margin: 0 5%;
+  }
+  figure.snip1084:before, figure.snip1084:after {
+    top: 8%;
+    right: 5%;
+    bottom: 8%;
+    left: 5%;
+  }
+  .boton-favoritos {
+    font-size: .8em !important;
+  }
+}
+@media only screen and (min-width:1200px) and (max-width:1300px){
+  .boton-favoritos img {
+    margin: 0 5%;
+  }
+  figure.snip1084:before, figure.snip1084:after {
+    top: 5%;
+    right: 4%;
+    bottom: 5%;
+    left: 4%;
+  }
+  figure.snip1084 figcaption {
+    top: 50%;
+    left: 1%;
+    right: 1%;
+  }
+  .boton-favoritos {
+    font-size: .6em !important;
+  }
+  .dotted-down {
+    font-size: .8em;
+  }
+  .editar {
+    font-size: .8em;
+  }
+}
+@media only screen and (min-width:992px) and (max-width:1200px){
+  .top-50 {
+    margin-top: 30px !important;
+  }
+  .margin-est{
+    margin-top: 50px !important;
+  }
+  .registrate {
+    font-size: 1em;
+  }
+  .boton-registro {
+    font-size: .8em;
+    padding: 10px 0 !important;
+    width: 100%;
+  }
+  .boton-facebook {
+    font-size: .8em;
+  }
+  .cuenta {
+    font-style: .8em !important;
+  }
+  .boton-favoritos img {
+    margin: 0 3%;
+  }
+  figure.snip1084:before, figure.snip1084:after {
+    top: 5%;
+    right: 4%;
+    bottom: 5%;
+    left: 4%;
+  }
+  figure.snip1084 figcaption {
+    top: 50%;
+    left: 1%;
+    right: 1%;
+  }
+  .boton-favoritos {
+    font-size: .5em !important;
+  }
+  .content-face{
+    width: 90%;
+    margin-left: 5%;
+  }
+  .texto-galery {
+    font-size: .8em;
+  }
+  .informacion-boda{
+    font-size: .7em;
+  }
+  .dotted-down {
+    font-size: .8em;
+  }
+  .editar {
+    font-size: .9em;
+  }
+  .btn-default:hover, .btn-default:active, .btn-default.hover {
+    font-size: .7em;
+  }
+  .propietario {
+    font-size: .8em;
+  }
+  .detalle {
+    font-size: .7em;
+  }
+  /****************VELOSOFT FRONT-2 STYLE JRG************************/
+  .left-move input{
+    margin-left: 50%;
+  }
+  .nombre-oculto span{
+    display: none;
+  }
+  .email-oculto span{
+    display: none;
+  }
+  .acompañante-oculto span{
+    display: none;
+  }
+  .confirma-acompañante-oculto span{
+    display: none;
+  }
+  .confirmar-check span{
+    display: none;
+  }
+
+  /****************VELOSOFT FRONT-2************************/
+}
+
+@media only screen and (min-width:768px) and (max-width:992px){
+
+    .check-left{
+      margin-left: 34px;
+    }
+    .save {
+      margin-left: 20px;
+    }
+    .boton-favoritos img {
+      margin: 0 3%;
+    }
+    figure.snip1084:before, figure.snip1084:after {
+      top: 5%;
+      right: 4%;
+      bottom: 5%;
+      left: 4%;
+    }
+    figure.snip1084 figcaption {
+      top: 50%;
+      left: 1%;
+      right: 1%;
+    }
+    .boton-favoritos {
+      font-size: .9em !important;
+    }
+    .texto-galery {
+      font-size: .8em;
+    }
+    .res-10{
+      margin-top: 10px;
+    }
+    .col-false{
+      padding-left: 5% !important;
+    }
+  /****************VELOSOFT FRONT-2 STYLE JRG************************/
+  .prev-next img {
+    margin: 0 7px;
+  }
+  .editar {
+    font-size: .8em;
+    margin-right: 7px;
+  }
+  .prev-next {
+    font-size: .8em;
+    margin-top: 7px !important;
+  }
+  .margin-tamano{
+    margin-top: 40px !important;
+  }
+  .margin-muro{
+    margin-top: 110px !important;
+  }
+  /****************VELOSOFT FRONT-2 STYLE JRG************************/
+  .style-detalle{
+    padding: 70px 220px;
+  }
+  .boton-licitacion {
+    width: 60% !important;
+    margin-left: 20%;
+}
+  .margin-cat{
+    margin-top: 10px;
+  }
+  .box {
+    background: transparent;
+}
+  .centrar1{
+    text-align: center;
+  }
+  .left-move input{
+    margin-left: 50%;
+  }
+  .left-move1 input{
+    margin-left: 50%;
+  }
+  .nombre-oculto span{
+    display: none;
+  }
+  .email-oculto span{
+    display: none;
+  }
+  .acompañante-oculto span{
+    display: none;
+  }
+  .confirma-acompañante-oculto span{
+    display: none;
+  }
+  .margin-izq{
+    margin-left: 20px;
+  }
+  .guardar-right{
+    text-align: right;
+  }
+  .detalle {
+    width: 70%;
+    margin-left: 14%;
+  }
+  .editar {
+    width: 70%;
+    margin-left: 14%;
+  }
+  .editar1 {
+    width: 60% !important;
+    margin-left: 20% !important;
+}
+  .confirmar-check span{
+    display: none;
+  }
+  /****************VELOSOFT FRONT-2************************/
+}
+
+@media only screen and (min-width:1200px) and (max-width:1980px){
+  .editar {
+    font-size: .8em;
+}
+  .left-move input{
+    margin-left: 100%;
+  }
+  .confirmar-check span{
+    display: none;
+  }
+  .nombre-oculto span{
+    display: none;
+  }
+  .email-oculto span{
+    display: none;
+  }
+  .acompañante-oculto span{
+    display: none;
+  }
+  .confirma-acompañante-oculto span{
+    display: none;
+  }
+}
+  /****************VELOSOFT FRONT-2************************/
+@media only screen and (min-width:200px) and (max-width:600px){
+  .cen{
+    text-align: left !important;
+  }
+  .style-detalle {
+      margin: 100px 50px 0;
+  }
+  .editar {
+    width: 70%;
+    margin-left: 15%;
+}
+  .boton-licitacion {
+    width: 70% !important;
+    margin-left: 15%;
+}
+  .mailbox-attachments li {
+    width: 100%;
+}
+  .pag-center{
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .box-center{
+    text-align: center;
+  }
+  .margin-btn1{
+    margin-top: 40px;
+  }
+  .asunto-center{
+    text-align: center;
+  }
+  .comprar1 {
+    margin-top: 30px;
+}
+  .move-usuario{
+    margin-top: 5px;
+  }
+  .move{
+    margin-top: 70px;
+  }
+  .box1{
+    margin-bottom: 90px;
+    text-align: center;
+  }
+  .mailbox-read-info {
+    padding: 0px;
+}
+  .box-header > .box-tools {
+    right: auto;
+    text-align: center;
+    width: 95%;
+}
+  .asunto-licitacion{
+    font-size: .9em;
+  }
+  .asunto-licitacion1{
+    font-size: .9em;
+  }
+  .centrar1{
+    text-align: center;
+  }
+  .izquierda{
+    float: right;
+    margin: 0 4px;
+  }
+
+  .dropdown-menu {
+    min-width: 187px;
+  }
+  .sin-pading{
+    padding:0px !important;
+  }
+  .btn-default {
+      font-size: 0.7em;
+  }
+  .btn-default:hover {
+      font-size: 0.7em;
+  }
 }

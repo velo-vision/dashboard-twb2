@@ -206,7 +206,7 @@
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
-          <ul class="treeview-menu">
+          <ul class="treeview-menu nomargin">
             <li class="">
               <a href="#!"><i class="fa fa-caret-right" aria-hidden="true"></i> Mis proveedores</a>
               <ul class="treeview-menu">

@@ -15,21 +15,21 @@
       <!---->
       <form action="">
       <div class="col-md-12 top-50 dotted-down">
-        <div class="col-md-2">
+        <div class="col-md-3 col-lg-2">
           <a data-toggle="modal" data-target="#añadirContacto" data-whatever="@mdo">
             <p class="detalle">
               <img src="images/recursos/añadir-invitado.png" alt="The Wedding board"> Añadir Invitados
             </p>
           </a>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-2 col-lg-1">
           <a href="#!">
             <p class="editar">
               <i class="fa fa-trash-o" aria-hidden="true"></i> Eliminar
             </p>
           </a>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-3 col-lg-2">
           <a data-toggle="modal" data-target="#enviarInvitacion" data-whatever="@mdo">
             <p class="editar">
               <img src="images/recursos/enviar-invitacion.png" alt="The Wedding Board"> Enviar mi invitación
@@ -39,7 +39,7 @@
             <img src="images/recursos/enviar-invitacion.png" alt="The Wedding Board"> Enviar mi invitación
           </button> -->
         </div>
-        <div class="col-md-2">
+        <div class="col-md-3 col-lg-2">
           <a href="#!">
             <p class="editar">
               <img src="images/recursos/nueva-invitacion.png" alt="The Wedding Board"> Crear una invitación
@@ -47,36 +47,36 @@
           </a>
         </div>
       </div>
-      <!---->
-      <div class="col-md-12 dotted-down">
-        <div class="col-md-1 centers">
+      <!--Empieza cuadro-->
+      <div class="col-md-12 col-sm-12 col-xs-12 confirma dotted-down">
+        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
           <div class="form-check">
             <label class="form-check-label">
               <input type="checkbox" class="form-check-input">
             </label>
           </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-sm-2 col-xs-5">
           <p>
             <strong>NOMBRE</strong>
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-sm-2 col-xs-3">
           <p>
             <strong>MAIL</strong>
           </p>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-1 col-sm-2 col-xs-4">
           <p>
             <strong>CONFIRMACIÓN</strong>
           </p>
         </div>
-        <div class="col-md-2 centers">
+        <div class="col-md-2 col-sm-2 col-xs-4 centers margin-izq confirma">
           <p>
             <strong>ACOMPAÑANTES</strong>
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-sm-2 col-xs-3">
           <p class="nomargin">
             <strong>CONFIRMACIÓN</strong>
           </p>
@@ -85,428 +85,474 @@
           </p>
         </div>
       </div>
-      <div class="col-md-12 dotted-down">
-        <div class="col-md-1 centers">
+      <div class="col-md-12 col-sm-12 col-xs-12 dotted-down">
+        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
           <div class="form-check">
             <label class="form-check-label">
               <input type="checkbox" class="form-check-input">
             </label>
           </div>
         </div>
-        <div class="col-md-2 nomargin">
-          <input class="form-control no-border" type="text" value="Armando Cantona" id="example-text-input">
+        <div class="col-md-2 col-sm-2 col-xs-6 nomargin nombre-oculto centrar">
+          <span>Nombre</span>
+          <input class="form-control no-border centrar" type="text" value="Armando Cantona" id="example-text-input">
         </div>
-        <div class="col-md-2 nomargin">
+        <div class="col-md-2 col-sm-3 col-xs-6 nomargin email-oculto">
+          <span>Mail</span>
           <input class="form-control no-border" type="text" value="armando@webmail.mx" id="example-text-input">
         </div>
-        <div class="col-md-1 centers">
+        <div class="col-md-1 col-sm-1 col-xs-4 centers confirmar-check">
           <div class="form-check">
-            <label class="form-check-label">
+            <label class="form-check-label check-cuadro">
+              <span><br>CONFIRMACIÓN<br></span>
               <input type="checkbox" class="form-check-input">
             </label>
           </div>
         </div>
-        <div class="col-md-2 center">
-          <div class="form-group">
-            <div class="col-md-6 col-md-offset-3">
-              <input class="form-control" style="border:none !important;" type="number" value="0" id="example-number-input">
+        <div class="col-md-2 col-sm-2 col-xs-3 acompañante-oculto center">
+          <div class="form-group centrar">
+            <span><br>Acompañantes</span>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4 nomargin left-move">
+              <input class="form-control margin-izq" style="border:none !important;" type="number" value="0" id="example-number-input">
             </div>
           </div>
         </div>
-        <div class="col-md-2">
-          <div class="form-group">
-            <div class="col-md-6 col-md-offset-1">
-              <input class="form-control" style="border:none !important;" type="number" value="0" id="example-number-input">
+        <div class="col-md-2 col-sm-2 col-xs-3 margin-izq1 confirma-acompañante-oculto">
+          <div class="form-group centrar">
+            <span>Confirmación <br>acompañante</span>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-1 col-lg-4 col-lg-offset-4 left-move1 nomargin">
+              <input class="form-control margin-izq" style="border:none !important;" type="number" value="0" id="example-number-input">
             </div>
           </div>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
           <p class="save">
             <i class="fa fa-floppy-o" aria-hidden="true"></i> Guardar
           </p>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
           <p class="save">
             <i class="fa fa-trash-o" aria-hidden="true"></i> Eliminar
           </p>
         </div>
       </div>
       <!---->
-      <div class="col-md-12 dotted-down">
-        <div class="col-md-1 centers">
+      <div class="col-md-12 col-sm-12 col-xs-12 dotted-down">
+        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
           <div class="form-check">
             <label class="form-check-label">
               <input type="checkbox" class="form-check-input">
             </label>
           </div>
         </div>
-        <div class="col-md-2 nomargin">
-          <input class="form-control no-border" type="text" value="Manuel Gómez" id="example-text-input">
+        <div class="col-md-2 col-sm-2 col-xs-6 nomargin nombre-oculto centrar">
+          <span>Nombre</span>
+          <input class="form-control no-border centrar" type="text" value="Manuel Gómez" id="example-text-input">
         </div>
-        <div class="col-md-2 nomargin">
+        <div class="col-md-2 col-sm-3 col-xs-6 nomargin email-oculto">
+          <span>Mail</span>
           <input class="form-control no-border" type="text" value="manuel@webmail.mx" id="example-text-input">
         </div>
-        <div class="col-md-1 centers">
+        <div class="col-md-1 col-sm-1 col-xs-4 centers confirmar-check">
           <div class="form-check">
-            <label class="form-check-label">
+            <label class="form-check-label check-cuadro">
+              <span><br>CONFIRMACIÓN<br></span>
               <input type="checkbox" class="form-check-input">
             </label>
           </div>
         </div>
-        <div class="col-md-2 center">
-          <div class="form-group">
-            <div class="col-md-6 col-md-offset-3">
-              <input class="form-control" style="border:none !important;" type="number" value="2" id="example-number-input">
+        <div class="col-md-2 col-sm-2 col-xs-3 acompañante-oculto center">
+          <div class="form-group centrar">
+            <span><br>acompañante</span>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4 left-move nomargin">
+              <input class="form-control margin-izq" style="border:none !important;" type="number" value="2" id="example-number-input">
             </div>
           </div>
         </div>
-        <div class="col-md-2">
-          <div class="form-group">
-            <div class="col-md-6 col-md-offset-1">
-              <input class="form-control" style="border:none !important;" type="number" value="1" id="example-number-input">
+        <div class="col-md-2 col-sm-2 col-xs-3 margin-izq1 confirma-acompañante-oculto">
+          <div class="form-group centrar">
+            <span>Confirmación <br>acompañante</span>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-1 col-lg-4 col-lg-offset-4 left-move1 nomargin">
+              <input class="form-control margin-izq" style="border:none !important;" type="number" value="1" id="example-number-input">
             </div>
           </div>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
           <p class="save">
             <i class="fa fa-floppy-o" aria-hidden="true"></i> Guardar
           </p>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
           <p class="save">
             <i class="fa fa-trash-o" aria-hidden="true"></i> Eliminar
           </p>
         </div>
       </div>
       <!---->
-      <div class="col-md-12 dotted-down">
-        <div class="col-md-1 centers">
+      <div class="col-md-12 col-sm-12 col-xs-12 dotted-down">
+        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
           <div class="form-check">
             <label class="form-check-label">
               <input type="checkbox" class="form-check-input">
             </label>
           </div>
         </div>
-        <div class="col-md-2 nomargin">
-          <input class="form-control no-border" type="text" value="Perla Alvear" id="example-text-input">
+        <div class="col-md-2 col-sm-2 col-xs-6 nomargin nombre-oculto centrar">
+          <span>Nombre</span>
+          <input class="form-control no-border centrar" type="text" value="Perla Alvear" id="example-text-input">
         </div>
-        <div class="col-md-2 nomargin">
+        <div class="col-md-2 col-sm-3 col-xs-6 nomargin email-oculto">
+          <span>Mail</span>
           <input class="form-control no-border" type="text" value="perla@webmail.mx" id="example-text-input">
         </div>
-        <div class="col-md-1 centers">
+        <div class="col-md-1 col-sm-1 col-xs-4 centers confirmar-check">
           <div class="form-check">
-            <label class="form-check-label">
+            <label class="form-check-label check-cuadro">
+              <span><br>CONFIRMACIÓN<br></span>
               <input type="checkbox" class="form-check-input">
             </label>
           </div>
         </div>
-        <div class="col-md-2 center">
-          <div class="form-group">
-            <div class="col-md-6 col-md-offset-3">
-              <input class="form-control" style="border:none !important;" type="number" value="0" id="example-number-input">
+        <div class="col-md-2 col-sm-2 col-xs-3 acompañante-oculto center">
+          <div class="form-group centrar">
+            <span><br>acompañante</span>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4 left-move nomargin">
+              <input class="form-control margin-izq" style="border:none !important;" type="number" value="2" id="example-number-input">
             </div>
           </div>
         </div>
-        <div class="col-md-2">
-          <div class="form-group">
-            <div class="col-md-6 col-md-offset-1">
-              <input class="form-control" style="border:none !important;" type="number" value="0" id="example-number-input">
+        <div class="col-md-2 col-sm-2 col-xs-3 margin-izq1 confirma-acompañante-oculto">
+          <div class="form-group centrar">
+            <span>Confirmación <br>acompañante</span>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-1 col-lg-4 col-lg-offset-4 left-move1 nomargin">
+              <input class="form-control margin-izq" style="border:none !important;" type="number" value="1" id="example-number-input">
             </div>
           </div>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
           <p class="save">
             <i class="fa fa-floppy-o" aria-hidden="true"></i> Guardar
           </p>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
           <p class="save">
             <i class="fa fa-trash-o" aria-hidden="true"></i> Eliminar
           </p>
         </div>
       </div>
       <!---->
-      <div class="col-md-12 dotted-down">
-        <div class="col-md-1 centers">
+      <div class="col-md-12 col-sm-12 col-xs-12 dotted-down">
+        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
           <div class="form-check">
             <label class="form-check-label">
               <input type="checkbox" class="form-check-input">
             </label>
           </div>
         </div>
-        <div class="col-md-2 nomargin">
-          <input class="form-control no-border" type="text" value="Sofía Domínguez" id="example-text-input">
+        <div class="col-md-2 col-sm-2 col-xs-6 nomargin nombre-oculto centrar">
+          <span>Nombre</span>
+          <input class="form-control no-border centrar" type="text" value="Sofía Domínguez" id="example-text-input">
         </div>
-        <div class="col-md-2 nomargin">
+        <div class="col-md-2 col-sm-3 col-xs-6 nomargin email-oculto">
+          <span>Mail</span>
           <input class="form-control no-border" type="text" value="sofia@webmail.mx" id="example-text-input">
         </div>
-        <div class="col-md-1 centers">
+        <div class="col-md-1 col-sm-1 col-xs-4 centers confirmar-check">
           <div class="form-check">
-            <label class="form-check-label">
+            <label class="form-check-label check-cuadro">
+              <span><br>CONFIRMACIÓN<br></span>
               <input type="checkbox" class="form-check-input">
             </label>
           </div>
         </div>
-        <div class="col-md-2 center">
-          <div class="form-group">
-            <div class="col-md-6 col-md-offset-3">
-              <input class="form-control" style="border:none !important;" type="number" value="0" id="example-number-input">
+        <div class="col-md-2 col-sm-2 col-xs-3 acompañante-oculto center">
+          <div class="form-group centrar">
+            <span><br>acompañante</span>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4 left-move nomargin">
+              <input class="form-control margin-izq" style="border:none !important;" type="number" value="2" id="example-number-input">
             </div>
           </div>
         </div>
-        <div class="col-md-2">
-          <div class="form-group">
-            <div class="col-md-6 col-md-offset-1">
-              <input class="form-control" style="border:none !important;" type="number" value="0" id="example-number-input">
+        <div class="col-md-2 col-sm-2 col-xs-3 margin-izq1 confirma-acompañante-oculto">
+          <div class="form-group centrar">
+            <span>Confirmación <br>acompañante</span>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-1 col-lg-4 col-lg-offset-4 left-move1 nomargin">
+              <input class="form-control margin-izq" style="border:none !important;" type="number" value="1" id="example-number-input">
             </div>
           </div>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
           <p class="save">
             <i class="fa fa-floppy-o" aria-hidden="true"></i> Guardar
           </p>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
           <p class="save">
             <i class="fa fa-trash-o" aria-hidden="true"></i> Eliminar
           </p>
         </div>
       </div>
       <!---->
-      <div class="col-md-12 dotted-down">
-        <div class="col-md-1 centers">
+      <div class="col-md-12 col-sm-12 col-xs-12 dotted-down">
+        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
           <div class="form-check">
             <label class="form-check-label">
               <input type="checkbox" class="form-check-input">
             </label>
           </div>
         </div>
-        <div class="col-md-2 nomargin">
-          <input class="form-control no-border" type="text" value="Martha Gómez" id="example-text-input">
+        <div class="col-md-2 col-sm-2 col-xs-6 nomargin nombre-oculto centrar">
+          <span>Nombre</span>
+          <input class="form-control no-border centrar" type="text" value="Martha Gómez" id="example-text-input">
         </div>
-        <div class="col-md-2 nomargin">
+        <div class="col-md-2 col-sm-3 col-xs-6 nomargin email-oculto">
+          <span>Mail</span>
           <input class="form-control no-border" type="text" value="martha@webmail.mx" id="example-text-input">
         </div>
-        <div class="col-md-1 centers">
+        <div class="col-md-1 col-sm-1 col-xs-4 centers confirmar-check">
           <div class="form-check">
-            <label class="form-check-label">
+            <label class="form-check-label check-cuadro">
+              <span><br>CONFIRMACIÓN<br></span>
               <input type="checkbox" class="form-check-input">
             </label>
           </div>
         </div>
-        <div class="col-md-2 center">
-          <div class="form-group">
-            <div class="col-md-6 col-md-offset-3">
-              <input class="form-control" style="border:none !important;" type="number" value="0" id="example-number-input">
+        <div class="col-md-2 col-sm-2 col-xs-3 acompañante-oculto center">
+          <div class="form-group centrar">
+            <span><br>acompañante</span>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4 left-move nomargin">
+              <input class="form-control margin-izq" style="border:none !important;" type="number" value="2" id="example-number-input">
             </div>
           </div>
         </div>
-        <div class="col-md-2">
-          <div class="form-group">
-            <div class="col-md-6 col-md-offset-1">
-              <input class="form-control" style="border:none !important;" type="number" value="0" id="example-number-input">
+        <div class="col-md-2 col-sm-2 col-xs-3 margin-izq1 confirma-acompañante-oculto">
+          <div class="form-group centrar">
+            <span>Confirmación <br>acompañante</span>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-1 col-lg-4 col-lg-offset-4 left-move1 nomargin">
+              <input class="form-control margin-izq" style="border:none !important;" type="number" value="1" id="example-number-input">
             </div>
           </div>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
           <p class="save">
             <i class="fa fa-floppy-o" aria-hidden="true"></i> Guardar
           </p>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
           <p class="save">
             <i class="fa fa-trash-o" aria-hidden="true"></i> Eliminar
           </p>
         </div>
       </div>
       <!---->
-      <div class="col-md-12 dotted-down">
-        <div class="col-md-1 centers">
+      <div class="col-md-12 col-sm-12 col-xs-12 dotted-down">
+        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
           <div class="form-check">
             <label class="form-check-label">
               <input type="checkbox" class="form-check-input">
             </label>
           </div>
         </div>
-        <div class="col-md-2 nomargin">
-          <input class="form-control no-border" type="text" value="Marco Ibargüen" id="example-text-input">
+        <div class="col-md-2 col-sm-2 col-xs-6 nomargin nombre-oculto centrar">
+          <span>Nombre</span>
+          <input class="form-control no-border centrar" type="text" value="Marco Ibargüen" id="example-text-input">
         </div>
-        <div class="col-md-2 nomargin">
+        <div class="col-md-2 col-sm-3 col-xs-6 nomargin email-oculto">
+          <span>Mail</span>
           <input class="form-control no-border" type="text" value="marco@webmail.mx" id="example-text-input">
         </div>
-        <div class="col-md-1 centers">
+        <div class="col-md-1 col-sm-1 col-xs-4 centers confirmar-check">
           <div class="form-check">
-            <label class="form-check-label">
+            <label class="form-check-label check-cuadro">
+              <span><br>CONFIRMACIÓN<br></span>
               <input type="checkbox" class="form-check-input">
             </label>
           </div>
         </div>
-        <div class="col-md-2 center">
-          <div class="form-group">
-            <div class="col-md-6 col-md-offset-3">
-              <input class="form-control" style="border:none !important;" type="number" value="0" id="example-number-input">
+        <div class="col-md-2 col-sm-2 col-xs-3 acompañante-oculto center">
+          <div class="form-group centrar">
+            <span><br>acompañante</span>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4 left-move nomargin">
+              <input class="form-control margin-izq" style="border:none !important;" type="number" value="2" id="example-number-input">
             </div>
           </div>
         </div>
-        <div class="col-md-2">
-          <div class="form-group">
-            <div class="col-md-6 col-md-offset-1">
-              <input class="form-control" style="border:none !important;" type="number" value="0" id="example-number-input">
+        <div class="col-md-2 col-sm-2 col-xs-3 margin-izq1 confirma-acompañante-oculto">
+          <div class="form-group centrar">
+            <span>Confirmación <br>acompañante</span>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-1 col-lg-4 col-lg-offset-4 left-move1 nomargin">
+              <input class="form-control margin-izq" style="border:none !important;" type="number" value="1" id="example-number-input">
             </div>
           </div>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
           <p class="save">
             <i class="fa fa-floppy-o" aria-hidden="true"></i> Guardar
           </p>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
           <p class="save">
             <i class="fa fa-trash-o" aria-hidden="true"></i> Eliminar
           </p>
         </div>
       </div>
       <!---->
-      <div class="col-md-12 dotted-down">
-        <div class="col-md-1 centers">
+      <div class="col-md-12 col-sm-12 col-xs-12 dotted-down">
+        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
           <div class="form-check">
             <label class="form-check-label">
               <input type="checkbox" class="form-check-input">
             </label>
           </div>
         </div>
-        <div class="col-md-2 nomargin">
-          <input class="form-control no-border" type="text" value="José Gonzáles" id="example-text-input">
+        <div class="col-md-2 col-sm-2 col-xs-6 nomargin nombre-oculto centrar">
+          <span>Nombre</span>
+          <input class="form-control no-border centrar" type="text" value="José Gonzáles" id="example-text-input">
         </div>
-        <div class="col-md-2 nomargin">
+        <div class="col-md-2 col-sm-3 col-xs-6 nomargin email-oculto">
+          <span>Mail</span>
           <input class="form-control no-border" type="text" value="jose@webmail.mx" id="example-text-input">
         </div>
-        <div class="col-md-1 centers">
+        <div class="col-md-1 col-sm-1 col-xs-4 centers confirmar-check">
           <div class="form-check">
-            <label class="form-check-label">
+            <label class="form-check-label check-cuadro">
+              <span><br>CONFIRMACIÓN<br></span>
               <input type="checkbox" class="form-check-input">
             </label>
           </div>
         </div>
-        <div class="col-md-2 center">
-          <div class="form-group">
-            <div class="col-md-6 col-md-offset-3">
-              <input class="form-control" style="border:none !important;" type="number" value="0" id="example-number-input">
+        <div class="col-md-2 col-sm-2 col-xs-3 acompañante-oculto center">
+          <div class="form-group centrar">
+            <span><br>acompañante</span>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4 left-move nomargin">
+              <input class="form-control margin-izq" style="border:none !important;" type="number" value="2" id="example-number-input">
             </div>
           </div>
         </div>
-        <div class="col-md-2">
-          <div class="form-group">
-            <div class="col-md-6 col-md-offset-1">
-              <input class="form-control" style="border:none !important;" type="number" value="0" id="example-number-input">
+        <div class="col-md-2 col-sm-2 col-xs-3 margin-izq1 confirma-acompañante-oculto">
+          <div class="form-group centrar">
+            <span>Confirmación <br>acompañante</span>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-1 col-lg-4 col-lg-offset-4 left-move1 nomargin">
+              <input class="form-control margin-izq" style="border:none !important;" type="number" value="1" id="example-number-input">
             </div>
           </div>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
           <p class="save">
             <i class="fa fa-floppy-o" aria-hidden="true"></i> Guardar
           </p>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
           <p class="save">
             <i class="fa fa-trash-o" aria-hidden="true"></i> Eliminar
           </p>
         </div>
       </div>
       <!---->
-      <div class="col-md-12 dotted-down">
-        <div class="col-md-1 centers">
+      <div class="col-md-12 col-sm-12 col-xs-12 dotted-down">
+        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
           <div class="form-check">
             <label class="form-check-label">
               <input type="checkbox" class="form-check-input">
             </label>
           </div>
         </div>
-        <div class="col-md-2 nomargin">
-          <input class="form-control no-border" type="text" value="Daniel Júarez" id="example-text-input">
+        <div class="col-md-2 col-sm-2 col-xs-6 nomargin nombre-oculto centrar">
+          <span>Nombre</span>
+          <input class="form-control no-border centrar" type="text" value="Daniel Júarez" id="example-text-input">
         </div>
-        <div class="col-md-2 nomargin">
+        <div class="col-md-2 col-sm-3 col-xs-6 nomargin email-oculto">
+          <span>Mail</span>
           <input class="form-control no-border" type="text" value="daniel@webmail.mx" id="example-text-input">
         </div>
-        <div class="col-md-1 centers">
+        <div class="col-md-1 col-sm-1 col-xs-4 centers confirmar-check">
           <div class="form-check">
-            <label class="form-check-label">
+            <label class="form-check-label check-cuadro">
+              <span><br>CONFIRMACIÓN<br></span>
               <input type="checkbox" class="form-check-input">
             </label>
           </div>
         </div>
-        <div class="col-md-2 center">
-          <div class="form-group">
-            <div class="col-md-6 col-md-offset-3">
-              <input class="form-control" style="border:none !important;" type="number" value="0" id="example-number-input">
+        <div class="col-md-2 col-sm-2 col-xs-3 acompañante-oculto center">
+          <div class="form-group centrar">
+            <span><br>acompañante</span>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4 left-move nomargin">
+              <input class="form-control margin-izq" style="border:none !important;" type="number" value="2" id="example-number-input">
             </div>
           </div>
         </div>
-        <div class="col-md-2">
-          <div class="form-group">
-            <div class="col-md-6 col-md-offset-1">
-              <input class="form-control" style="border:none !important;" type="number" value="0" id="example-number-input">
+        <div class="col-md-2 col-sm-2 col-xs-3 margin-izq1 confirma-acompañante-oculto">
+          <div class="form-group centrar">
+            <span>Confirmación <br>acompañante</span>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-1 col-lg-4 col-lg-offset-4 left-move1 nomargin">
+              <input class="form-control margin-izq" style="border:none !important;" type="number" value="1" id="example-number-input">
             </div>
           </div>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
           <p class="save">
             <i class="fa fa-floppy-o" aria-hidden="true"></i> Guardar
           </p>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
           <p class="save">
             <i class="fa fa-trash-o" aria-hidden="true"></i> Eliminar
           </p>
         </div>
       </div>
       <!---->
-      <div class="col-md-12 dotted-down">
-        <div class="col-md-1 centers">
+      <div class="col-md-12 col-sm-12 col-xs-12 dotted-down">
+        <div class="col-md-1 col-sm-1 col-xs-1 centers ocultar">
           <div class="form-check">
             <label class="form-check-label">
               <input type="checkbox" class="form-check-input">
             </label>
           </div>
         </div>
-        <div class="col-md-2 nomargin">
-          <input class="form-control no-border" type="text" value="Cecilia Rementería" id="example-text-input">
+        <div class="col-md-2 col-sm-2 col-xs-6 nomargin nombre-oculto centrar">
+          <span>Nombre</span>
+          <input class="form-control no-border centrar" type="text" value="Cecilia Rementería" id="example-text-input">
         </div>
-        <div class="col-md-2 nomargin">
+        <div class="col-md-2 col-sm-3 col-xs-6 nomargin email-oculto">
+          <span>Mail</span>
           <input class="form-control no-border" type="text" value="cecilia@webmail.mx" id="example-text-input">
         </div>
-        <div class="col-md-1 centers">
+        <div class="col-md-1 col-sm-1 col-xs-4 centers confirmar-check">
           <div class="form-check">
-            <label class="form-check-label">
+            <label class="form-check-label check-cuadro">
+              <span><br>CONFIRMACIÓN<br></span>
               <input type="checkbox" class="form-check-input">
             </label>
           </div>
         </div>
-        <div class="col-md-2 center">
-          <div class="form-group">
-            <div class="col-md-6 col-md-offset-3">
-              <input class="form-control" style="border:none !important;" type="number" value="0" id="example-number-input">
+        <div class="col-md-2 col-sm-2 col-xs-3 acompañante-oculto center">
+          <div class="form-group centrar">
+            <span><br>acompañante</span>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4 left-move nomargin">
+              <input class="form-control margin-izq" style="border:none !important;" type="number" value="2" id="example-number-input">
             </div>
           </div>
         </div>
-        <div class="col-md-2">
-          <div class="form-group">
-            <div class="col-md-6 col-md-offset-1">
-              <input class="form-control" style="border:none !important;" type="number" value="0" id="example-number-input">
+        <div class="col-md-2 col-sm-2 col-xs-3 margin-izq confirma-acompañante-oculto">
+          <div class="form-group centrar">
+            <span>Confirmación <br>acompañante</span>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-1 col-lg-4 col-lg-offset-4 left-move1 nomargin">
+              <input class="form-control margin-izq" style="border:none !important;" type="number" value="1" id="example-number-input">
             </div>
           </div>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-1 col-sm-6 col-xs-6 guardar-right nomargin">
           <p class="save">
             <i class="fa fa-floppy-o" aria-hidden="true"></i> Guardar
           </p>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-1 col-sm-6 col-xs-6 nomargin">
           <p class="save">
             <i class="fa fa-trash-o" aria-hidden="true"></i> Eliminar
           </p>
         </div>
       </div>
+        <!--Fin cuadro-->
       </form>
     </div>
 

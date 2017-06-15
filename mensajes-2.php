@@ -8,7 +8,7 @@
       <div class="container-fluid">
         <div class="col-md-12">
           <div class="content-wrapper">
-            <div class="col-md-9 titulo-perfil">
+            <div class="col-md-11 titulo-perfil">
               <p>
                 mensajes
               </p>
@@ -17,25 +17,25 @@
             <!-- Content Header (Page header) -->
             <!-- Main content -->
             <section class="content">
-              <div class="col-md-9 top-30">
-                <div class="col-md-4 prev-next">
+              <div class="col-md-11 top-30">
+                <div class="col-xs-3 col-sm-3 col-md-4 prev-next nomargin">
                   <img src="images/dashboard/anterior.png" alt="The Wedding Board">
                   <span>Anterior</span>
                 </div>
-                <div class="col-md-4 centers">
+                <div class="col-xs-6 col-sm-6 col-md-4 centers nomargin">
                   <a href="licitaciones-2.php">
                     <p class="editar">
                       <img src="images/dashboard/volver.png" alt="The Wedding Board"> Volver a licitaciones
                     </p>
                   </a>
                 </div>
-                <div class="col-md-4 prev-next" style="text-align:right;">
+                <div class="col-xs-3 col-sm-3 col-md-4 prev-next nomargin" style="text-align:right;">
                   <span>Siguiente</span>
                   <img src="images/dashboard/siguiente.png" alt="The Wedding Board">
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-9">
+              <div class="row margin-tamano">
+                <div class="col-md-11">
                   <div class="box box-primary top-30">
                     <div class="box-header with-border">
                       <h3 class="box-title"><span>The Wedding Board</span></h3>
@@ -142,7 +142,7 @@
                   </div>
                   <!-- /. box -->
                 </div>
-                <div class="col-md-9 bottom-100">
+                <div class="col-md-11 bottom-100">
                   <div class="box collapsed-box">
                     <div class="box-header">
                       <!-- tools box -->
