@@ -6,72 +6,72 @@
 <div class="content-wrapper">
   <section>
     <div class="container-fluid nomargin">
-      <div class="col-md-6 col-md-offset-3 titulo-perfil">
+      <div class="col-md-6 col-md-offset-3 col-xs-12 titulo-perfil">
         <p>
           LISTA DE INVITADOS
         </p>
         <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
       </div>
-      <div class="col-md-12 propietario">
-        <div class="col-md-2">
+      <div class="col-md-12 col-xs-12 nomargin propietario">
+        <div class="col-md-2 col-xs-3">
           <p>
             propietario
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-3" style="margin-left:-5px;">
           <p>
             Lista de inivtados
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-3 nomargin">
           <p>
             # de invitados
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-3 nomargin">
           <p>
             confirmaciones
           </p>
         </div>
       </div>
       <!---->
-      <div class="col-md-12 invitado">
-        <div class="col-md-2">
-          <p>
+      <div class="col-md-12 col-xs-12 invitado">
+        <div class="col-md-2 col-xs-3">
+          <p class="elipsi">
             Mónica Galindo
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-3">
           <p>
             Familia
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-3">
           <p class="">
             20
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-3">
           <p>
-
+            ?
           </p>
         </div>
-        <div class="col-md-4">
-          <div class="col-md-4">
+        <div class="col-md-4 col-xs-12">
+          <div class="col-md-4 col-xs-4 margin-no">
             <a href="detalle-invitacion.php">
               <p class="detalle">
                 <img src="images/recursos/down.png" alt="The Wedding board"> Detalles
               </p>
             </a>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-4 margin-no">
             <a href="#!">
               <p class="editar">
                 <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar
               </p>
             </a>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-4 margin-no">
             <a href="#!">
               <p class="editar">
                 <i class="fa fa-trash-o" aria-hidden="true"></i> Borrar
@@ -81,43 +81,43 @@
         </div>
       </div>
       <!---->
-      <div class="col-md-12 invitado">
-        <div class="col-md-2">
-          <p>
+      <div class="col-md-12 col-xs-12 invitado">
+        <div class="col-md-2 col-xs-3">
+          <p class="elipsi">
             Mónica Galindo
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-3">
           <p>
             Universidad
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-3">
           <p class="">
             10
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-3">
           <p>
-
+            ?
           </p>
         </div>
-        <div class="col-md-4">
-          <div class="col-md-4">
+        <div class="col-md-4 col-xs-12">
+          <div class="col-md-4 col-xs-4 margin-no">
             <a href="detalle-invitacion.php">
               <p class="detalle">
                 <img src="images/recursos/down.png" alt="The Wedding board"> Detalles
               </p>
             </a>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-4 margin-no">
             <a href="#!">
               <p class="editar">
                 <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar
               </p>
             </a>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-4 margin-no">
             <a href="#!">
               <p class="editar">
                 <i class="fa fa-trash-o" aria-hidden="true"></i> Borrar
@@ -127,43 +127,43 @@
         </div>
       </div>
       <!---->
-      <div class="col-md-12 invitado">
-        <div class="col-md-2">
-          <p>
+      <div class="col-md-12 col-xs-12 invitado">
+        <div class="col-md-2 col-xs-3">
+          <p class="elipsi">
             Adán Delgado
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-3">
           <p>
             Familia
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-3">
           <p class="">
             35
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-3">
           <p>
-
+            ?
           </p>
         </div>
-        <div class="col-md-4">
-          <div class="col-md-4">
+        <div class="col-md-4 col-xs-12">
+          <div class="col-md-4 col-xs-4 margin-no">
             <a href="detalle-invitacion.php">
               <p class="detalle">
                 <img src="images/recursos/down.png" alt="The Wedding board"> Detalles
               </p>
             </a>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-4 margin-no">
             <a href="#!">
               <p class="editar">
                 <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar
               </p>
             </a>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-4 margin-no">
             <a href="#!">
               <p class="editar">
                 <i class="fa fa-trash-o" aria-hidden="true"></i> Borrar
@@ -173,43 +173,43 @@
         </div>
       </div>
       <!---->
-      <div class="col-md-12 invitado">
-        <div class="col-md-2">
-          <p>
+      <div class="col-md-12 col-xs-12 invitado">
+        <div class="col-md-2 col-xs-3">
+          <p class="elipsi">
             Adán Delgado
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-3">
           <p>
             Trabajo
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-3">
           <p class="">
             8
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-3">
           <p>
-
+            ?
           </p>
         </div>
-        <div class="col-md-4">
-          <div class="col-md-4">
+        <div class="col-md-4 col-xs-12">
+          <div class="col-md-4 col-xs-4 margin-no">
             <a href="detalle-invitacion.php">
               <p class="detalle">
                 <img src="images/recursos/down.png" alt="The Wedding board"> Detalles
               </p>
             </a>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-4 margin-no">
             <a href="#!">
               <p class="editar">
                 <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar
               </p>
             </a>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-4 margin-no">
             <a href="#!">
               <p class="editar">
                 <i class="fa fa-trash-o" aria-hidden="true"></i> Borrar
@@ -219,43 +219,43 @@
         </div>
       </div>
       <!---->
-      <div class="col-md-12 invitado">
-        <div class="col-md-2">
-          <p>
+      <div class="col-md-12 col-xs-12 invitado">
+        <div class="col-md-2 col-xs-3">
+          <p class="elipsi">
             Mónica Galindo
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-3">
           <p>
             Universidad
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-3">
           <p class="">
             12
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-3">
           <p>
-
+            ?
           </p>
         </div>
-        <div class="col-md-4">
-          <div class="col-md-4">
+        <div class="col-md-4 col-xs-12">
+          <div class="col-md-4 col-xs-4 margin-no">
             <a href="detalle-invitacion.php">
               <p class="detalle">
                 <img src="images/recursos/down.png" alt="The Wedding board"> Detalles
               </p>
             </a>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-4 margin-no">
             <a href="#!">
               <p class="editar">
                 <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar
               </p>
             </a>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-4 margin-no">
             <a href="#!">
               <p class="editar">
                 <i class="fa fa-trash-o" aria-hidden="true"></i> Borrar
@@ -265,43 +265,43 @@
         </div>
       </div>
       <!---->
-      <div class="col-md-12 invitado">
-        <div class="col-md-2">
-          <p>
+      <div class="col-md-12 col-xs-12 invitado">
+        <div class="col-md-2 col-xs-3">
+          <p class="elipsi">
             Adán Delgado
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-3">
           <p>
             Club
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-3">
           <p class="">
             5
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-3">
           <p>
-
+            ?
           </p>
         </div>
-        <div class="col-md-4">
-          <div class="col-md-4">
+        <div class="col-md-4 col-xs-12">
+          <div class="col-md-4 col-xs-4 margin-no">
             <a href="detalle-invitacion.php">
               <p class="detalle">
                 <img src="images/recursos/down.png" alt="The Wedding board"> Detalles
               </p>
             </a>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-4 margin-no">
             <a href="#!">
               <p class="editar">
                 <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar
               </p>
             </a>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-4 margin-no">
             <a href="#!">
               <p class="editar">
                 <i class="fa fa-trash-o" aria-hidden="true"></i> Borrar
@@ -311,45 +311,45 @@
         </div>
       </div>
       <!---->
-      <div class="col-md-12 invitado">
-        <div class="col-md-2">
-          <p>
+      <div class="col-md-12 col-xs-12 invitado">
+        <div class="col-md-2 col-xs-3">
+          <p class="elipsi">
             Mónica Galindo
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-2 col-sm-2">
           <p>
             Familia
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-3">
           <a  data-toggle="collapse" href="#añadir-invitados" aria-expanded="false" aria-controls="collapseExample">
-            <p class="añadir-invitados">
+            <p class="añadir-invitados" style="margin-left:0;">
               Añadir invitados
             </p>
           </a>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-3 inv-centrar margin-int">
           <p>
-
+            ?
           </p>
         </div>
-        <div class="col-md-4">
-          <div class="col-md-4">
+        <div class="col-md-4 col-xs-12">
+          <div class="col-md-4 col-xs-4 margin-no">
             <a href="detalle-invitacion.php">
               <p class="detalle">
                 <img src="images/recursos/down.png" alt="The Wedding board"> Detalles
               </p>
             </a>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-4 margin-no">
             <a href="#!">
               <p class="editar">
                 <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar
               </p>
             </a>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs-4 margin-no">
             <a href="#!">
               <p class="editar">
                 <i class="fa fa-trash-o" aria-hidden="true"></i> Borrar
@@ -359,22 +359,22 @@
         </div>
       </div>
       <!--COLLAPSER-->
-      <div class="col-md-12">
+      <div class="col-md-12 col-xs-12">
         <div class="collapse" id="añadir-invitados">
-          <div class="col-md-12 nomargin">
+          <div class="col-md-12 col-xs-12 nomargin">
             <div>
-              <div class="col-md-8 col-md-offset-2">
+              <div class="col-md-8 col-md-offset-2 col-xs-12">
                 <ul class="nav nav-tabs tabs-añadir" role="tablist">
                     <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Añadir listas de e-mails</a></li>
-                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Seleccionacontactos de tu e-mail</a></li>
+                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Selecciona contactos de tu e-mail</a></li>
                     <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Cargar plantillas de contactos</a></li>
                 </ul>
               </div>
               <!-- Tab panes -->
-              <div class="col-md-12 tab-content">
+              <div class="col-md-12 col-xs-12 tab-content">
                   <div role="tabpanel" class="tab-pane active" id="home">
-                    <div class="col-md-12">
-                      <form class="col-md-10 col-md-offset-1">
+                    <div class="col-md-12 col-xs-12">
+                      <form class="col-md-10 col-md-offset-1 col-xs-12">
                         <div class="form-group col-md-4 col-md-offset-2">
                           <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
                         </div>
@@ -395,7 +395,7 @@
                     </div>
                   </div>
                   <div role="tabpanel" class="tab-pane" id="profile">
-                    <div class="col-md-8 col-md-offset-2 correos">
+                    <div class="col-md-8 col-md-offset-2 col-xs-12 correos">
                       <ul>
                         <li>
                           <a href=""><img src="images/recursos/hotmail.png" alt="The Wedding Board"></a>
@@ -493,25 +493,25 @@
       </div>
       <!--COLLAPSER-->
       <!--TOTAL-->
-      <div class="col-md-12 total">
-        <div class="col-md-2 col-md-offset-4">
+      <div class="col-md-12 col-xs-12 total">
+        <div class="col-md-2 col-md-offset-2 col-xs-3 col-xs-offset-3">
           <p>
             <strong>TOTAL</strong>
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-sm-2 col-xs-2">
           <p>
             87
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-sm-3 col-xs-3 centrar1">
           <p>0</p>
         </div>
       </div>
       <!---->
-      <div class="col-md-4 col-md-offset-4" style="">
-        <div class="col-md-12">
-          <button type="button" class="btn btn-primary hvr-rectangle-out boton-invitados" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
+      <div class="col-md-4 col-md-offset-4 col-xs-12" style="">
+        <div class="col-md-12 col-xs-12">
+          <button type="button" class="btn btn-primary boton-invitados1 bottom-50" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
             <img src="images/recursos/open.png" alt="The Wedding Board"> Crear nueva lista de invitados
           </button>
         </div>

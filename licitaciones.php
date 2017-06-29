@@ -49,7 +49,7 @@
               <button type="button" class="btn btn-default btn-sm"><i class="fa fa-reply"></i></button>
               <button type="button" class="btn btn-default btn-sm"><i class="fa fa-share"></i></button>
               <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i></button>
-              <div class="pull-right">
+              <div class="pull-right pag-center">
                 1-50/200
                 <div class="btn-group">
                   <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
@@ -66,99 +66,99 @@
                   <td ><input type="checkbox"></td>
                   <td class=""><a href="licitaciones-2.php"><strong>Lorena Martínez</strong></a></td>
                   <td class="">
-                    <strong><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span> Fecha de Evento:</strong> 28-Oct-2017
+                    <strong>Fecha de Evento:</strong> 28-Oct-2017
                   </td>
-                  <td class=""><strong><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span> Presupuesto:</strong> $50.000.00</td>
+                  <td class=""><strong>Presupuesto:</strong> $50.000.00</td>
                   <td class=""><strong>hace 5 min.</strong></td>
                 </tr>
                 <tr class="texto-mail-active">
                   <td><input type="checkbox"></td>
                   <td class=""><a href="#!"><strong>Mónica Galván</strong></a></td>
                   <td class="">
-                    <strong><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span> Fecha de Evento:</strong> 28-Oct-2017
+                    <strong>Fecha de Evento:</strong> 28-Oct-2017
                   </td>
-                  <td class=""><strong><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span> Presupuesto:</strong> $50.000.00</td>
+                  <td class=""><strong>Presupuesto:</strong> $50.000.00</td>
                   <td class=""><strong>hace 1 Hora</strong></td>
                 </tr>
                 <tr class="texto-mail-active">
                   <td><input type="checkbox"></td>
                   <td class=""><a href="#!"><strong>Ernestina Alfonso</strong></a></td>
                   <td class="">
-                    <strong><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span> Fecha de Evento:</strong> 28-Oct-2017
+                    <strong>Fecha de Evento:</strong> 28-Oct-2017
                   </td>
-                  <td class=""><strong><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span> Presupuesto:</strong> $50.000.00</td>
+                  <td class=""><strong>Presupuesto:</strong> $50.000.00</td>
                   <td class=""><strong>hace 1 día</strong></td>
                 </tr>
                 <tr class="texto-mail-desactive">
                   <td><input type="checkbox"></td>
                   <td class=""><a href="#!"><strong>María Concepción</strong></a></td>
                   <td class="">
-                    <strong><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span> Fecha de Evento:</strong> 28-Oct-2017
+                    <strong>Fecha de Evento:</strong> 28-Oct-2017
                   </td>
-                  <td class=""><strong><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span> Presupuesto:</strong> $50.000.00</td>
+                  <td class=""><strong>Presupuesto:</strong> $50.000.00</td>
                   <td class=""><strong>13 marzo 2017</strong></td>
                 </tr>
                 <tr class="texto-mail-desactive">
                   <td><input type="checkbox"></td>
                   <td class=""><a href="#!"><strong>Georgina Gómez</strong></a></td>
                   <td class="">
-                    <strong><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span> Fecha de Evento:</strong> 28-Oct-2017
+                    <strong>Fecha de Evento:</strong> 28-Oct-2017
                   </td>
-                  <td class=""><strong><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span> Presupuesto:</strong> $50.000.00</td>
+                  <td class=""><strong>Presupuesto:</strong> $50.000.00</td>
                   <td class=""><strong>13 marzo 2017</strong></td>
                 </tr>
                 <tr class="texto-mail-desactive">
                   <td><input type="checkbox"></td>
                   <td class=""><a href="#!"><strong>Valería Ortiz</strong></a></td>
                   <td class="">
-                    <strong><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span> Fecha de Evento:</strong> 28-Oct-2017
+                    <strong>Fecha de Evento:</strong> 28-Oct-2017
                   </td>
-                  <td class=""><strong><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span> Presupuesto:</strong> $50.000.00</td>
+                  <td class=""><strong>Presupuesto:</strong> $50.000.00</td>
                   <td class=""><strong>13 marzo 2017</strong></td>
                 </tr>
                 <tr class="texto-mail-desactive">
                   <td><input type="checkbox"></td>
                   <td class=""><a href="#!"><strong>Natalia Esparza</strong></a></td>
                   <td class="">
-                    <strong><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span> Fecha de Evento:</strong> 28-Oct-2017
+                    <strong>Fecha de Evento:</strong> 28-Oct-2017
                   </td>
-                  <td class=""><strong><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span> Presupuesto:</strong> $50.000.00</td>
+                  <td class=""><strong>Presupuesto:</strong> $50.000.00</td>
                   <td class=""><strong>13 marzo 2017</strong></td>
                 </tr>
                 <tr class="texto-mail-desactive">
                   <td><input type="checkbox"></td>
                   <td class=""><a href="#!"><strong>Esmeralda Peralta</strong></a></td>
                   <td class="">
-                    <strong><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span> Fecha de Evento:</strong> 28-Oct-2017
+                    <strong>Fecha de Evento:</strong> 28-Oct-2017
                   </td>
-                  <td class=""><strong><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span> Presupuesto:</strong> $50.000.00</td>
+                  <td class=""><strong>Presupuesto:</strong> $50.000.00</td>
                   <td class=""><strong>13 marzo 2017</strong></td>
                 </tr>
                 <tr class="texto-mail-desactive">
                   <td><input type="checkbox"></td>
                   <td class=""><a href="#!"><strong>Bibiana Gaytan</strong></a></td>
                   <td class="">
-                    <strong><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span> Fecha de Evento:</strong> 28-Oct-2017
+                    <strong>Fecha de Evento:</strong> 28-Oct-2017
                   </td>
-                  <td class=""><strong><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span> Presupuesto:</strong> $50.000.00</td>
+                  <td class=""><strong>Presupuesto:</strong> $50.000.00</td>
                   <td class=""><strong>13 marzo 2017</strong></td>
                 </tr>
                 <tr class="texto-mail-desactive">
                   <td><input type="checkbox"></td>
                   <td class=""><a href="#!"><strong>María Luisa Contreras</strong></a></td>
                   <td class="">
-                    <strong><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span> Fecha de Evento:</strong> 28-Oct-2017
+                    <strong>Fecha de Evento:</strong> 28-Oct-2017
                   </td>
-                  <td class=""><strong><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span> Presupuesto:</strong> $50.000.00</td>
+                  <td class=""><strong>Presupuesto:</strong> $50.000.00</td>
                   <td class=""><strong>13 marzo 2017</strong></td>
                 </tr>
                 <tr class="texto-mail-desactive">
                   <td><input type="checkbox"></td>
                   <td class=""><a href="#!"><strong>Lucero Del Pilar Vivanco</strong></a></td>
                   <td class="">
-                    <strong><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span> Fecha de Evento:</strong> 28-Oct-2017
+                    <strong>Fecha de Evento:</strong> 28-Oct-2017
                   </td>
-                  <td class=""><strong><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span> Presupuesto:</strong> $50.000.00</td>
+                  <td class=""><strong>Presupuesto:</strong> $50.000.00</td>
                   <td class=""><strong>13 marzo 2017</strong></td>
                 </tr>
                 </tbody>
@@ -170,7 +170,7 @@
           <!-- /.box-body -->
           <div class="box-footer no-padding">
             <div class="mailbox-controls">
-              <div class="pull-right">
+              <div class="pull-right pag-center">
                 1-50/200
                 <div class="btn-group">
                   <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>

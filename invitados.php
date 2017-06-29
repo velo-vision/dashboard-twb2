@@ -15,7 +15,7 @@
       <div class="col-md-4 col-md-offset-4" style="">
         <p class="lista">aún no tienes lista de invitados creadas</p>
         <div class="col-md-12">
-          <button type="button" class="btn btn-primary hvr-back-pulse boton-invitados" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
+          <button type="button" class="btn btn-primary hvr-back-pulse boton-invitados3" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
             <img src="images/recursos/open.png" alt="The Wedding Board"> Crear nueva lista de invitados
           </button>
         </div>

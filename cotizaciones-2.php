@@ -1,23 +1,23 @@
 <?php
-  require("functions.php");
-  get_header();
+  include("head-3.php");
 ?>
 <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
-    <section>
-      <div class="container-fluid">
-        <div class="col-md-12">
-          <div class="content-wrapper">
-            <div class="col-md-11 titulo-perfil">
-              <p>
-                Cotizaciones
-              </p>
-              <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
-            </div>
-            <!-- Content Header (Page header) -->
-            <!-- Main content -->
+<div class="content-wrapper">
+  <!-- Main content -->
+  <section class="content">
+    <div class="row">
+      <!-- /.col -->
+      <div class="col-md-6 col-md-offset-3 titulo-perfil">
+        <p>
+          COTIZACIONES
+        </p>
+        <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
+      </div>
+      <div class="col-md-8 col-md-offset-2">
+          <!-- /.box-header -->
+          <div class="box-body">
             <section class="content">
-              <div class="col-md-11 top-30">
+              <div class="col-md-12 col-xs-12">
                 <div class="col-xs-3 col-sm-3 col-md-4 prev-next nomargin">
                   <img src="images/dashboard/anterior.png" alt="The Wedding Board">
                   <span>Anterior</span>
@@ -35,7 +35,7 @@
                 </div>
               </div>
               <div class="row margin-tamano">
-                <div class="col-md-11">
+                <div class="col-md-12 col-xs-12">
                   <div class="box box-primary top-30">
                     <div class="box-header with-border">
                       <h3 class="box-title"><span>The Wedding Board</span></h3>
@@ -142,7 +142,7 @@
                   </div>
                   <!-- /. box -->
                 </div>
-                <div class="col-md-11 bottom-100">
+                <div class="col-xs-12 col-md-12 bottom-100">
                   <div class="box collapsed-box">
                     <div class="box-header">
                       <!-- tools box -->
@@ -181,14 +181,20 @@
               </div>
               <!-- /.row -->
             </section>
-            <!-- /.content -->
           </div>
-        </div>
+          <!-- /.box-body -->
+          <!-- /.box-footer -->
+        <!-- /. box -->
       </div>
-    </section>
-  </div>
-  <div class="control-sidebar-bg"></div>
+      <!-- /.col -->
+    </div>
+    <!-- /.row -->
+  </section>
+  <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+<div class="control-sidebar-bg"></div>
 </div>
 <?php
-  get_footer();
+	include("footer-3.php");
 ?>

@@ -30,7 +30,7 @@
           </div>
         </div>
         <div class="col-md-10 col-md-offset-1 top-30 margin-muro">
-          <div class="col-md-12 titulo-muro">
+          <div class="col-xs-12 col-md-12 titulo-muro">
             <p class="border-top centers" style="text-transform:none;">
               <span>CUE</span>NTA
             </p>
