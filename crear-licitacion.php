@@ -16,7 +16,7 @@
       <div class="col-md-8 col-md-offset-2 top-20">
         <div class="box box-primary">
           <div class="box-header with-border">
-            <p class="box-title"><strong>Crer una nueva licitación</strong></p>
+            <p class="box-title margin-crear"><strong>Crer una nueva licitación</strong></p>
             <div class="box-tools pull-right">
               <p class="box-title"><strong>*Campos Obligatorios</strong></p>
             </div>

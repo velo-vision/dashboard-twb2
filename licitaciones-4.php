@@ -1,24 +1,24 @@
 <?php
-  require("functions.php");
-  get_header();
+  include("head-3.php");
 ?>
 <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
-    <section>
-      <div class="container-fluid">
-        <div class="col-md-6 col-md-offset-3 titulo-perfil">
-          <p>
-            mensajes
-          </p>
-          <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
-        </div>
-        <div class="col-md-12">
-          <div class="content-wrapper">
-            <!-- Content Header (Page header) -->
-            <!-- Main content -->
+<div class="content-wrapper">
+  <!-- Main content -->
+  <section class="content">
+    <div class="row">
+      <!-- /.col -->
+      <div class="col-md-6 col-md-offset-3 titulo-perfil">
+        <p>
+          LICITACIONES
+        </p>
+        <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
+      </div>
+      <div class="col-md-8 col-md-offset-2">
+          <!-- /.box-header -->
+          <div class="box-body">
             <section class="content">
               <div class="row">
-                <div class="col-md-11">
+                <div class="col-md-12">
                   <div class="box box-primary">
                     <div class="box-header with-border">
                       <h3 class="box-title"><span>The Wedding Bible</span></h3>
@@ -137,7 +137,7 @@
                       </ul>
                     </div>
                     <!-- /.box-footer -->
-                    <div class="box-footer">
+                    <div class="box-footer nomargin">
                       <div class="pull-right">
                         <button type="button" class="btn btn-default icon-menssage"><i class="fa fa-tag" aria-hidden="true"></i>Añadir Categoría</button>
                         <a href="mensajes-3.php"><button type="button" class="btn btn-default icon-menssage"><i class="fa fa-share"></i>Responder</button></a>
@@ -152,15 +152,20 @@
               </div>
               <!-- /.row -->
             </section>
-            <!-- /.content -->
           </div>
-        </div>
+          <!-- /.box-body -->
+          <!-- /.box-footer -->
+        <!-- /. box -->
       </div>
-    </section>
-    <!-- /.content -->
-  </div>
-  <div class="control-sidebar-bg"></div>
+      <!-- /.col -->
+    </div>
+    <!-- /.row -->
+  </section>
+  <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+<div class="control-sidebar-bg"></div>
 </div>
 <?php
-  get_footer();
+	include("footer-3.php");
 ?>

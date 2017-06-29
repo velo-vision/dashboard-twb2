@@ -1,6 +1,7 @@
 <?php
   require("functions.php");
   get_header();
+  get_aside();
 ?>
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
@@ -17,7 +18,7 @@
             <span class="box-title"></span>
             <div class="box-tools pull-right">
               <div class="has-feedback">
-                <input type="text" class="form-control input-sm" placeholder="Search Mail">
+                <input type="text" class="form-control input-sm" placeholder="Buscar Cotización">
                 <span class="glyphicon glyphicon-search form-control-feedback"></span>
               </div>
             </div>
@@ -49,7 +50,7 @@
               <button type="button" class="btn btn-default btn-sm"><i class="fa fa-reply"></i></button>
               <button type="button" class="btn btn-default btn-sm"><i class="fa fa-share"></i></button>
               <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i></button>
-              <div class="pull-right">
+              <div class="pull-right pag-center">
                 1-50/200
                 <div class="btn-group">
                   <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>

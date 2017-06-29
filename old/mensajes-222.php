@@ -124,5 +124,5 @@
 <div class="control-sidebar-bg"></div>
 </div>
 <?php
-	include("footer-3.php");
+  include("footer-3.php");
 ?>

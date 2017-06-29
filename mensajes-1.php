@@ -1,6 +1,7 @@
 <?php
   require("functions.php");
   get_header();
+  get_aside();
 ?>
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
@@ -159,7 +160,7 @@
           <!-- /.box-body -->
           <div class="box-footer no-padding">
             <div class="mailbox-controls">
-              <div class="pull-right pag-center">
+              <div class="pull-right">
                 1-50/200
                 <div class="btn-group">
                   <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
