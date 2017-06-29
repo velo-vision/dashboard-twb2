@@ -65,7 +65,7 @@
                       <!-- /.mailbox-read-message -->
                     </div>
                     <!-- /.box-body -->
-                    <div class="box-footer">
+                    <div class="box-footer">                      
                   </div>
                   <!-- /. box -->
                 </div>
@@ -80,7 +80,7 @@
                         <button type="button" class="btn btn-success btn-sm btn1" data-widget="collapse">
                           <i class="fa fa-share" aria-hidden="true" style="margin-right:10px;"></i>Responder
                         </button>
-
+                        
                       </div>
                       <!-- /. tools -->
                     </div>
@@ -124,5 +124,5 @@
 <div class="control-sidebar-bg"></div>
 </div>
 <?php
-	include("footer-3.php");
+  include("footer-3.php");
 ?>

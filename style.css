@@ -1533,7 +1533,7 @@ cursor:pointer;
   font-weight: 600;
 }
 .rota-90{
-  webkit-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
@@ -1847,6 +1847,69 @@ input:checked + .slider:before {
   margin-top: 50px !important;
   text-align: center;
 }
+/*EST.************************************************************************************************/
+.user-panel > .image > img {
+  max-width: 100px;
+}
+.span-coti{
+  font-weight: 700;
+  margin-left: 60px;
+}
+.alineacion{
+  text-align: left;
+  position: initial !important;
+}
+.btn1{
+  height: 30px;
+  font-size: 12px;
+}
+/*Mensajes 2*/
+.mensaje2-span{
+  font-size: 16px;
+  color: #999999;
+}
+.mensaje2-span2{
+  font-size: 16px;
+  color: #303030;
+}
+
+.mensaje3span{
+  color: #303030;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+}
+
+.titulo-recibido{
+  color: #303030;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+}
+.padding-left-no{
+  padding-left: 0px;
+}
+.titulo-recibido span{
+  font-weight: 600;
+}
+
+.de {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 13px;
+   color:#303030;
+   font-weight: 600;
+}
+.de span{
+  font-weight: 700;
+}
+.contendido-de p{
+  font-weight: 500;
+  font-size: 13px;
+}
+.botones-margin{
+  margin: 0 10px 0 0;
+}
+/*fin*************************************************************************************************
 /**********MEDIAS QUERYS*************/
 .content-face{
   width: 70%;
@@ -2018,12 +2081,38 @@ input:checked + .slider:before {
   .margin-int{
     margin-left: -10px;
   }
+=======
+  .margin-int{
+    margin-left: -10px;
+  }
   .margin-no{
     margin: 0px;
     padding: 0px;
   }
   .inv-centrar{
     text-align: center;
+  }
+  .check-left{
+    margin-left: 34px;
+  }
+  .save {
+    margin-left: 20px;
+  }
+  .boton-favoritos img {
+    margin: 0 3%;
+  }
+  figure.snip1084:before, figure.snip1084:after {
+    top: 5%;
+    right: 4%;
+    bottom: 5%;
+    left: 4%;
+  }
+  figure.snip1084 figcaption {
+    top: 50%;
+    left: 1%;
+    right: 1%;
+  }
+=======
   }
   .check-left{
     margin-left: 34px;
@@ -2147,6 +2236,194 @@ input:checked + .slider:before {
   .margin-no{
     margin: 0px;
     padding: 0px;
+}
+  .inv-centrar{
+    text-align: center;
+  }
+  .centrar1{
+   text-align: center;
+  }
+  .margin-cat{
+    margin-top: 10px;
+  }
+  .dotted-down {
+    border-bottom: 2px dotted #969090;
+}
+  .check-cuadro input{
+    margin-top: 12px;
+  }
+  .save {
+    margin-left: 20px;
+  }
+  .detalle {
+    width: 80%;
+    margin-left: 10%;
+}
+  .logo-registro img {
+    margin: 2em 0 !important;
+    width: 50%;
+  }
+  .top-50 {
+    margin-top: 30px !important;
+  }
+  .bg-mobile{
+    background: url(images/dashboard/bg-mobile.svg);
+    height: 100%;
+    background-size:cover;
+  }
+  .foto-perfil img {
+    width: 60%;
+  }
+  .iniciales {
+    color: #b1b1b1;
+    font-family: 'Montez', cursive;
+    font-size: 5em !important;
+    margin-top: 40%;
+  }
+  .content-muro {
+    margin-top: -30px !important;
+  }
+  .box .knob-label {
+    font-size: 1em;
+  }
+  .nav-tabs>li {
+    font-size: .75em !important;
+  }
+  .content-face {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .res-10{
+    margin-top: 10px;
+  }
+  .boton-detalle {
+    margin: 0px 5px !important;
+    padding: 5px 10px !important;
+  }
+  .borde-derecho {
+    border-right: 0px solid #e8e9e5;
+  }
+  .logo-mobile img{
+    width: 180px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .foto-perfil {
+    margin-top: 0px !important;
+  }
+  .content-popoup {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .margin-responsive{
+    padding: 0px;
+  }
+  .carousel-indicators {
+    bottom: -30px;
+  }
+  .propietario {
+    font-size: .6em;
+    margin-top: 10px;
+  }
+  .titulo-perfil {
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+  .invitado {
+    font-size: .85em;
+  }
+  .añadir-invitados {
+    font-size: .8em;
+    max-width: 100%;
+  }
+  .boton-invitados {
+    width: 80% !important;
+    margin-left: 10% !important;
+  }
+  .box-header > .fa, .box-header > .glyphicon, .box-header > .ion, .box-header .box-title {
+    font-size: .85em;
+  }
+  .carousel-control > img {
+    width: 25px;
+  }
+  .margen-xs{
+    margin: 5px 0 !important;
+  }
+  .content-drop-xs{
+    margin-left: 10% !important;
+  }
+  /****************VELOSOFT FRONT-2 STYLE JRG************************/
+  .style-detalle {
+    margin: 100px 130px 0;
+  }
+  .editar {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .box {
+    background: transparent;
+  }
+  .guardar-right{
+    text-align: right;
+  }
+  .nombre-oculto span{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .email-oculto span{
+    font-size: 12px;
+    margin-left: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .acompañante-oculto span{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .confirma-acompañante-oculto span{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .confirma{
+    display: none;
+  }
+  .ocultar{
+    display: none;
+  }
+  .margin-izq{
+    margin-left: 15px;
+  }
+  .margin-izq1{
+    margin-left: 25px;
+  }
+  .confirmar-check{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 5px;
+  }
+  .centrar{
+    text-align: center;
+  }
+  /****************VELOSOFT FRONT-2************************/
+}
+@media only screen and (min-width:1200px) and (max-width:1980px){
+  .boton-invitados1 {
+    width: 100% !important;
+    margin-left: 0% !important;
+    margin-top: 70px !important;
+  }
+  .inv-right{
+    padding-left: 85px !important;
+  }
+  .inv-margin{
+    margin-left: -35px !important;
+  }
+  .left-move input{
+    margin-left: 100%;
   }
   .inv-centrar{
     text-align: center;
@@ -2405,6 +2682,10 @@ input:checked + .slider:before {
     margin: 0px 7px;
     width: 42% !important;
 }
+=======
+}
+  /****************VELOSOFT FRONT-2************************/
+@media only screen and (min-width:200px) and (max-width:600px){
   .content {
     padding: 0px;
     margin-right: auto;
@@ -2512,6 +2793,26 @@ input:checked + .slider:before {
   .btn-default:hover {
       font-size: 0.7em;
   }
+/*Est*/
+.padding-cero{
+  padding: 0px !important;
+}
+.prev-next img{
+  display: none;
+}
+.span-coti {
+  margin-left: 0px;
+}
+.editar {
+  width: 100%;
+  margin-left: 0%;
+}
+.btn1{
+  width: 40%;
+  height: 30px;
+  font-size: 12px;
+}
+
 }
 
 

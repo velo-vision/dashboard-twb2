@@ -1,6 +1,7 @@
 <?php
   require("functions.php");
   get_header();
+  get_aside();
 ?>
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
@@ -17,7 +18,7 @@
             <span class="box-title"></span>
             <div class="box-tools pull-right">
               <div class="has-feedback">
-                <input type="text" class="form-control input-sm" placeholder="Search Mail">
+                <input type="text" class="form-control input-sm" placeholder="Buscar Cotización">
                 <span class="glyphicon glyphicon-search form-control-feedback"></span>
               </div>
             </div>
