@@ -1956,6 +1956,12 @@ input:checked + .slider:before {
 }
 
 @media only screen and (min-width:992px) and (max-width:1200px){
+  .asunto-licitacion {
+    font-size: 1em !important;
+}
+.asunto-licitacion1 {
+    font-size: 1em !important;
+}
   .usuario-volver {
     width: 150px !important;
 }
@@ -2062,14 +2068,14 @@ input:checked + .slider:before {
   /****************VELOSOFT FRONT-2************************/
 }
 @media only screen and (min-width:768px) and (max-width:992px){
+  .derecha-lici {
+    text-align: left !important;
+}
   .mar-top{
     margin-top: 10px !important;
   }
   .lici-margin1 {
       margin: 15px 10px 0;
-  }
-  .redecha-lici {
-      text-align: left !important;
   }
   .coment-right {
     margin-top: 15px !important;
@@ -2078,10 +2084,6 @@ input:checked + .slider:before {
   .no-coment {
     padding: 0px;
 }
-  .margin-int{
-    margin-left: -10px;
-  }
-=======
   .margin-int{
     margin-left: -10px;
   }
@@ -2111,8 +2113,6 @@ input:checked + .slider:before {
     top: 50%;
     left: 1%;
     right: 1%;
-  }
-=======
   }
   .check-left{
     margin-left: 34px;
@@ -2223,7 +2223,7 @@ input:checked + .slider:before {
   /****************VELOSOFT FRONT-2************************/
 }
 @media only screen and (min-width:200px) and (max-width:768px){
-  .redecha-lici {
+  .derecha-lici {
       text-align: left !important;
   }
   .no-coment {
@@ -2682,7 +2682,6 @@ input:checked + .slider:before {
     margin: 0px 7px;
     width: 42% !important;
 }
-=======
 }
   /****************VELOSOFT FRONT-2************************/
 @media only screen and (min-width:200px) and (max-width:600px){
@@ -3023,7 +3022,7 @@ input:checked + .slider:before {
     -o-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
     transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
 }
-.redecha-lici {
+.derecha-lici {
     text-align: right;
 }
 .lici-margin{
@@ -3038,4 +3037,19 @@ input:checked + .slider:before {
 }
 .mar-top{
   margin-top: 20px;
+}
+/*licitaciones3*/
+.responder-center{
+  text-align: center;
+}
+.asunto-licitacion1{
+  color: #555555 !important;
+  font-size: 1.15em;
+}
+.asunto-licitacion span{
+  color: #555555 !important;
+  font-weight: 600;
+}
+.box-top{
+  margin-top:20px;
 }
