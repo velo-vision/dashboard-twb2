@@ -108,6 +108,12 @@ x<!-- Left side column. contains the logo and sidebar -->
           </a>
         </li>
         <li class="treeview">
+          <a href="reportes.php">
+            <i class="fa fa-file-text" aria-hidden="true"></i>
+            <span>Reportes</span>
+          </a>
+        </li>
+       <!--  <li class="treeview">
           <a href="#!">
             <i class="fa fa-file-text-o" aria-hidden="true"></i> <span>Reportes</span>
             <span class="pull-right-container">
@@ -124,8 +130,8 @@ x<!-- Left side column. contains the logo and sidebar -->
             </li>
             <li class=""><a href="#!">Mis proveedores</a></li>
           </ul>
-          </a>
-        </li>
+          
+        </li> -->
         <li class="treeview">
           <a href="http://twblog.com.mx/" target="_blank">
             <i class="fa fa-arrow-left" aria-hidden="true"></i> <span>twb.com.mx</span>
