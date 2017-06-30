@@ -10,4 +10,7 @@
   function get_aside(){
   	include("aside.php");
   }
+  function get_footer_graficas(){
+  	include("footer-graficas.php");
+  }
 ?>

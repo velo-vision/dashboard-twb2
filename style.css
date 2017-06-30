@@ -2870,6 +2870,10 @@ input:checked + .slider:before {
       font-size: 0.7em;
   }
 /*Est*/
+.prev-next {
+  font-size: 12px;
+}
+
 .padding-cero{
   padding: 0px !important;
 }
@@ -2882,6 +2886,7 @@ input:checked + .slider:before {
 .editar {
   width: 100%;
   margin-left: 0%;
+  font-size: 11px;
 }
 .btn1{
   width: 40%;

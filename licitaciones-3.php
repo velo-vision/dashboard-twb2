@@ -15,25 +15,25 @@
         </p>
         <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
       </div>
-      <div class="col-md-8 col-md-offset-2">
+      <div class="col-md-8 col-md-offset-2 padding-cero">
           <!-- /.box-header -->
           <div class="box-body">
-            <section class="content">
-              <div class="col-xs-12 col-md-12 col-xs-12 top-20 botton-volver">
+            <section class="content padding-cero">
+              <div class="col-md-12 col-xs-12 padding-cero">
                 <div class="col-xs-3 col-sm-3 col-md-4 prev-next nomargin">
-                  <img src="images/dashboard/anterior.png" class="adios-img" alt="The Wedding Board">
+                  <img src="images/dashboard/anterior.png" alt="The Wedding Board">
                   <span>Anterior</span>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-4 centers nomargin">
-                  <a href="licitaciones.php">
-                    <p class="usuario-volver" style="margin: 0 auto;">
-                      <img src="images/dashboard/volver.png" alt="The Wedding Board"> Volver a Licitaciones
+                  <a href="licitaciones-2.php">
+                    <p class="editar">
+                      <img src="images/dashboard/volver.png" alt="The Wedding Board"> Volver a licitaciones
                     </p>
                   </a>
                 </div>
-                <div class="col-xs-3 col-sm-3 col-md-4 prev-next1 nomargin">
+                <div class="col-xs-3 col-sm-3 col-md-4 prev-next nomargin" style="text-align:right;">
                   <span>Siguiente</span>
-                  <img src="images/dashboard/siguiente.png" class="adios-img" alt="The Wedding Board">
+                  <img src="images/dashboard/siguiente.png" alt="The Wedding Board">
                 </div>
               </div>
               <div class="row margin-tamano">
