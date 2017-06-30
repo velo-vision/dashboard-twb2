@@ -1,6 +1,7 @@
 <?php
   require("functions.php");
   get_header();
+  get_aside();
 ?>
 <link rel="stylesheet" href="css/hover-muro.css">
 <!-- Content Wrapper. Contains page content -->
@@ -324,7 +325,7 @@
         </div>
       </div>
     </div>
-  
+
 </section>
 <!-- /.content -->
 </div>

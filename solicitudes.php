@@ -1,6 +1,7 @@
 <?php
   require("functions.php");
   get_header();
+  get_aside();
 ?>
 <link rel="stylesheet" href="css/hover-muro.css">
 <!-- Content Wrapper. Contains page content -->
@@ -13,7 +14,6 @@
       </p>
       <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
     </div>
-
     <div class="col-md-12 nomargin">
       <div>
         <div class="col-md-8 col-md-offset-2">
