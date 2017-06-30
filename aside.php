@@ -1,11 +1,11 @@
-<!-- Left side column. contains the logo and sidebar -->
+x<!-- Left side column. contains the logo and sidebar -->
   <aside class="main-sidebar">
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="image centers">
-          <img src="images/dashboard/perfil-muro.png" class="user-image" alt="The Wedding Board"><br>          
+          <img src="images/dashboard/perfil-muro.png" class="user-image" alt="The Wedding Board"><br>
         </div>
         <div class="col-xs-12 col-md-12 col-lg-12 centro  info nomargin alineado"><!-- pull-left -->
           <p>
