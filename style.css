@@ -1909,6 +1909,7 @@ input:checked + .slider:before {
 .botones-margin{
   margin: 0 10px 0 0;
 }
+/*fin*************************************************************************************************
 /*aside*/
 .centro{
   text-align: center;
@@ -2018,6 +2019,22 @@ input:checked + .slider:before {
 }
 
 @media only screen and (min-width:992px) and (max-width:1200px){
+  .asunto-licitacion {
+    font-size: 1em !important;
+}
+.asunto-licitacion1 {
+    font-size: 1em !important;
+}
+  .usuario-volver {
+    width: 150px !important;
+}
+  .calificaciones-usu {
+    font-size: .9em !important;
+}
+  .img-20 {
+    margin-top: 20px;
+    margin-left: -30px;
+}
   .boton-invitados1 {
     width: 100% !important;
     margin-left: 0% !important;
@@ -2118,6 +2135,22 @@ input:checked + .slider:before {
   /****************VELOSOFT FRONT-2************************/
 }
 @media only screen and (min-width:768px) and (max-width:992px){
+  .derecha-lici {
+    text-align: left !important;
+}
+  .mar-top{
+    margin-top: 10px !important;
+  }
+  .lici-margin1 {
+      margin: 15px 10px 0;
+  }
+  .coment-right {
+    margin-top: 15px !important;
+    text-align: left !important;
+}
+  .no-coment {
+    padding: 0px;
+}
   .margin-int{
     margin-left: -10px;
   }
@@ -2127,6 +2160,26 @@ input:checked + .slider:before {
   }
   .inv-centrar{
     text-align: center;
+  }
+  .check-left{
+    margin-left: 34px;
+  }
+  .save {
+    margin-left: 20px;
+  }
+  .boton-favoritos img {
+    margin: 0 3%;
+  }
+  figure.snip1084:before, figure.snip1084:after {
+    top: 5%;
+    right: 4%;
+    bottom: 5%;
+    left: 4%;
+  }
+  figure.snip1084 figcaption {
+    top: 50%;
+    left: 1%;
+    right: 1%;
   }
   .check-left{
     margin-left: 34px;
@@ -2237,9 +2290,207 @@ input:checked + .slider:before {
   /****************VELOSOFT FRONT-2************************/
 }
 @media only screen and (min-width:200px) and (max-width:768px){
+  .derecha-lici {
+      text-align: left !important;
+  }
+  .no-coment {
+    padding: 0px;
+}
+  .coment-right {
+    margin-top: 15px !important;
+    text-align: left !important;
+}
   .margin-no{
     margin: 0px;
     padding: 0px;
+}
+  .inv-centrar{
+    text-align: center;
+  }
+  .centrar1{
+   text-align: center;
+  }
+  .margin-cat{
+    margin-top: 10px;
+  }
+  .dotted-down {
+    border-bottom: 2px dotted #969090;
+}
+  .check-cuadro input{
+    margin-top: 12px;
+  }
+  .save {
+    margin-left: 20px;
+  }
+  .detalle {
+    width: 80%;
+    margin-left: 10%;
+}
+  .logo-registro img {
+    margin: 2em 0 !important;
+    width: 50%;
+  }
+  .top-50 {
+    margin-top: 30px !important;
+  }
+  .bg-mobile{
+    background: url(images/dashboard/bg-mobile.svg);
+    height: 100%;
+    background-size:cover;
+  }
+  .foto-perfil img {
+    width: 60%;
+  }
+  .iniciales {
+    color: #b1b1b1;
+    font-family: 'Montez', cursive;
+    font-size: 5em !important;
+    margin-top: 40%;
+  }
+  .content-muro {
+    margin-top: -30px !important;
+  }
+  .box .knob-label {
+    font-size: 1em;
+  }
+  .nav-tabs>li {
+    font-size: .75em !important;
+  }
+  .content-face {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .res-10{
+    margin-top: 10px;
+  }
+  .boton-detalle {
+    margin: 0px 5px !important;
+    padding: 5px 10px !important;
+  }
+  .borde-derecho {
+    border-right: 0px solid #e8e9e5;
+  }
+  .logo-mobile img{
+    width: 180px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .foto-perfil {
+    margin-top: 0px !important;
+  }
+  .content-popoup {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .margin-responsive{
+    padding: 0px;
+  }
+  .carousel-indicators {
+    bottom: -30px;
+  }
+  .propietario {
+    font-size: .6em;
+    margin-top: 10px;
+  }
+  .titulo-perfil {
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+  .invitado {
+    font-size: .85em;
+  }
+  .añadir-invitados {
+    font-size: .8em;
+    max-width: 100%;
+  }
+  .boton-invitados {
+    width: 80% !important;
+    margin-left: 10% !important;
+  }
+  .box-header > .fa, .box-header > .glyphicon, .box-header > .ion, .box-header .box-title {
+    font-size: .85em;
+  }
+  .carousel-control > img {
+    width: 25px;
+  }
+  .margen-xs{
+    margin: 5px 0 !important;
+  }
+  .content-drop-xs{
+    margin-left: 10% !important;
+  }
+  /****************VELOSOFT FRONT-2 STYLE JRG************************/
+  .style-detalle {
+    margin: 100px 130px 0;
+  }
+  .editar {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .box {
+    background: transparent;
+  }
+  .guardar-right{
+    text-align: right;
+  }
+  .nombre-oculto span{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .email-oculto span{
+    font-size: 12px;
+    margin-left: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .acompañante-oculto span{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .confirma-acompañante-oculto span{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .confirma{
+    display: none;
+  }
+  .ocultar{
+    display: none;
+  }
+  .margin-izq{
+    margin-left: 15px;
+  }
+  .margin-izq1{
+    margin-left: 25px;
+  }
+  .confirmar-check{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 5px;
+  }
+  .centrar{
+    text-align: center;
+  }
+  /****************VELOSOFT FRONT-2************************/
+}
+@media only screen and (min-width:1200px) and (max-width:1980px){
+  .boton-invitados1 {
+    width: 100% !important;
+    margin-left: 0% !important;
+    margin-top: 70px !important;
+  }
+  .inv-right{
+    padding-left: 85px !important;
+  }
+  .inv-margin{
+    margin-left: -35px !important;
+  }
+  .left-move input{
+    margin-left: 100%;
   }
   .inv-centrar{
     text-align: center;
@@ -2446,12 +2697,58 @@ input:checked + .slider:before {
   }
 }
 @media only screen and (min-width:600px) and (max-width:768px){
+  .mar-top{
+    margin-top: 10px !important;
+  }
   .boton-invitados1 {
     width: 60% !important;
     margin-left: 20% !important;
     margin-top: 50px !important;
   }
-
+  .lici-margin {
+    margin-top: 20px;
+    padding: 0px 10px;
+  }
+}
+  /****************VELOSOFT FRONT-2************************/
+@media only screen and (min-width:200px) and (max-width:600px){
+  .aunto-top{
+    padding:0px !important;
+  }
+  .margin-13{
+    margin-top: 25px !important;
+  }
+  .mar-top{
+    margin-top: 10px !important;
+    margin-left: -5px !important;
+  }
+  .lici-left{
+    margin-left: 10px !important;
+  }
+  .lici-margin{
+    margin-top: 20px;
+  }
+  .boton-responder {
+    width: 140px !important;
+}
+  .margin-licitacion{
+    margin-top: 10px !important;
+  }
+  .adios-img{
+    display: none;
+  }
+  .usuario-volver {
+    width: 140px !important;
+}
+  .padding-cero-li {
+    padding: 0px !important;
+}
+  .mailbox-attachments li {
+    float: left;
+    border: none;
+    margin: 0px 7px;
+    width: 42% !important;
+}
   /*Est perfil 1*/
   .redes li {
     display: inline-block;
@@ -2537,7 +2834,7 @@ input:checked + .slider:before {
     text-align: center;
   }
   .mailbox-read-info {
-      padding: 15px;
+      padding: 30px 10px;
   }
   .box-header > .box-tools {
     right: auto;
@@ -2606,4 +2903,244 @@ input:checked + .slider:before {
   margin: 20PX 0 0 0px;
 }
 /**/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*calificaciones jrg*/
+.star-rating {
+  font-family: 'FontAwesome';
+}
+.star-rating > fieldset {
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+.star-rating > fieldset:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+  clip: rect(0, 0, 0, 0);
+}
+.star-rating > fieldset:not(:checked) > label {
+  float: right;
+  width: 1em;
+  padding: 0 .05em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size:1.1em;
+  color: #67cfe3 ;
+}
+.star-rating > fieldset:not(:checked) > label:before {
+  content: '\f006  ';
+}
+.star-rating > fieldset:not(:checked) > label:hover,
+.star-rating > fieldset:not(:checked) > label:hover ~ label {
+  color: #67cfe3 ;
+  text-shadow: 0 0 3px #67cfe3 ;
+}
+.star-rating > fieldset:not(:checked) > label:hover:before,
+.star-rating > fieldset:not(:checked) > label:hover ~ label:before {
+  content: '\f005  ';
+}
+.star-rating > fieldset > input:checked ~ label:before {
+  content: '\f005  ';
+}
+.star-rating > fieldset > label:active {
+  position: relative;
+  top: 2px;
+}
+.enlinea{
+  display: inline-block;
+}
+
+.border-azul {
+    border: 3px solid #67cfe3;
+}
+.calificaciones-usu {
+    color: #808080;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+.border-abajo {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 0 !important;
+}
+.border-arriba {
+    border-top: 1px solid #e0e0e0;
+    padding: 15px 0 !important;
+}
+.img-20{
+  margin-top: 25px;
+}
+.botton-pag{
+  margin-bottom: 20px;
+}
+.margin-pag{
+  margin-top: 20px;
+}
+.coment-right{
+  text-align:right;
+}
+.text-detalle2 {
+  font-size: 1.6em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  margin-top: 15px;
+}
+.position-estrella{
+  position: absolute;
+  padding-left: 20%;
+  padding-top: 60px;
+}
+.margin-fech {
+    margin-top: 5px !important;
+}
+/*licitaciones2*/
+.titulo-perfil1 {
+    color: #303030;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+     margin-top: 0px;
+}
+.usuario-volver {
+    background: white;
+    border: 1px solid #67cfe3;
+    color: #67cfe3;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    width: 170px;
+    font-size: .8em;
+    font-weight: 300;
+    text-align: center;
+    padding: 5px 0;
+}
+.prev-next1 {
+    color: #67cfe3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: right;
+}
+.box-footer1 {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top: 2px solid #f4f4f4;
+    padding: 10px;
+    background-color: #ffffff;
+}
+.boton-responder {
+    background: #60d0e4;
+    border-radius: 0px !important;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9em;
+    margin-bottom: 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding: 5px 0 !important;
+    border-radius: 2px;
+    width: 140px;
+    -webkit-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -moz-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -o-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -moz-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -o-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+}
+.derecha-lici {
+    text-align: right;
+}
+.lici-margin{
+  margin-top: 15px;
+  padding: 0 10px;
+}
+.left-lici{
+  padding: 0 10px;
+}
+.lici-left{
+  margin-left: 10px;
+}
+.mar-top{
+  margin-top: 20px;
+}
+/*licitaciones3*/
+.responder-center{
+  text-align: center;
+}
+.asunto-licitacion1{
+  color: #555555 !important;
+  font-size: 1.15em;
+}
+.asunto-licitacion span{
+  color: #555555 !important;
+  font-weight: 600;
+}
+.box-top{
+  margin-top:20px;
 }

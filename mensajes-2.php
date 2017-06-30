@@ -16,7 +16,7 @@
         </p>
         <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
       </div>
- 
+
         <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 top-20 botton-volver paddingno">
           <div class="col-xs-3 col-sm-3 col-md-4 prev-next nomargin">
             <img src="images/dashboard/anterior.png" alt="The Wedding Board">
@@ -37,8 +37,8 @@
 
       <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 top-20">
         <div class="box box-primary">
-          <!-- /.box-header -->          
-          <div class="box-header with-border">            
+          <!-- /.box-header -->
+          <div class="box-header with-border">
             <h3 class="box-title"><span class="mensaje3span">Bienvenido a The Wedding Bible</span></h3>
             <div class="box-tools pull-right">
               <a href="#" class="btn btn-box-tool" data-toggle="tooltip" title="Previous"><i class="fa fa-chevron-left"></i></a>
@@ -48,7 +48,7 @@
           <!-- /.box-header -->
           <div class="box-body no-padding">
          <!--  Aqui -->
-            <div class="mailbox-read-info">                      
+            <div class="mailbox-read-info">
               <h5><p class="de"><span>De:</span> Wedding Board Admin</p></h5>
               <h5><span class="mailbox-read-time ">13 Mar. 2017 11:03 PM</span></h5>
             </div>
@@ -65,7 +65,7 @@
                   <button type="button" class="btn btn-default icon-menssage margin-mensajes btnmensaje3 botones-margin"><i class="fa fa-share"></i>Responder
                   </button>
                 </a>
-              </div>              
+              </div>
             </div>
             <!-- /.mailbox-controls -->
             <div class="mailbox-read-message contendido-de">
@@ -114,33 +114,6 @@
 <!-- /.content-wrapper -->
 <div class="control-sidebar-bg"></div>
 </div>
-<?php
-  include("footer-3.php");
-?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <?php
   get_footer();
 ?>
