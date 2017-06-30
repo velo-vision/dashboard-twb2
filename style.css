@@ -2709,6 +2709,15 @@ input:checked + .slider:before {
     margin-top: 20px;
     padding: 0px 10px;
   }
+   /*Est perfil 1*/
+.redes li {
+  display: inline-block;
+  margin: 0 0 21px 0px;
+  width: 46%;
+  text-align: center;
+}
+/**/
+
 }
   /****************VELOSOFT FRONT-2************************/
 @media only screen and (min-width:200px) and (max-width:600px){
@@ -2749,14 +2758,7 @@ input:checked + .slider:before {
     margin: 0px 7px;
     width: 42% !important;
 }
-  /*Est perfil 1*/
-  .redes li {
-    display: inline-block;
-    margin: 0 0 21px 0px;
-    width: 46%;
-    text-align: center;
-}
-/**/
+
 }
   /****************VELOSOFT FRONT-2************************/
 @media only screen and (min-width:200px) and (max-width:600px){
@@ -2902,8 +2904,16 @@ input:checked + .slider:before {
 .redes-parrafos p {
   margin: 20PX 0 0 0px;
 }
+
+.redes li {
+  display: inline-block;
+  margin: 0 0 21px 0px;
+  width: 50%;
+  text-align: center;
+}
 /**/
 }
+
 
 
 
