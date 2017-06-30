@@ -5,11 +5,11 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="image centers">
-          <img src="images/dashboard/perfil-muro.png" class="user-image" alt="The Wedding Board">
+          <img src="images/dashboard/perfil-muro.png" class="user-image" alt="The Wedding Board"><br>          
         </div>
-        <div class="pull-left info nomargin">
-          <p class="top-10">
-            <strong>Event Planner</strong> </br>
+        <div class="col-xs-12 col-md-12 col-lg-12 centro  info nomargin alineado"><!-- pull-left -->
+          <p>
+            Event Planner
             <!-- <small>jl.event planner@mailtest.mx</small> -->
           </p>
         </div>

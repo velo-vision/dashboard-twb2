@@ -1,6 +1,7 @@
 <?php
   require("functions.php");
   get_header();
+  get_aside();
 ?>
 <link rel="stylesheet" type="text/css" href="css/galery.css">
 <link rel="stylesheet" href="css/hover-muro.css">
@@ -65,46 +66,85 @@
             </p>
           </a>
         </div>
-        <div class="col-md-12 top-dotted top-30">
+
+        <div class="col-lg-12 col-md-12 top-dotted top-30">
           <p class="red-colaboracion top-30 centers">RED DE COLABORACIÓN</p>
+             <ul class="redes">         
+                <li>
+                    <div class="imagen">
+                        <img src="images/dashboard/colaborador-1.png" alt="The Wedding Board">
+                    </div>
+                    <div class="imagen colaboradores redes-parrafos">
+                        <p><strong><span>BL</span>OOMZ FINE FLOWERS</strong></p>
+                        <p>Florists & Event Stylists</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="imagen">
+                        <img src="images/dashboard/colaborador-2.png" alt="The Wedding Board">
+                    </div>
+                    <div class="imagen colaboradores redes-parrafos">
+                        <p><strong><span>BE</span>AT</strong> TRAIN PORDUCTIONS</p>
+                        <p>Entertainment</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="imagen">
+                         <img src="images/dashboard/colaborador-3.png" alt="The Wedding Board">
+                    </div>
+                    <div class="imagen colaboradores redes-parrafos">
+                        <p><strong><span>GAR</span>NISH AND FRILL</strong></p>
+                        <p>Garnish And Frill</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="imagen">
+                        <img src="images/dashboard/colaborador-4.png" alt="The Wedding Board">
+                    </div>
+                    <div class="imagen colaboradores redes-parrafos">
+                        <p><strong><span>IAM</span> FLOWER</strong></p>
+                        <p>Florists & Event Stylists</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="imagen">
+                        <img src="images/dashboard/colaborador-5.png" alt="The Wedding Board">
+                    </div>
+                    <div class="imagen colaboradores redes-parrafos">
+                        <p><strong><span>ART</span> OF CULINARY</strong></p>
+                        <p>Florists & Event Stylists</p>
+                    </div>
+                </li>
+             </ul>
         </div>
-        <div class="col-md-12 top-20">
+        <!-- <div class="col-lg-12 col-md-12 top-20">
+          
+        </div> -->
+        <!-- <div class="col-md-12 top-20">
           <div class="col-md-4">
-            <img src="images/dashboard/colaborador-1.png" alt="The Wedding Board">
+            
           </div>
           <div class="col-md-8 colaboradores top-30">
-            <p><strong><span>BLO</span>OMZ FINE FLOWERS</strong></p>
-            <p>Florists & Event Stylists</p>
+           
           </div>
-        </div>
-        <div class="col-md-12 top-20">
+        </div> -->
+        <!-- <div class="col-md-12 top-20">
           <div class="col-md-4">
-            <img src="images/dashboard/colaborador-2.png" alt="The Wedding Board">
+           
           </div>
           <div class="col-md-8 colaboradores top-30">
-            <p><strong><span>BE</span>AT</strong> TRAIN PORDUCTIONS</p>
-            <p>Entertainment</p>
+            
           </div>
-        </div>
-        <div class="col-md-12 top-20">
+        </div> -->
+        <!-- <div class="col-md-12 top-20">
           <div class="col-md-4">
-            <img src="images/dashboard/colaborador-3.png" alt="The Wedding Board">
+            
           </div>
           <div class="col-md-8 colaboradores top-30">
-            <p><strong><span>GAR</span>NISH AND FRILL</strong></p>
-            <p>Garnish And Frill</p>
+            
           </div>
-        </div>
-        <div class="col-md-12 top-20">
-          <div class="col-md-4">
-            <img src="images/dashboard/colaborador-4.png" alt="The Wedding Board">
-          </div>
-          <div class="col-md-8 colaboradores top-30">
-            <p><strong><span>IAM</span> FLOWER</strong></p>
-            <p>Florists & Event Stylists</p>
-          </div>
-        </div>
-        <div class="col-md-12 top-20">
+        </div> -->
+        <!-- <div class="col-md-12 top-20">
           <div class="col-md-4">
             <img src="images/dashboard/colaborador-5.png" alt="The Wedding Board">
           </div>
@@ -112,7 +152,8 @@
             <p><strong><span>ART</span> OF CULINARY</strong></p>
             <p>Florists & Event Stylists</p>
           </div>
-        </div>
+        </div> -->
+
         <div class="col-md-8 col-md-offset-2 top-30">
           <a href="#!">
             <p class="boton-ceremonia">
@@ -124,7 +165,7 @@
     </div>
     <div class="col-md-7 col-md-offset-1">
       <div class="col-md-12 top-30">
-        <div class="form-group">
+        <div class="form-group perfil1">
           <p>
             No nec laudem everti. Modus iuvaret an his, est iisque eripuit disputando ad. Mea in cibo iisque, tantas aliquid cu pri, unum democritum no vix.
             Ut eum bonorum salutandi mediocritatem, mea vivendo minimum consulatu no. Odio legere voluptatibus cum in.
