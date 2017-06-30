@@ -89,8 +89,8 @@
             </div>
           <div class="box-body no-padding">                          
            
-           <div class="mailbox-read-info sin-border no-padding">                      
-              <h5><strong>Re:</strong> Bienvenido a Wedding Board Admin</h5>
+           <div class="mailbox-read-info sin-border no-padding">                               
+              <h5 class="box-title titulo-recibido"><span>RE: </span>Bienvenido a The Wedding Bible</h5>
               <h5><span class="mailbox-read-time ">13 Mar. 2017 11:03 PM</span></h5>
             </div>
             <div class="mailbox-read-message padding-left-no">

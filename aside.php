@@ -96,13 +96,9 @@
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
+          
           <ul class="treeview-menu nomargin">
-            <li class="" style="border:none;">
-              <a href="#!"><i class="fa fa-caret-right" aria-hidden="true"></i> Mi Red</a>
-              <ul class="treeview-menu">
-                <li class="active"><a href="red-colaboracion.php">Colaboladores</a></li>
-              </ul>
-            </li>
+            <li class="active"><a href="red-colaboracion.php">Colaboladores</a></li>
             <li class=""><a href="solicitudes.php">Solicitudes</a></li>
           </ul>
           </a>
