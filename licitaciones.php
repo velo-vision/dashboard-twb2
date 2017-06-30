@@ -65,7 +65,7 @@
                 <tbody >
                 <tr class="texto-mail-active">
                   <td ><input type="checkbox"></td>
-                  <td class=""><a href="licitaciones-2.php"><strong>Lorena Martínez</strong></a></td>
+                  <td class=""><a href="licitaciones-3.php"><strong>Lorena Martínez</strong></a></td>
                   <td class="">
                     <strong>Fecha de Evento:</strong> 28-Oct-2017
                   </td>

@@ -125,6 +125,11 @@
                   </div>
                   <!-- /.box-header -->
                   <div class="box-body pad">
+                    <div class="col-xs-12 col-md-12 lici-margin">
+                        <div class="col-xs-12 col-md-6 no-padding izquierda">
+                          <p class="asunto-licitacion"><strong>RE:</strong> <span>Licitación: Lorem ipsum</span></p>
+                        </div>
+                      </div>
                     <div class="form-group top-30">
                       <input class="form-control" placeholder="Para:">
                     </div>
@@ -139,7 +144,7 @@
                       <input type="file" name="attachment">
                     </div>
                     <div class="pull-right top-10">
-                      <button type="submit" class="btn btn-primary btn1"><i class="fa fa-envelope-o" style="margin-right:5px;"></i>Enviar</button>
+                      <a href="licitaciones-4.php"><button type="submit" class="btn btn-primary btn1"><i class="fa fa-envelope-o" style="margin-right:5px;"></i>Enviar</button></a>
                     </div>
                   </div>
                 </div>
