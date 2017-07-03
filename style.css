@@ -1852,10 +1852,6 @@ input:checked + .slider:before {
   font-size:28px;
 }
 
-/*.user-panel > .image > img {
-  max-width: 80px;
-  max-height: 80px;
-}*/
 .span-coti{
   font-weight: 700;
   margin-left: 60px;
@@ -2090,6 +2086,58 @@ resize: none;
 }
 .E-btn-buscar{
   width: 170px;
+}
+.E-btn-Editar-text{
+  width: 100px;
+  position: absolute;
+  right: 13px;
+  top: 110px;
+  border-radius: 8px !important;
+  height: 30px;
+  padding: 5px !important;
+}
+/*perfil 10*/
+
+.E-perfil-10{
+  border-top: solid 1px #d3d3d3;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin: 30px 0 30px 0;
+}
+.E-perfil-10 .titulo-popoup{
+  color:#808080;
+  font-size: 25px;
+  font-weight: 200;
+  margin: 30px 0 50px 0 !important;
+}
+.E-perfil-10 p{
+  color:#303030;
+  font-size: 18px;
+  font-weight: 500;
+}
+.E-perfil-10 input[type="text"]{
+  border:solid 1px #60d0e4;
+  width: 400px;
+  height: 40px;
+  margin-bottom: 40px;
+  padding-left: 10px;
+}
+.E-perfil-10 button{
+  width: 185px;
+  height: 34px;
+  color:#fff;
+  background: #60d0e4;
+  font-size: 15.18px;
+  border:#60d0e4;
+}
+/*Perfil 12*/
+.E-perfil-12{
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.E-perfil-12 p{
+  color:#808080;
+  font-size: 14px;
 }
 /*fin*************************************************************************************************/
 /**********MEDIAS QUERYS*************/
@@ -3251,6 +3299,13 @@ resize: none;
 }
 .E-galeria-200{
   padding: 50px 15px;
+}
+/*perfil 10*/
+.E-perfil-10 input[type="text"] {
+  width: 200px;
+}
+.E-perfil-10 .titulo-popoup {
+  font-size: 20px;
 }
 /**/
 }

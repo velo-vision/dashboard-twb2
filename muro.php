@@ -90,7 +90,11 @@
       <div class="col-md-7 col-md-offset-1">
         <div class="col-md-12 top-30">
           <div class="form-group">
-            <textarea class="form-control textarea-dotted E-form" id="exampleTextarea" placeholder="Escribe tu descripción." rows="3"></textarea>
+            <textarea class="form-control textarea-dotted E-form" id="exampleTextarea" placeholder="Escribe tu descripción." rows="3">             
+            
+           
+            </textarea>
+             <a href="#" class="btn boton-registro hvr-back-pulse E-btn-Editar-text">Guardar</a>
           </div>
         </div>
         <div class="col-md-12 top-30">
@@ -218,7 +222,7 @@
       <div class="modal-body col-xs-12 col-md-12 col-lg-12 E-centro-form">
       <p>Escribe tu Mensaje</p>
       <form>
-        <input type="text" name="nombre" placeholder="Correo electronico">        
+        <input type="text" name="nombre" placeholder="Nombre del Proveedor">        
          <textarea class="form-control textarea-dotted E-form" id="exampleTextarea" placeholder="Escribe tu Mensaje." rows="1"></textarea> 
          <button type="submit" class="btn btn-secondary boton-crear" data-dismiss="modal">Enviar</button>      
       </form>

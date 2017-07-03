@@ -66,7 +66,7 @@
               </p>
             </div>
             <div class="col-md-6 centers">
-              <a href="#" data-toggle="modal" data-target="#exampleModal2" data-whatever="@mdo">
+              <a href="configuracion1.php">
                 <p>
                   <span>Cambiar Teléfono</span>
                 </p>
@@ -80,7 +80,7 @@
               </p>
             </div>
             <div class="col-md-6 centers">
-              <a href="#" data-toggle="modal" data-target="#exampleModal1" data-whatever="@mdo">
+              <a href="configuracion2.php">
                 <p>
                   <span>Cambiar Contraseña</span>
                 </p>
@@ -97,7 +97,7 @@
               </p>
             </div>
             <div class="col-md-6 centers">
-              <a href="#" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
+              <a href="configuracion3.php">
                 <p>
                   <span>Actualizar membresía</span>
                 </p>
@@ -111,7 +111,7 @@
               </p>
             </div>
             <div class="col-md-6 centers pad-perfil">
-              <a href="#" data-toggle="modal" data-target="#exampleModal3" data-whatever="@mdo">
+              <a href="#">
                 <p>
                   <span>Activar metodo de pago</span>
                 </p>
