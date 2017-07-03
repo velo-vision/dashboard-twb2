@@ -11,7 +11,7 @@
         <p>
           licitaciones
         </p>
-        <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
+        <img src="images/recursos/linea-greca.png" alt="The Wedding Board"  width="100%">
       </div>
       <div class="col-md-12">
           <div class="box-header with-border">

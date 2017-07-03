@@ -13,7 +13,7 @@
         <p>
           LICITACIONES
         </p>
-        <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
+        <img src="images/recursos/linea-greca.png" alt="The Wedding Board"  width="100%">
       </div>
       <div class="col-md-8 col-md-offset-2 padding-cero">
           <!-- /.box-header -->

@@ -13,7 +13,7 @@
         <p>
           LICITACIONES
         </p>
-        <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
+        <img src="images/recursos/linea-greca.png" alt="The Wedding Board" width="100%">
       </div>
       <div class="col-md-8 col-md-offset-2 padding-cero">
           <!-- /.box-header -->
@@ -45,7 +45,7 @@
                                 <div class="col-xs-12 col-md-6 no-padding izquierda">
                                   <p class="asunto-licitacion"><strong>Licitación:</strong> Lorem ipsum </p>
                                 </div>
-                                <div class="col-xs-12 col-md-6 redecha-lici  no-padding izquierda">
+                                <div class="col-xs-12 col-md-6 derecha-lici  no-padding izquierda">
                                    <p class="asunto-licitacion" style="margin-top:5px;"><strong>Usuario:</strong> Mónica Galindo</p>
                                 </div>
                               </div>

@@ -2000,7 +2000,7 @@ input:checked + .slider:before {
 }
 
 .imagen img{
-   width: 135px;
+  width: 135px;
   height: auto;
   -webkit-box-shadow: -2px 0px 6px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: -2px 0px 6px 0px rgba(0,0,0,0.75);
@@ -2109,7 +2109,6 @@ resize: none;
   .boton-favoritos {
     font-size: .8em !important;
   }
-/*Est 1300*/
   /*perfil 1*/
 .redes li {
   display: inline-block;
@@ -2121,7 +2120,6 @@ resize: none;
   width: 91%;
   height: 30px;
 }
-
 /*fin*/
 }
 @media only screen and (min-width:1200px) and (max-width:1300px){
@@ -2172,7 +2170,6 @@ resize: none;
 
   /**/
 }
-
 @media only screen and (min-width:992px) and (max-width:1200px){
   .asunto-licitacion {
     font-size: 1em !important;
@@ -2344,6 +2341,9 @@ resize: none;
 
 }
 @media only screen and (min-width:768px) and (max-width:992px){
+  .margin-pag-center{
+    margin: 20px auto !important;
+  }
   .derecha-lici {
     text-align: left !important;
 }
@@ -3487,3 +3487,6 @@ resize: none;
     background: #f5f4f4;
     border-left-color: #3c8dbc;
 }
+/*.top-501{
+  margin-top:
+}*/
