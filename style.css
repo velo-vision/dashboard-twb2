@@ -1847,13 +1847,14 @@ input:checked + .slider:before {
   margin-top: 50px !important;
   text-align: center;
 }
-/*EST. Velo************************************************************************************************/
+/*EST-Velo************************************************************************************************/
 .E-titulo-Colaboracion1 p{
   font-size:28px;
 }
 
 .user-panel > .image > img {
-  max-width: 100px;
+  max-width: 80px;
+  max-height: 80px;
 }
 .span-coti{
   font-weight: 700;
@@ -2005,6 +2006,90 @@ input:checked + .slider:before {
   -moz-box-shadow: -2px 0px 6px 0px rgba(0,0,0,0.75);
   box-shadow: -2px 0px 6px 0px rgba(0,0,0,0.75);
 }
+
+/*perfil 7*/
+.E-color{
+  color:#6b6b6b;
+}
+.E-centro-7{
+  text-align: center;
+  border:none;
+}
+.E-add-img-7{
+  margin-top: 140px !important;
+  width: 350px;
+  height: 52px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25.85px;
+}
+.E-marco-foto{
+  background: #c8c8c8;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: solid 5px #fff;
+  position: absolute;
+  top: -105px;
+  left: 136px;
+}
+.E-titulo-img{
+  margin: 104px 0;
+  font-size: 13.69px;
+  text-transform: uppercase;
+}
+.E-titulo-F2{
+  margin-top: 150px;
+  text-align: left;
+}
+.E-separacion-icons{
+  margin: 0 12px;
+  font-size: 20px;
+}
+.E-red-colabortacion{
+  color: #6b6b6b;
+}
+.E-margin-pie{
+  margin-bottom: 80px;
+}
+
+.E-panel-nombre-aside{
+  left: 75px !important;
+} 
+.E-form{
+resize: none;
+}
+.E-centro-form{
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.E-centro-form p{
+  font-size: 15px;
+}
+.E-centro-form input[type="text"]{
+  border:solid 1px #67cfe3;
+  margin: 4px 0%;
+  height: 27px;
+  width: 100%;
+  padding-left: 10px;
+}
+.E-centro-form textarea{
+  border:solid 1px #67cfe3 !important;
+}
+.E-centro-form button{
+  margin: 12px 0;
+}
+.E-border-no{
+  border:none;
+}
+.E-boton-colaboracion{
+  text-align: center;
+  width: 100%;
+  margin:30px 0;
+}
+.E-btn-buscar{
+  width: 170px;
+}    
 /*fin*************************************************************************************************/
 /**********MEDIAS QUERYS*************/
 .content-face{
@@ -2079,6 +2164,12 @@ input:checked + .slider:before {
   width: 91%;
   height: 30px;
 }
+/*perfil 7*/
+.E-padding-7-1200{
+  font-size: 12px;
+  padding: 0px;
+}
+
   /**/
 }
 
@@ -2196,13 +2287,16 @@ input:checked + .slider:before {
   margin: 20px 0 0 0px;
   line-height: 2px;
 }
+.x{
+  display: none;
+}
 /*Est 992*/
 /*colaboracion*/
 
 .E-favoritos p {
   width: 100%;
   margin: 8px 0 0 0px !important;
-  text-align: left;
+  text-align: center;
   font-size: 10px !important;
 }
 .E-figura figure.snip1084 figcaption {
@@ -2218,8 +2312,36 @@ input:checked + .slider:before {
     width: 100%;
     height: 30px;
 }
-  /****************VELOSOFT FRONT-2************************/
+
+/*perfil 7*/
+.E-marco-foto {
+  width: 200px;
+  height: 200px;
+  top: -18px;
+  left: 16%;
 }
+.E-titulo-img {
+  margin: 81px 0;
+  font-size: 12px;
+}
+.E-titulo-F2 {
+  margin-top: 225px;
+}
+.E-padding-7{
+  padding:0px !important;
+}
+.red-colaboracion {
+  font-size: 15px;
+}
+.E-red-colabortacion {
+  padding: 20px 5px;
+}
+.E-padding-7{
+  padding: 0px !important;
+}
+  /****************VELOSOFT FRONT-2************************/
+
+
 }
 @media only screen and (min-width:768px) and (max-width:992px){
   .derecha-lici {
@@ -2386,7 +2508,10 @@ input:checked + .slider:before {
   .confirmar-check span{
     display: none;
   }
-
+/*perfil 7*/
+.E-titulo-F2 {
+  margin-top: 200px;
+}
   /****************VELOSOFT FRONT-2************************/
 }
 @media only screen and (min-width:200px) and (max-width:768px){
@@ -2575,6 +2700,14 @@ input:checked + .slider:before {
   .centrar{
     text-align: center;
   }
+
+/*Est Perfil 7*/
+.E-marco-foto {
+  left: 36%;
+}
+
+/**/
+
   /****************VELOSOFT FRONT-2************************/
 }
 @media only screen and (min-width:1200px) and (max-width:1980px){
@@ -2641,9 +2774,9 @@ input:checked + .slider:before {
   .box .knob-label {
     font-size: 1em;
   }
-  .nav-tabs>li {
+  /*.nav-tabs>li {
     font-size: .75em !important;
-  }
+  }*/
   .content-face {
     width: 90%;
     margin-left: 5%;
@@ -2815,6 +2948,27 @@ input:checked + .slider:before {
   margin: 0 0 21px 0px;
   width: 46%;
   text-align: center;
+}
+/**/
+/*perfil 7*/
+.border-dotted {
+  height: 330px;
+  width: 95%;
+}
+.E-add-img-7 {
+  margin-top: 118px !important;
+  width: 273px;
+  height: 37px;
+  font-size: 18px;
+}
+.E-marco-foto {
+  width: 200px;
+  height: 200px;
+  left: 36%;
+}
+.E-titulo-img {
+  margin: 79px 0;
+  font-size: 12px;
 }
 /**/
 
@@ -3014,12 +3168,16 @@ input:checked + .slider:before {
   width: 50%;
   text-align: center;
 }
+
+.x{
+  display: none;
+}
 /*colaboracion*/
 .E-favoritos p {
   width: 100%;
   margin-left: 0% !important;
   margin: 4px 0px !important;
-  text-align: left;
+  text-align: center;
   font-size: 10px !important;
 }
 .E-figura figure.snip1084 figcaption {
@@ -3040,6 +3198,40 @@ input:checked + .slider:before {
 .E-botn-c {
   width: 100%;
   height: 30px;
+}
+/*perfil 7*/
+.bg-muro {
+  height: 200px;
+}
+.border-dotted {
+  height: 200px;
+  width: 88%;
+}
+.E-add-img-7 {
+  margin-top: 61px !important;
+  width: 233px;
+  height: 41px;
+  font-size: 15px;
+}
+.E-marco-foto { 
+  width: 100px;
+  height: 100px;
+  top: -46px;
+  left: 35%;
+}
+.E-marco-foto span{
+  display: none;
+}
+.E-titulo-img {
+  margin: 20px 25px;
+  font-size: 29px;
+  border: none;
+}
+.E-titulo-F2 {
+  margin-top: 70px;
+}
+.E-galeria-200{
+  padding: 50px 15px;
 }
 /**/
 }

@@ -54,8 +54,8 @@
               <figure class="snip1084 E-sombra">
                 <img src="images/recursos/galery.jpg" alt="The Weeding Board" />
                 <figcaption class="E-favoritos">
-                  <p class="boton-favoritos"><img src="images/recursos/trash-white.png" alt="">Quitar de la red</p>
-                  <p class="boton-favoritos"><img src="images/recursos/boton-perfil.png" alt="">Perfil de proveedor</p>
+                  <p class="boton-favoritos"><img src="images/recursos/trash-white.png" alt=""><span class="x">Quitar de la red</span></p>
+                  <p class="boton-favoritos"><img src="images/recursos/boton-perfil.png" alt=""><span class="x">Perfil de proveedor</span></p>
                 </figcaption>
                 <a href="#"></a>
               </figure>

@@ -7,7 +7,7 @@
         <div class="image centers">
           <img src="images/dashboard/perfil-muro.png" class="user-image" alt="The Wedding Board"><br>          
         </div>
-        <div class="col-xs-12 col-md-12 col-lg-12 centro  info nomargin alineado"><!-- pull-left -->
+        <div class="col-xs-12 col-md-12 col-lg-12 centro  info nomargin alineado E-panel-nombre-aside"><!-- pull-left -->
           <p>
             Event Planner
             <!-- <small>jl.event planner@mailtest.mx</small> -->
