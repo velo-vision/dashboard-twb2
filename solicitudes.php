@@ -1,6 +1,7 @@
 <?php
   require("functions.php");
   get_header();
+
   get_aside();
 ?>
 <link rel="stylesheet" href="css/hover-muro.css">
@@ -8,27 +9,31 @@
 <div class="content-wrapper">
 <section>
   <div class="container-fluid nomargin">
-    <div class="col-md-6 col-md-offset-3 titulo-perfil E-titulo-Colaboracion1">
+    <div class="col-md-6 col-md-offset-3 titulo-perfil">
       <p>
         RED DE COLABORACIÓN
       </p>
       <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
     </div>
+
     <div class="col-md-12 nomargin">
       <div>
         <div class="col-md-8 col-md-offset-2">
           <ul class="nav nav-tabs tabs-proveedor" role="tablist">
-            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Solicitudes recibidas</a></li>
-            <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Solicitudes Enviadas</a></li>
+              <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Solicitudes recibidas</a></li>
+              <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Solicitudes Enviadas</a></li>
           </ul>
         </div>
+        <!--  -->
+      
         <!-- Tab panes -->
         <div class="col-md-12 tab-content content-solicitud">
             <div role="tabpanel" class="tab-pane active" id="home">
-            <?php //for ($i=0; $i <2 ; $i++) { ?>           
+
               <div class="col-md-12 top-50">
-                 <?php for ($x=0; $x <3 ; $x++) { ?>    
-                <div class="col-md-4 box box-widget widget-user">
+
+                <?php for ($x=0; $x <3 ; $x++) { ?>    
+               <div class="col-md-4 box box-widget widget-user">
                   <div class="col-md-12 border-solicitud">
                   <div class="widget-user-header bg-black" style="background: url('images/recursos/perfil-solicitud.jpg') center center no-repeat;background-size:cover">                    
                   </div>
@@ -55,11 +60,297 @@
                     </div>
                   </div>
                 </div>
-                <?php } ?> 
-                </div>                         
-            <?php// } ?>
+                <?php } ?>
+              </div>
+
+              
+              <!--SEGUNDA GALERIA-->
+              <div class="col-md-12 top-50">
+                <div class="col-md-4 box box-widget widget-user">
+                  <!-- Widget: user widget style 1 -->
+                  <div class="col-md-12 border-solicitud">
+                    <!-- Add the bg color to the header using any of the bg-* classes -->
+                    <div class="widget-user-header bg-black" style="background: url('images/recursos/perfil-solicitud-4.jpg') center center no-repeat;background-size:cover">
+                      <h3 class="widget-user-username sombra-texto">Lorem Ipsum Dolor</h3>
+                      <h5 class="widget-user-desc sombra-texto">Fashion</h5>
+                    </div>
+                    <div class="widget-user-image">
+                      <img class="img-circle" src="images/recursos/solicitud-4.png" alt="The Wedding Board">
+                    </div>
+                    <div class="box-footer">
+                      <div class="row top-10">
+                        <div class="col-sm-6 centers ">
+                          <button type="button" class="btn btn-success btn-sm"  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
+                            Confirmar
+                          </button>
+                        </div>
+                        <div class="col-sm-6 centers">
+                          <button type="button" class="btn btn-default btn-sm" data-widget="remove" data-toggle="tooltip" title="Remove">
+                            Rechazar
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.widget-user -->
+                </div>
+                <!-- /.col -->
+                <div class="col-md-4 box box-widget widget-user">
+                  <!-- Widget: user widget style 1 -->
+                  <div class="col-md-12 border-solicitud">
+                    <!-- Add the bg color to the header using any of the bg-* classes -->
+                    <div class="widget-user-header bg-black" style="background: url('images/recursos/perfil-solicitud-5.jpg') center center no-repeat;background-size:cover">
+                      <h3 class="widget-user-username sombra-texto">Lorem Ipsum Dolor</h3>
+                      <h5 class="widget-user-desc sombra-texto">Fashion</h5>
+                    </div>
+                    <div class="widget-user-image">
+                      <img class="img-circle" src="images/recursos/solicitud-5.png" alt="The Wedding Board">
+                    </div>
+                    <div class="box-footer">
+                      <div class="row top-10">
+                        <div class="col-sm-6 centers ">
+                          <button type="button" class="btn btn-success btn-sm"  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
+                            Confirmar
+                          </button>
+                        </div>
+                        <div class="col-sm-6 centers">
+                          <button type="button" class="btn btn-default btn-sm" data-widget="remove" data-toggle="tooltip" title="Remove">
+                            Rechazar
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.widget-user -->
+                </div>
+                <!-- /.col -->
+                <div class="col-md-4 box box-widget widget-user">
+                  <!-- Widget: user widget style 1 -->
+                  <div class="col-md-12 border-solicitud">
+                    <!-- Add the bg color to the header using any of the bg-* classes -->
+                    <div class="widget-user-header bg-black" style="background: url('images/recursos/perfil-solicitud-3.jpg') center center no-repeat;background-size:cover">
+                      <h3 class="widget-user-username sombra-texto">Lorem Ipsum Dolor</h3>
+                      <h5 class="widget-user-desc sombra-texto">Fashion</h5>
+                    </div>
+                    <div class="widget-user-image">
+                      <img class="img-circle" src="images/recursos/solicitud-1.png" alt="The Wedding Board">
+                    </div>
+                    <div class="box-footer">
+                      <div class="row top-10">
+                        <div class="col-sm-6 centers ">
+                          <button type="button" class="btn btn-success btn-sm"  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
+                            Confirmar
+                          </button>
+                        </div>
+                        <div class="col-sm-6 centers">
+                          <button type="button" class="btn btn-default btn-sm" data-widget="remove" data-toggle="tooltip" title="Remove">
+                            Rechazar
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.widget-user -->
+                </div>
+                <!-- /.col -->
+              </div>
+              <!--TERCERA GALERIA-->
+              <div class="col-md-12 top-50 ">
+                <div class="col-md-4 box box-widget widget-user">
+                  <!-- Widget: user widget style 1 -->
+                  <div class="col-md-12 border-solicitud">
+                    <!-- Add the bg color to the header using any of the bg-* classes -->
+                    <div class="widget-user-header bg-black" style="background: url('images/recursos/perfil-solicitud-2.jpg') center center no-repeat;background-size:cover">
+                      <h3 class="widget-user-username sombra-texto">Lorem Ipsum Dolor</h3>
+                      <h5 class="widget-user-desc sombra-texto">Fashion</h5>
+                    </div>
+                    <div class="widget-user-image">
+                      <img class="img-circle" src="images/recursos/solicitud-3.png" alt="The Wedding Board">
+                    </div>
+                    <div class="box-footer">
+                      <div class="row top-10">
+                        <div class="col-sm-6 centers ">
+                          <button type="button" class="btn btn-success btn-sm"  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
+                            Confirmar
+                          </button>
+                        </div>
+                        <div class="col-sm-6 centers">
+                          <button type="button" class="btn btn-default btn-sm" data-widget="remove" data-toggle="tooltip" title="Remove">
+                            Rechazar
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.widget-user -->
+                </div>
+                <!-- /.col -->
+                <div class="col-md-4 box box-widget widget-user">
+                  <!-- Widget: user widget style 1 -->
+                  <div class="col-md-12 border-solicitud">
+                    <!-- Add the bg color to the header using any of the bg-* classes -->
+                    <div class="widget-user-header bg-black" style="background: url('images/recursos/perfil-solicitud.jpg') center center no-repeat;background-size:cover">
+                      <h3 class="widget-user-username sombra-texto">Lorem Ipsum Dolor</h3>
+                      <h5 class="widget-user-desc sombra-texto">Fashion</h5>
+                    </div>
+                    <div class="widget-user-image">
+                      <img class="img-circle" src="images/recursos/solicitud-4.png" alt="The Wedding Board">
+                    </div>
+                    <div class="box-footer">
+                      <div class="row top-10">
+                        <div class="col-sm-6 centers ">
+                          <button type="button" class="btn btn-success btn-sm"  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
+                            Confirmar
+                          </button>
+                        </div>
+                        <div class="col-sm-6 centers">
+                          <button type="button" class="btn btn-default btn-sm" data-widget="remove" data-toggle="tooltip" title="Remove">
+                            Rechazar
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.widget-user -->
+                </div>
+              </div>
 
 
+              <div class="col-md-12 top-100 bottom-100">
+                <div class="counter"></div>
+                <button class="button-page paginate left"><i></i><i></i></button>
+                <button class="button-page paginate right"><i></i><i></i></button>
+              </div>
+              <!--  -->
+
+
+              <!--  -->
+              <!-- /.row -->
+            </div>
+
+            <!--TABS2-->
+
+            <div role="tabpanel" class="tab-pane active" id="profile">
+              <div class="col-md-12 top-50">
+                <!-- /.col -->
+                <div class="col-md-4 box box-widget widget-user">
+                  <!-- Widget: user widget style 1 -->
+                  <div class="col-md-12 border-solicitud">
+                    <!-- Add the bg color to the header using any of the bg-* classes -->
+                    <div class="widget-user-header bg-black" style="background: url('images/recursos/perfil-solicitud-2.jpg') center center no-repeat;background-size:cover">
+                      <h3 class="widget-user-username sombra-texto">Lorem Ipsum Dolor</h3>
+                      <h5 class="widget-user-desc sombra-texto">Fashion</h5>
+                    </div>
+                    <div class="widget-user-image">
+                      <img class="img-circle" src="images/recursos/solicitud-2.png" alt="The Wedding Board">
+                    </div>
+                    <div class="box-footer">
+                      <div class="row top-10">
+                        <div class="col-sm-6 centers ">
+                          <button type="button" class="btn btn-success btn-sm"  data-toggle="modal" data-target="#exampleModal-2" data-whatever="@mdo">
+                            Enviar solicitud
+                          </button>
+                        </div>
+                        <div class="col-sm-6 centers">
+                          <button type="button" class="btn btn-default btn-sm">
+                            Ver perfil
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.widget-user -->
+                </div>
+                <div class="col-md-4 box box-widget widget-user">
+                  <!-- Widget: user widget style 1 -->
+                  <div class="col-md-12 border-solicitud">
+                    <!-- Add the bg color to the header using any of the bg-* classes -->
+                    <div class="widget-user-header bg-black" style="background: url('images/recursos/perfil-solicitud.jpg') center center no-repeat;background-size:cover">
+                      <h3 class="widget-user-username sombra-texto">Lorem Ipsum Dolor</h3>
+                      <h5 class="widget-user-desc sombra-texto">Fashion</h5>
+                    </div>
+                    <div class="widget-user-image">
+                      <img class="img-circle" src="images/recursos/solicitud-1.png" alt="The Wedding Board">
+                    </div>
+                    <div class="box-footer">
+                      <div class="row top-10">
+                        <div class="col-sm-6 centers ">
+                          <button type="button" class="btn btn-success btn-sm"  data-toggle="modal" data-target="#exampleModal-2" data-whatever="@mdo">
+                            Enviar solicitud
+                          </button>
+                        </div>
+                        <div class="col-sm-6 centers">
+                          <button type="button" class="btn btn-default btn-sm">
+                            Ver perfil
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.widget-user -->
+                </div>
+                <!-- /.col -->
+                <div class="col-md-4 box box-widget widget-user">
+                  <!-- Widget: user widget style 1 -->
+                  <div class="col-md-12 border-solicitud">
+                    <!-- Add the bg color to the header using any of the bg-* classes -->
+                    <div class="widget-user-header bg-black" style="background: url('images/recursos/perfil-solicitud-3.jpg') center center no-repeat;background-size:cover">
+                      <h3 class="widget-user-username sombra-texto">Lorem Ipsum Dolor</h3>
+                      <h5 class="widget-user-desc sombra-texto">Fashion</h5>
+                    </div>
+                    <div class="widget-user-image">
+                      <img class="img-circle" src="images/recursos/solicitud-3.png" alt="The Wedding Board">
+                    </div>
+                    <div class="box-footer">
+                      <div class="row top-10">
+                        <div class="col-sm-6 centers ">
+                          <button type="button" class="btn btn-success btn-sm"  data-toggle="modal" data-target="#exampleModal-2" data-whatever="@mdo">
+                            Enviar solicitud
+                          </button>
+                        </div>
+                        <div class="col-sm-6 centers">
+                          <button type="button" class="btn btn-default btn-sm">
+                            Ver perfil
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.widget-user -->
+                </div>
+                <!-- /.col -->
+              </div>
+              <!--SEGUNDA GALERIA-->
+              <div class="col-md-12 top-50">
+                <div class="col-md-4 box box-widget widget-user">
+                  <!-- Widget: user widget style 1 -->
+                  <div class="col-md-12 border-solicitud">
+                    <!-- Add the bg color to the header using any of the bg-* classes -->
+                    <div class="widget-user-header bg-black" style="background: url('images/recursos/perfil-solicitud-4.jpg') center center no-repeat;background-size:cover">
+                      <h3 class="widget-user-username sombra-texto">Lorem Ipsum Dolor</h3>
+                      <h5 class="widget-user-desc sombra-texto">Fashion</h5>
+                    </div>
+                    <div class="widget-user-image">
+                      <img class="img-circle" src="images/recursos/solicitud-4.png" alt="The Wedding Board">
+                    </div>
+                    <div class="box-footer">
+                      <div class="row top-10">
+                        <div class="col-sm-6 centers ">
+                          <button type="button" class="btn btn-success btn-sm"  data-toggle="modal" data-target="#exampleModal-2" data-whatever="@mdo">
+                            Enviar solicitud
+                          </button>
+                        </div>
+                        <div class="col-sm-6 centers">
+                          <button type="button" class="btn btn-default btn-sm">
+                            Ver perfil
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.widget-user -->
+                </div>
+              </div>
               <div class="col-md-12 top-100 bottom-100">
                 <div class="counter"></div>
                 <button class="button-page paginate left"><i></i><i></i></button>
