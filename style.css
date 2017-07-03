@@ -609,7 +609,8 @@ figure.snip1084 {
   float: left;
   overflow: hidden;
   margin: 10px 1%;
-  height: 270px;
+ /* height: 270px;*/
+  height: auto;
   width: 100%;
   background: #7e7e7e;
   text-align: center;
@@ -1846,7 +1847,11 @@ input:checked + .slider:before {
   margin-top: 50px !important;
   text-align: center;
 }
-/*EST.************************************************************************************************/
+/*EST. Velo************************************************************************************************/
+.E-titulo-Colaboracion1 p{
+  font-size:28px;
+}
+
 .user-panel > .image > img {
   max-width: 100px;
 }
@@ -1883,13 +1888,13 @@ input:checked + .slider:before {
   color: #303030;
   font-size: 16px;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 500;
+  font-weight: 600;
 }
 .padding-left-no{
   padding-left: 0px;
 }
 .titulo-recibido span{
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .de {
@@ -1908,7 +1913,54 @@ input:checked + .slider:before {
 .botones-margin{
   margin: 0 10px 0 0;
 }
-/*fin*************************************************************************************************
+/*colaboraddores */
+.E-search{
+  height: 34px;
+}
+.E-buscar{
+  background: #67cfe3;
+  color:#fff !important;
+  width: 60px !important;
+  line-height: 25px !important;
+  height: 34px !important;
+  right: 15px;
+}
+.E-sombra{
+  -webkit-box-shadow: -1px 2px 16px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 2px 16px -2px rgba(0,0,0,0.75);
+  box-shadow: -1px 2px 16px -2px rgba(0,0,0,0.75);
+}
+.E-favoritos p{
+  width: 90%;
+  margin-left: 5% !important;
+}
+
+/*solicitudes colaboracion*/
+.E-aumento-div{
+  margin: 4% 0 0 0;
+}
+.E-centrado{
+  text-align: center;
+}
+.E-botn-c{
+  width: 60%;
+  height: 30px;
+}
+.centrado{
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 30px;
+}
+.centrado h3{
+  font-size: 20px;
+  color:#808080;
+  font-weight: 600;
+}
+.centrado h5{
+  color:#cacaca;
+  font-size: 18px;
+  font-weight: 500;
+}
 /*aside*/
 .centro{
   text-align: center;
@@ -1978,6 +2030,12 @@ input:checked + .slider:before {
   margin: 0 0 21px 21px;
   width: 130%;
 }
+/*colabroacion 2*/
+.E-botn-c {
+  width: 91%;
+  height: 30px;
+}
+/*fin*/
 }
 @media only screen and (min-width:1200px) and (max-width:1300px){
   .boton-favoritos img {
@@ -2003,6 +2061,7 @@ input:checked + .slider:before {
   .editar {
     font-size: .8em;
   }
+/* Est 1200*/
   /*perfil 1*/
 .redes li {
   display: inline-block;
@@ -2011,6 +2070,12 @@ input:checked + .slider:before {
 }
 .redes-parrafos {
   height: auto;
+}
+
+/*colaboracion 2*/
+.E-botn-c {
+  width: 91%;
+  height: 30px;
 }
   /**/
 }
@@ -2128,7 +2193,30 @@ input:checked + .slider:before {
   margin: 20px 0 0 0px;
   line-height: 2px;
 }
+/*Est 992*/
+/*colaboracion*/
+
+.E-favoritos p {
+  width: 100%;
+  margin: 8px 0 0 0px !important;
+  text-align: left;
+  font-size: 10px !important;
+}
+.E-figura figure.snip1084 figcaption {
+  top: 47%;
+  left: 12%;
+  right: 12%;
+}
+/*colaboracion 2*/
+.E-padding-cero{
+  padding: 0px !important;
+}
+.E-botn-c {
+    width: 100%;
+    height: 30px;
+}
   /****************VELOSOFT FRONT-2************************/
+}
 }
 @media only screen and (min-width:768px) and (max-width:992px){
   .margin-pag-center{
@@ -2203,6 +2291,19 @@ input:checked + .slider:before {
   .boton-favoritos {
     font-size: .9em !important;
   }
+
+.E-favoritos p {
+  width: 100%;
+  margin: 19px 0 0 9px !important;
+  text-align: left;
+  font-size: 10px !important;
+}
+.E-figura figure.snip1084 figcaption {
+  top: 50%;
+  left: 12%;
+  right: 12%;
+}
+
   .texto-galery {
     font-size: .8em;
   }
@@ -2579,10 +2680,10 @@ input:checked + .slider:before {
     font-size: .6em;
     margin-top: 10px;
   }
-  .titulo-perfil {
+  /*.titulo-perfil {
     font-size: 1.2em;
     margin-top: 20px;
-  }
+  }*/
   .invitado {
     font-size: .85em;
   }
@@ -2718,9 +2819,10 @@ input:checked + .slider:before {
 /**/
 
 }
+
   /****************VELOSOFT FRONT-2************************/
 @media only screen and (min-width:200px) and (max-width:600px){
-  .aunto-top{
+   .aunto-top{
     padding:0px !important;
   }
   .margin-13{
@@ -2758,9 +2860,6 @@ input:checked + .slider:before {
     width: 42% !important;
 }
 
-}
-  /****************VELOSOFT FRONT-2************************/
-@media only screen and (min-width:200px) and (max-width:600px){
   .content {
     padding: 0px;
     margin-right: auto;
@@ -2868,7 +2967,7 @@ input:checked + .slider:before {
   .btn-default:hover {
       font-size: 0.7em;
   }
-/*Est*/
+/*Est media 600*/
 .prev-next {
   font-size: 12px;
 }
@@ -2914,6 +3013,33 @@ input:checked + .slider:before {
   margin: 0 0 21px 0px;
   width: 50%;
   text-align: center;
+}
+/*colaboracion*/
+.E-favoritos p {
+  width: 100%;
+  margin-left: 0% !important;
+  margin: 4px 0px !important;
+  text-align: left;
+  font-size: 10px !important;
+}
+.E-figura figure.snip1084 figcaption {
+  top: 50%;
+  left: 12%;
+  right: 12%;
+}
+.E-figura figure.snip1084:before {
+  border: none;
+}
+.E-figura figure.snip1084:after {
+  border: none;
+}
+/*colaboracion 2*/
+.E-padding-cero{
+  padding: 0px !important;
+}
+.E-botn-c {
+  width: 100%;
+  height: 30px;
 }
 /**/
 }
