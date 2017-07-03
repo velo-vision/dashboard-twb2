@@ -13,7 +13,7 @@
         <p>
           Calificaciones
         </p>
-        <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
+        <img src="images/recursos/linea-greca.png" alt="The Wedding Board"  width="100%">
       </div>
       <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
         <div class="mailbox-controls">
@@ -145,6 +145,14 @@
                   </p>
                 </div>
               </div>
+            </div>
+            <div class="pull-right margin-pag">
+              1-50/200
+              <div class="btn-group">
+                <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
+                <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-right"></i></button>
+              </div>
+              <!-- /.btn-group -->
             </div>
           </div>
         </div>

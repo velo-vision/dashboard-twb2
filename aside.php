@@ -13,7 +13,7 @@ x<!-- Left side column. contains the logo and sidebar -->
             <!-- <small>jl.event planner@mailtest.mx</small> -->
           </p>
         </div>
-        <div id="capa-variable" class="top-50 centers margin-est">
+        <div id="capa-variable" class="top-50 centers">
           <div class="star-rating">
             <fieldset>
               <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Outstanding">5 stars</label>
@@ -130,7 +130,7 @@ x<!-- Left side column. contains the logo and sidebar -->
             </li>
             <li class=""><a href="#!">Mis proveedores</a></li>
           </ul>
-          
+
         </li> -->
         <li class="treeview">
           <a href="http://twblog.com.mx/" target="_blank">
