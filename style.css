@@ -43,7 +43,7 @@ a:focus, a:hover {
 }
 .border-top{
   border-top: 1px solid #d3d3d3;
-  padding-top: 10px !important;
+  padding-top: 15px !important;
 }
 .top-dotted{
   border-top: 1px dotted #969696;
@@ -1159,7 +1159,7 @@ input[type=number]::-webkit-inner-spin-button {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2em;
   font-weight: 300;
-  margin: 20px 0 ;
+  margin: 10px 0 ;
   text-align: center;
   text-transform: uppercase;
 }
@@ -1413,11 +1413,11 @@ cursor:pointer;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2em;
   font-weight: 400;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .cuenta-proveedor strong{
   color: #303030;
-  font-weight: 500;
+  font-weight: 400;
 }
 .cuenta-proveedor span{
   color: #60d0e4;
@@ -2056,7 +2056,7 @@ input:checked + .slider:before {
 
 .E-panel-nombre-aside{
   left: 75px !important;
-} 
+}
 .E-form{
 resize: none;
 }
@@ -2090,7 +2090,7 @@ resize: none;
 }
 .E-btn-buscar{
   width: 170px;
-}    
+}
 /*fin*************************************************************************************************/
 /**********MEDIAS QUERYS*************/
 .content-face{
@@ -2172,6 +2172,9 @@ resize: none;
   /**/
 }
 @media only screen and (min-width:992px) and (max-width:1200px){
+  .form-control1 {
+    width: 100% !important;
+  }
   .asunto-licitacion {
     font-size: 1em !important;
 }
@@ -2339,9 +2342,14 @@ resize: none;
 }
   /****************VELOSOFT FRONT-2************************/
 
-
 }
 @media only screen and (min-width:768px) and (max-width:992px){
+  .boton-ceremonia1 {
+      margin: 15px auto !important;
+  }
+  .nombre-usuario {
+    margin-bottom: 20px !important;
+}
   .margin-pag-center{
     margin: 20px auto !important;
   }
@@ -2516,6 +2524,9 @@ resize: none;
   /****************VELOSOFT FRONT-2************************/
 }
 @media only screen and (min-width:200px) and (max-width:768px){
+  .boton-ceremonia1 {
+      margin: 15px auto !important;
+  }
   .derecha-lici {
       text-align: left !important;
   }
@@ -2977,6 +2988,13 @@ resize: none;
 
   /****************VELOSOFT FRONT-2************************/
 @media only screen and (min-width:200px) and (max-width:600px){
+  .bottom-100 {
+    margin-bottom: 30px !important;
+  }
+  .pad-perfil{
+    padding: 0px !important;
+    font-size: 1em;
+  }
    .aunto-top{
     padding:0px !important;
   }
@@ -3214,7 +3232,7 @@ resize: none;
   height: 41px;
   font-size: 15px;
 }
-.E-marco-foto { 
+.E-marco-foto {
   width: 100px;
   height: 100px;
   top: -46px;
@@ -3488,6 +3506,126 @@ resize: none;
     background: #f5f4f4;
     border-left-color: #3c8dbc;
 }
-/*.top-501{
-  margin-top:
+/*Perfil*/
+.foto-perfil1 img {
+  width: 100px;
+  text-align: center;
+  margin-top: 20px;
+}
+.titulo-muro1 {
+    color: #959595;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+    text-transform:none;
+}
+.boton-guardar {
+    background: #60d0e4;
+    border-radius: 0px !important;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 10px 0 !important;
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;
+}
+/*perfil 05*/
+.content-muro1 {
+  margin-top: -130px !important;
+}
+.red-editar {
+    color: #5b5b5b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7em;
+    font-weight: 200;
+}
+.width-cargar{
+  width: 150px !important;
+}
+.boton-ceremonia1 {
+  border: 1px solid #c8c8c8;
+  border-radius: 5px;
+  color: #c8c8c8;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  width: 85%;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+}
+.boton-ceremonia1:hover {
+  background: #67cfe3;
+  border: 1px solid #67cfe3;
+  border-radius: 5px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  width: 85%;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+}
+.boton-ceremonia2 {
+  background: #67cfe3;
+  border: 1px solid #67cfe3;
+  border-radius: 5px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  width: 85%;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+}
+.form-control1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: none;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.form-control1 {
+  border-radius: 0;
+  box-shadow: none;
+  border-bottom: 1px solid #e6e6e6;
+}
+/*perfil 06*/
+.bottom-cargar{
+  margin-bottom: 50px;
+}
+.nombre-imagen1 {
+    color: #303030;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*perfil 16*/
+/*.nav-tabs > li > a {
+    border: none;
+    color: #7c7c7c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }*/
+.color-tabs li a{
+  color: #7c7c7c;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
