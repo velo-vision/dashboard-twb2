@@ -69,7 +69,7 @@
 
         <div class="col-lg-12 col-md-12 top-dotted top-30">
           <p class="red-colaboracion top-30 centers">RED DE COLABORACIÓN</p>
-             <ul class="redes">         
+             <ul class="redes">
                 <li>
                     <div class="imagen">
                         <img src="images/dashboard/colaborador-1.png" alt="The Wedding Board">
@@ -118,30 +118,30 @@
              </ul>
         </div>
         <!-- <div class="col-lg-12 col-md-12 top-20">
-          
+
         </div> -->
         <!-- <div class="col-md-12 top-20">
           <div class="col-md-4">
-            
+
           </div>
           <div class="col-md-8 colaboradores top-30">
-           
-          </div>
-        </div> -->
-        <!-- <div class="col-md-12 top-20">
-          <div class="col-md-4">
-           
-          </div>
-          <div class="col-md-8 colaboradores top-30">
-            
+
           </div>
         </div> -->
         <!-- <div class="col-md-12 top-20">
           <div class="col-md-4">
-            
+
           </div>
           <div class="col-md-8 colaboradores top-30">
-            
+
+          </div>
+        </div> -->
+        <!-- <div class="col-md-12 top-20">
+          <div class="col-md-4">
+
+          </div>
+          <div class="col-md-8 colaboradores top-30">
+
           </div>
         </div> -->
         <!-- <div class="col-md-12 top-20">
