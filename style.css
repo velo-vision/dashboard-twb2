@@ -2595,6 +2595,9 @@ figure.snip1084:before, figure.snip1084:after {
 }
 
 @media only screen and (min-width:768px) and (max-width:992px){
+  .modal-close{
+    padding: 10px 15px 0px 0px !important;
+  }
   .gallery li .name {
     top: 35% !important;
 }
@@ -3230,6 +3233,9 @@ figure.snip1084:before, figure.snip1084:after {
   }
 }
 @media only screen and (min-width:600px) and (max-width:768px){
+  .modal-close{
+    padding: 10px 15px 0px 0px !important;
+  }
 .top-fijo{
   margin-top: 40px !important;
 }
@@ -3294,6 +3300,22 @@ figure.snip1084:before, figure.snip1084:after {
 
   /****************VELOSOFT FRONT-2************************/
 @media only screen and (min-width:200px) and (max-width:600px){
+  .modal-close{
+    padding: 10px 15px 0px 0px !important;
+  }
+  .pad-modal{
+    padding: 0px;
+  }
+  .titulo-modal {
+    font-size: 14px !important;
+}
+  .text-verificacion {
+    font-size: .9em !important;
+    padding: 0px 15px !important;
+}
+  .padding-modal {
+    padding: 0 20px !important;
+}
   .bancos-img{
     width: 250px !important;
   }
@@ -4114,4 +4136,67 @@ figure.snip1084:before, figure.snip1084:after {
   display: inline-block;
   overflow: hidden;
   background-color: black;
+}
+.top-registro{
+  margin-top: 50px !important;
+}
+/*iniciar-sesion*/
+.radio-registro {
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: #a7a7a7;
+    margin: 0px 0 0px 0px;
+}
+.text-membresia {
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: #a7a7a7;
+    margin-bottom: 20px;
+}
+.text-membresia span{
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: #67cfe3;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.text-verificacion{
+  color: #303030;
+  line-height: 25px;
+  font-size: 1.2em;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 60px;
+}
+/*modal*/
+.modal-close{
+  padding: 15px;
+}
+.modal-img{
+  width: 90px;
+  margin-bottom: 30px;
+}
+.titulo-modal {
+  color: #303030;
+  font-size: 21px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 0 18px 0;
+}
+.titulo-modal span{
+  border-bottom: 2px solid #67cfe3;
+}
+.boton-modal {
+  background: #67cfe3;
+  color: white;
+  border-radius: 0px;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  width: 100px;
+  margin-bottom: 20px;
+}
+.modal-modal {
+    width: 550px;
+    margin: 30px auto;
 }

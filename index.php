@@ -71,11 +71,11 @@
              </div>
            </div>
            <div class="form-group row top-20">
-             <div class="col-md-12">               
+             <div class="col-md-12">
                <a href="perfil.php"><p type="submit" class="btn boton-registro hvr-back-pulse">INGRESA</p></a>
              </div>
            </div>
-           <div class="form-group row top-50">
+           <div class="form-group row top-registro">
              <div class="col-md-8 col-md-offset-2 cuenta">
                <p class="nomargin">no tienes cuenta</p>
                <a href="inicia-sesion.php"><p class="nomargin"><strong>registrate aqui</strong></p></a>

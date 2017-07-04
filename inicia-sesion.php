@@ -54,11 +54,6 @@
         </div>
         <div class="col-md-10 col-md-offset-1 top-50">
           <form>
-            <div class="form-group row">
-              <div class="col-sm-12">
-                <input type="text" class="form-control" id="inputEmail3" placeholder="Nombre de la empresa">
-              </div>
-            </div>
            <div class="form-group row">
              <div class="col-sm-12">
                <input type="email" class="form-control" id="inputEmail3" placeholder="Correo">
@@ -66,7 +61,7 @@
            </div>
            <div class="form-group row">
              <div class="col-sm-12">
-               <input type="email" class="form-control" id="inputEmail3" placeholder="Teléfono">
+               <input type="email" class="form-control" id="inputEmail3" placeholder="Contraseña">
              </div>
            </div>
            <div class="form-group row top-20">
@@ -83,9 +78,39 @@
               <option>Categoría 5</option>
             </select>
           </div>
+          <div class="form-group row radio-registro">
+            <div class="col-sm-12 centers">
+              <p><label class="custom-control custom-radio">
+                <input id="radio" name="radio" type="radio" class="custom-control-input">
+                <span class="custom-control-indicator"></span>
+              </label> Membresia A</p>
+            </div>
+          </div>
+          <div class="form-group row radio-registro">
+            <div class="col-sm-12 centers">
+              <p><label class="custom-control custom-radio">
+                <input id="radio" name="radio" type="radio" class="custom-control-input">
+                <span class="custom-control-indicator"></span>
+              </label> Membresia B</p>
+            </div>
+          </div>
+          <div class="form-group row radio-registro">
+            <div class="col-sm-12 centers">
+              <p><label class="custom-control custom-radio">
+                <input id="radio" name="radio" type="radio" class="custom-control-input">
+                <span class="custom-control-indicator"></span>
+              </label> Membresia C</p>
+            </div>
+          </div>
+            <div class="col-sm-12 centers text-membresia">
+              <p>¿Tienes dudas de las membresias?</p>
+              <span>CONOCE MÁS</span>
+            </div>
           <div class="form-group row top-20">
             <div class="col-md-12">
-              <a href="membresias.php"><p type="submit" class="btn boton-registro hvr-back-pulse">CONTINUAR PRE-REGISTRO</p></a>
+              <a data-toggle="modal" data-target="#modal-registrate" data-whatever="@mdo">
+                <p type="submit" class="btn boton-registro hvr-back-pulse">REGISTRATE</p>
+              </a>
             </div>
           </div>
            <div class="form-group row top-50">
@@ -102,7 +127,27 @@
   </div>
   <!--REGSITRO-->
 
-
+  <!--MODAL-->
+  <div class="modal fade" id="modal-registrate" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><img src="images/recursos/close-popoup.png" alt="The Wedding Board"> <strong>cerrar</strong></span>
+          </button>
+        <div class="modal-body col-xs-12 col-md-12 col-lg-12 centers pad-modal">
+          <img src="images/recursos/modal-logo.png" class="modal-img" title="Logo" alt="The Wedding Board">
+          <p class="titulo-modal">
+             PRE-REGISTRO <span>E</span>N VEREFICACIÓN
+          </p>
+          <p class="text-verificacion">Envíaremos un e-mail de validación de tus datos para que que puedas gestionar tu pago y puedas empezar a llenar tu perfil.</p>
+        </div>
+        <div class="modal-footer centers">
+          <button type="button" class="btn btn-secondary boton-modal" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--MODAL-->
 
 <!-- ./wrapper -->
 
