@@ -3264,6 +3264,17 @@ figure.snip1084:before, figure.snip1084:after {
   }
 }
 @media only screen and (min-width:600px) and (max-width:768px){
+  .text-verificacion {
+    font-size: .9em !important;
+    padding: 0 30px !important;
+}
+  .titulo-modal {
+    font-size: 14px !important;
+}
+  .modal-dialog {
+    width: 75% !important;
+    margin: 0 auto !important;
+}
   .modal-close{
     padding: 10px 15px 0px 0px !important;
   }
