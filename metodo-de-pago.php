@@ -34,8 +34,8 @@
       <div class="col-xs-12 col-sm-12 col-md-12 top-50 border-top">
         <p class="red-actualizar centers">ACTUALIZAR METODO DE PAGO</p>
       </div>
-        <div class="col-md-12 top-30">
-          <div class="col-md-10 col-md-offset-1">
+        <div class="col-md-12 top-30 padding-pago">
+          <div class="col-md-10 col-md-offset-1 padding-pago">
             <!-- Nav tabs -->
             <ul class="nav nav-tabs color-tabs" role="tablist">
               <li role="presentation" class="active">
@@ -64,102 +64,112 @@
                       <p>NUEVA FORMA DE PAGO</p>
                     </div>
                     <div class="form-group row">
-                      <div class="col-sm-3 centers">
-                        <label class="custom-control custom-radio">
-                          <input id="radio1" name="radio" type="radio" class="custom-control-input">
-                          <span class="custom-control-indicator"></span>
-                        </label>
-                        <div class="">
-                          <img src="images/recursos/visa.png" alt="The Wedding Board">
+                      <div class="col-xs-12 col-sm-12 col-md-12 padding-pago">
+                        <div class="col-xs-3 col-sm-3 centers padding-pago">
+                          <label class="custom-control custom-radio">
+                            <input id="radio1" name="radio" type="radio" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                          </label>
+                          <div class="">
+                            <img src="images/recursos/visa.png" alt="The Wedding Board">
+                          </div>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 centers padding-pago">
+                          <label class="custom-control custom-radio">
+                            <input id="radio1" name="radio" type="radio" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                          </label>
+                          <div class="">
+                            <img src="images/recursos/mastercard.png" alt="The Wedding Board">
+                          </div>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 centers padding-pago">
+                          <label class="custom-control custom-radio">
+                            <input id="radio1" name="radio" type="radio" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                          </label>
+                          <div class="">
+                            <img src="images/recursos/american.png" alt="The Wedding Board">
+                          </div>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 centers padding-pago">
+                          <label class="custom-control custom-radio">
+                            <input id="radio1" name="radio" type="radio" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                          </label>
+                          <div class="">
+                            <img src="images/recursos/garnet.png" alt="The Wedding Board">
+                          </div>
                         </div>
                       </div>
-                      <div class="col-sm-3 centers">
-                        <label class="custom-control custom-radio">
-                          <input id="radio1" name="radio" type="radio" class="custom-control-input">
-                          <span class="custom-control-indicator"></span>
-                        </label>
-                        <div class="">
-                          <img src="images/recursos/mastercard.png" alt="The Wedding Board">
-                        </div>
-                      </div>
-                      <div class="col-sm-3 centers">
-                        <label class="custom-control custom-radio">
-                          <input id="radio1" name="radio" type="radio" class="custom-control-input">
-                          <span class="custom-control-indicator"></span>
-                        </label>
-                        <div class="">
-                          <img src="images/recursos/american.png" alt="The Wedding Board">
-                        </div>
-                      </div>
-                      <div class="col-sm-3 centers">
-                        <label class="custom-control custom-radio">
-                          <input id="radio1" name="radio" type="radio" class="custom-control-input">
-                          <span class="custom-control-indicator"></span>
-                        </label>
-                        <div class="">
-                          <img src="images/recursos/garnet.png" alt="The Wedding Board">
-                        </div>
-                      </div>
-                      <div class="form-group row nomargin  titulo-pago">
-                        <div class="col-sm-10 col-sm-offset-1 top-pago">
-                          <p class="pago-titular">
-                            TITULAR
-                          </p>
-                          <input type="text" class="form-control" id="inputEmail3" placeholder="">
-                        </div>
-                      </div>
-                      <div class="form-group row nomargin titulo-pago">
-                        <div class="col-sm-10 col-sm-offset-1 top-pago">
-                          <p class="pago-titular">
-                            NÚMERO DE TARJETA
-                          </p>
-                          <input type="tel" class="form-control" id="inputEmail3" placeholder="">
-                        </div>
-                      </div>
-                      <div class="form-group row nomargin titulo-pago">
-                        <div class="col-sm-10 col-sm-offset-1 top-pago">
-                          <div class="col-sm-12 nomargin">
+                      <div class="col-xs-12 col-sm-12 col-md-12 padding-pago">
+                        <div class="form-group row nomargin titulo-pago">
+                          <div class="col-sm-10 col-sm-offset-1 top-pago">
                             <p class="pago-titular">
-                              CODIGO DE SEGURIDAD
+                              TITULAR
                             </p>
+                            <input type="text" class="form-control" id="inputEmail3" placeholder="">
                           </div>
-                          <div class="col-sm-6 nomargin">
-                            <input type="password" class="form-control" id="inputEmail3">
+                        </div>
+                        <div class="form-group row nomargin titulo-pago">
+                          <div class="col-sm-10 col-sm-offset-1 top-pago">
+                            <p class="pago-titular">
+                              NÚMERO DE TARJETA
+                            </p>
+                            <input type="tel" class="form-control" id="inputEmail3" placeholder="">
+                          </div>
+                        </div>
+                        <div class="form-group row nomargin titulo-pago">
+                          <div class="col-sm-10 col-sm-offset-1 top-pago">
+                            <div class="col-sm-12 nomargin">
+                              <p class="pago-titular1">
+                                CODIGO DE SEGURIDAD
+                              </p>
+                            </div>
+                            <div class="col-sm-6 nomargin">
+                              <input type="password" class="form-control" id="inputEmail3">
+                            </div>
                           </div>
                         </div>
                       </div>
-                      <div class="form-group  row nomargin titulo-pago">
-                        <div class="col-sm-10 col-sm-offset-1 top-pago">
-                          <p>
-                            VENCIMIENTO
-                          </p>
-                          <div class="col-sm-6 nomargin Esconder">
-                            <select class="form-control select3">
-                              <option selected="selected">Enero</option>
-                              <option>Febrero</option>
-                              <option>Marzo</option>
-                              <option>Abril</option>
-                              <option>Mayo</option>
-                              <option>Junio</option>
-                              <option>Julio</option>
-                              <option>Agosto</option>
-                              <option>Septiembre</option>
-                              <option>Octubre</option>
-                              <option>Noviembre</option>
-                              <option>Diciembre</option>
-                            </select>
-                          </div>
-                          <div class="col-sm-6 Esconder">
-                            <select class="form-control select3">
-                              <option selected="selected">2017</option>
-                              <option>2018</option>
-                              <option>2019</option>
-                              <option>2020</option>
-                              <option>2021</option>
-                              <option>2022</option>
-                              <option>2023</option>
-                              <option>2024</option>
-                            </select>
+                      <div class="col-xs-12 col-sm-12 col-md-12 padding-pago">
+                        <div class="form-group  row nomargin titulo-pago">
+                          <div class="col-sm-10 col-sm-offset-1 top-pago">
+                            <p>
+                              VENCIMIENTO
+                            </p>
+                            <div class="col-md-12 nomargin">
+                              <div class="col-xs-6 col-sm-6 col-md-6 nomargin Esconder">
+                                <select class="form-control select3">
+                                  <option selected="selected">MES</option>
+                                  <option>Febrero</option>
+                                  <option>Febrero</option>
+                                  <option>Marzo</option>
+                                  <option>Abril</option>
+                                  <option>Mayo</option>
+                                  <option>Junio</option>
+                                  <option>Julio</option>
+                                  <option>Agosto</option>
+                                  <option>Septiembre</option>
+                                  <option>Octubre</option>
+                                  <option>Noviembre</option>
+                                  <option>Diciembre</option>
+                                </select>
+                              </div>
+                              <div class="col-xs-6 col-sm-6 col-md-6 Esconder">
+                                <select class="form-control select4">
+                                  <option selected="selected">AÑO</option>
+                                  <option>2017</option>
+                                  <option>2018</option>
+                                  <option>2019</option>
+                                  <option>2020</option>
+                                  <option>2021</option>
+                                  <option>2022</option>
+                                  <option>2023</option>
+                                  <option>2024</option>
+                                </select>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -168,7 +178,7 @@
                 </div>
                 <div class="col-md-12">
                   <div class="col-md-4 col-md-offset-4 top-cambiar bottom-100 centers">
-                    <a href="muro.php"><p type="submit" class="btn boton-cambiar hvr-back-pulse">Cambiar forma de pago</p></a>
+                    <a href="muro.php"><p type="submit" class="btn boton-cambiar hvr-back-pulse top-fijo">Cambiar forma de pago</p></a>
                   </div>
                 </div>
               </div>
@@ -181,7 +191,7 @@
                   <p><img src="images/recursos/visa.png" class="visa" alt="The Wedding Board"> xxx-xxxx-xxxx-8920</p>
                 </div>
                 <div class="col-md-12 border-top">
-                  <div class="col-md-8 col-md-offset-2">
+                  <div class="col-md-10 col-md-offset-1 padding-pago">
                     <div class="col-md-12 forma-pago2">
                       <p>NUEVA FORMA DE PAGO</p>
                     </div>
@@ -193,21 +203,21 @@
                         </label> Pagar en establecimiento</p>
                       </div>
                     </div>
-                    <div class="col-md-8 col-md-offset-2 centers color-pagar">
+                    <div class="col-md-10 col-md-offset-1 centers color-pagar padding-pago">
                       <p>
                         Paga en un establaciemiento fijo, actualiza tu forma de pago
                         y cada més se generara un recibo que se envíara a tu email
                         para poder realizar tu pago.
                       </p>
                     </div>
-                    <div class="col-md-8 col-md-offset-2 centers">
-                      <img src="images/recursos/marcas.png" alt="">
+                    <div class="col-xs-12 col-md-12 centers padding-pago">
+                      <img src="images/recursos/marcas.png" alt="" class="bancos-img">
                     </div>
                   </div>
                 </div>
                 <div class="col-md-12">
-                  <div class="col-md-4 col-md-offset-4 top-cambiar bottom-100 centers">
-                    <a href="muro.php"><p type="submit" class="btn boton-cambiar hvr-back-pulse">Cambiar forma de pago</p></a>
+                  <div class="col-md-8 col-md-offset-2 top-cambiar bottom-100 centers">
+                    <a href="muro.php"><p type="submit" class="btn boton-cambiar hvr-back-pulse top-fijo">Cambiar forma de pago</p></a>
                   </div>
                 </div>
               </div>
@@ -220,7 +230,7 @@
                   <p><img src="images/recursos/visa.png" class="visa" alt="The Wedding Board"> xxx-xxxx-xxxx-8920</p>
                 </div>
                 <div class="col-md-12 border-top">
-                  <div class="col-md-8 col-md-offset-2">
+                  <div class="col-md-10 col-md-offset-1 padding-pago">
                     <div class="col-md-12 forma-pago2">
                       <p>NUEVA FORMA DE PAGO</p>
                     </div>
@@ -232,20 +242,20 @@
                         </label> Pagar en establecimiento</p>
                       </div>
                     </div>
-                    <div class="col-md-8 col-md-offset-2 centers color-pagar">
+                    <div class="col-md-10 col-md-offset-1 centers color-pagar padding-pago">
                       <p>
                         Se generara un número de referencia que te envíaremos
                         a tu correo electrónico cada mes, para que puedas
-                        pagar en cualquier banco con servicio SPEI
+                        pagar en <strong>cualquier banco con servicio SPEI</strong>
                       </p>
                     </div>
-                    <div class="col-md-8 col-md-offset-2 centers">
-                      <img src="images/recursos/bancos.png" alt="">
+                    <div class="col-xs-12 col-md-12 centers margin-bancos padding-pago">
+                      <img src="images/recursos/bancos.png" alt="" class="bancos-img">
                     </div>
                   </div>
                 </div>
-                <div class="col-md-12">
-                  <div class="col-md-4 col-md-offset-4 top-cambiar bottom-100 centers">
+                <div class="col-xs-12 col-md-12">
+                  <div class="col-md-8 col-md-offset-2 top-cambiar bottom-100 centers">
                     <a href="muro.php"><p type="submit" class="btn boton-cambiar hvr-back-pulse">Cambiar forma de pago</p></a>
                   </div>
                 </div>

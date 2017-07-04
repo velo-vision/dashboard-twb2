@@ -137,7 +137,7 @@
             </div>
           </div>
           <div class="col-md-12 border-top top-30">
-            <div class="col-md-4 col-md-offset-4 top-20 bottom-100 centers">
+            <div class="col-md-4 col-md-offset-4 top-30 bottom-100 centers">
               <a href="muro.php"><p type="submit" class="btn boton-guardar hvr-back-pulse">Guardar</p></a>
             </div>
           </div>
