@@ -246,7 +246,7 @@
                       <p>
                         Se generara un número de referencia que te envíaremos
                         a tu correo electrónico cada mes, para que puedas
-                        pagar en cualquier banco con servicio SPEI
+                        pagar en <strong>cualquier banco con servicio SPEI</strong>
                       </p>
                     </div>
                     <div class="col-xs-12 col-md-12 centers margin-bancos padding-pago">
