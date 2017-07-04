@@ -2220,7 +2220,7 @@ color: #000;
   border: solid 5px #fff;
   position: absolute;
   top: -105px;
-  left: 136px; 
+  left: 136px;
 }
 
 .properties-perfil{
@@ -2282,7 +2282,11 @@ figure.snip1084 figcaption {
 /**/
 }
 @media only screen and (min-width:1300px) and (max-width:1500px){
-<<<<<<< HEAD
+  .elimina-foto {
+    max-width: 60% !important;
+    height: 50px !important;
+    line-height: 50px !important;
+}
 .boton-favoritos img {
   margin: 0 5%;
 }
@@ -2304,7 +2308,6 @@ figure.snip1084:before, figure.snip1084:after {
 .boton-favoritos {
   font-size: .8em !important;
 }
-=======
   .nav-tabs>li {
     font-size: 13px !important;
 }
@@ -2320,7 +2323,6 @@ figure.snip1084:before, figure.snip1084:after {
   .boton-favoritos {
     font-size: .8em !important;
   }
->>>>>>> 4b20ab961bb14c6d501cc0e37c5f739aacb3f8a2
   /*perfil 1*/
 .redes li {
   display: inline-block;
@@ -2338,6 +2340,12 @@ figure.snip1084:before, figure.snip1084:after {
 /*fin*/
 }
 @media only screen and (min-width:1200px) and (max-width:1300px){
+  .elimina-foto {
+    max-width: 70% !important;
+    height: 50px !important;
+    line-height: 50px !important;
+    font-size: .8em !important;
+}
   .nav-tabs>li {
     font-size: 17px !important;
 }
@@ -2389,6 +2397,12 @@ figure.snip1084:before, figure.snip1084:after {
   /**/
 }
 @media only screen and (min-width:992px) and (max-width:1200px){
+  .elimina-foto {
+    max-width: 70% !important;
+    height: 50px !important;
+    line-height: 50px !important;
+    font-size: .9em !important;
+}
   .nav-tabs>li {
     font-size: 15px !important;
 }
@@ -2564,6 +2578,14 @@ figure.snip1084:before, figure.snip1084:after {
 
 }
 @media only screen and (min-width:768px) and (max-width:992px){
+  .gallery li .name {
+    top: 35% !important;
+}
+  .gallery li {
+    width: 135px !important;
+    margin-top: 20px !important;
+    height: 135px !important;
+}
   .top-fijo{
     margin-top: 40px !important;
   }
@@ -2747,6 +2769,14 @@ figure.snip1084:before, figure.snip1084:after {
   /****************VELOSOFT FRONT-2************************/
 }
 @media only screen and (min-width:200px) and (max-width:768px){
+  .gallery li .name {
+    top: 35% !important;
+}
+  .gallery li {
+    width: 135px !important;
+    margin-top: 20px !important;
+    height: 135px !important;
+}
   .margin-pago{
     margin-top: 10px !important;
   }
@@ -3534,7 +3564,7 @@ figure.snip1084:before, figure.snip1084:after {
 }
 .perfilimg {
   width: 100px;
-  height: 100px;   
+  height: 100px;
   top: -48px;
   left: 35%;
 }
@@ -3842,9 +3872,9 @@ figure.snip1084:before, figure.snip1084:after {
   width: 150px !important;
 }
 .boton-ceremonia1 {
-  border: 1px solid #c8c8c8;
+  border: 1px solid #67cfe3;
   border-radius: 5px;
-  color: #c8c8c8;
+  color: #67cfe3;
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
   width: 85%;
@@ -4018,4 +4048,17 @@ figure.snip1084:before, figure.snip1084:after {
 }
 .bancos-img{
   width: 300px;
+}
+.gallery li {
+  border-radius: 50%;
+  width: 300px;
+  border: 3px solid #fff;
+  min-height: 100%;
+  text-align: center;
+  height: 300px;
+  position: relative;
+  margin: 0 auto;
+  display: inline-block;
+  overflow: hidden;
+  background-color: black;
 }
