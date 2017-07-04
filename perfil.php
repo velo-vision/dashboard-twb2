@@ -111,7 +111,7 @@
               </p>
             </div>
             <div class="col-md-6 centers pad-perfil">
-              <a href="perfil-16.php">
+              <a href="metodo-de-pago.php">
                 <p>
                   <span>Activar metodo de pago</span>
                 </p>
