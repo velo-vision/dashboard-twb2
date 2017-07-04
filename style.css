@@ -2142,6 +2142,19 @@ resize: none;
   color:#808080;
   font-size: 14px;
 }
+.E-perfil-12 .titulo{
+  font-size: 18px;
+  color: #303030;
+  font-weight: 400;
+}
+.E-perfil-12 .e-mensaje{
+  font-size: 25px;
+  color:#60d0e4;
+  margin: 30px 0 15px 0;
+}
+.E-perfil-12 .e-vigencia{
+  font-weight: bold;
+}
 /*fin*************************************************************************************************/
 /**********MEDIAS QUERYS*************/
 .content-face{

@@ -32,7 +32,7 @@
     </div>
     <div class="col-md-10 col-md-offset-1">
       <div class="col-md-12 top-50 border-top">
-        <p class="red-colaboracion centers">ACTUALIZAR METODO DE PAGO</p>
+        <p class="red-colaboracion centers">ACTUALIZAR MEMBRESÍA</p>
       </div>
         <div class="col-md-12 top-30">
 
@@ -51,9 +51,12 @@
             </ul>
             <!-- Tab panes -->
             <div class="tab-content">
-              <div role="tabpanel" class="tab-pane active" id="A">
+              <div role="tabpanel" class="tab-pane active" id="A">                
+              </div>
+              <div role="tabpanel" class="tab-pane" id="B"><p>prueba 2sdf</p></div>
+              <div role="tabpanel" class="tab-pane" id="C">
                 <div class="col-xs-12 col-md-12 col-lg-8 col-lg-offset-2 E-perfil-12">
-                 <p class="titulo-popoup" style="text-transform:none;">
+                 <p class="titulo">
                  TUS BE<span>NE</span>FICIOS
                 </p>
                 <p>
@@ -70,14 +73,12 @@
                 </p>
                 <p>
                   <span><img src="images/recursos/dot.png"></span> 
-                  Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametconsectetuer adipiscing elit
+                  Lorem ipsum dolor sit amet
                 </p>
-               
-                  
+                <p class="e-mensaje">Ya cuentas con estos beneficios</p>
+                <p class="e-vigencia">Vigencia 18 / 10 / 17</p>
                 </div>
               </div>
-              <div role="tabpanel" class="tab-pane" id="B"><p>prueba 2sdf</p></div>
-              <div role="tabpanel" class="tab-pane" id="C"><p>prueba 3dsfd</p></div>
             </div>
 
           </div>
