@@ -2227,7 +2227,7 @@ color: #000;
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  background-size: contain !important;
+  background-size: cover !important;
   background-repeat: no-repeat !important;
   -webkit-transition-property: all;
     transition-property: all;
@@ -2282,7 +2282,10 @@ figure.snip1084 figcaption {
 /**/
 }
 @media only screen and (min-width:1300px) and (max-width:1500px){
-<<<<<<< HEAD
+
+.nav-tabs>li {
+    font-size: 13px !important;
+}
 .boton-favoritos img {
   margin: 0 5%;
 }
@@ -2304,23 +2307,7 @@ figure.snip1084:before, figure.snip1084:after {
 .boton-favoritos {
   font-size: .8em !important;
 }
-=======
-  .nav-tabs>li {
-    font-size: 13px !important;
-}
-  .boton-favoritos img {
-    margin: 0 5%;
-  }
-  figure.snip1084:before, figure.snip1084:after {
-    top: 8%;
-    right: 5%;
-    bottom: 8%;
-    left: 5%;
-  }
-  .boton-favoritos {
-    font-size: .8em !important;
-  }
->>>>>>> 4b20ab961bb14c6d501cc0e37c5f739aacb3f8a2
+
   /*perfil 1*/
 .redes li {
   display: inline-block;
@@ -2560,9 +2547,26 @@ figure.snip1084:before, figure.snip1084:after {
 .E-padding-7{
   padding: 0px !important;
 }
+/*perfil 1 2 3*/
+.boton-ceremonia {   
+  font-size: 12px;
+}
+.e-fonfo-muro {
+  height: 400px;
+}
+.perfilimg {
+  width: 200px;
+  height: 200px;
+  top: -20px;
+}
+.properties-perfil {
+  width: 190px;
+  height: 190px;
+}
   /****************VELOSOFT FRONT-2************************/
 
 }
+
 @media only screen and (min-width:768px) and (max-width:992px){
   .top-fijo{
     margin-top: 40px !important;
@@ -2742,8 +2746,26 @@ figure.snip1084:before, figure.snip1084:after {
   }
 /*perfil 7*/
 .E-titulo-F2 {
-  margin-top: 200px;
+  margin-top: 140px;
 }
+/*perfil 1 2 3*/
+.e-fonfo-muro {
+  height: 300px;
+}
+.e-texto {
+  margin-top: 80px !important;
+}
+.perfilimg {
+  width: 200px;
+  height: 200px;
+  top: -120px;   
+}
+.properties-perfil {
+  width: 190px;
+  height: 190px;
+}
+
+
   /****************VELOSOFT FRONT-2************************/
 }
 @media only screen and (min-width:200px) and (max-width:768px){
@@ -3165,21 +3187,21 @@ figure.snip1084:before, figure.snip1084:after {
   }
 }
 @media only screen and (min-width:600px) and (max-width:768px){
-  .top-fijo{
-    margin-top: 40px !important;
-  }
-  .mar-top{
-    margin-top: 10px !important;
-  }
-  .boton-invitados1 {
-    width: 60% !important;
-    margin-left: 20% !important;
-    margin-top: 50px !important;
-  }
-  .lici-margin {
-    margin-top: 20px;
-    padding: 0px 10px;
-  }
+.top-fijo{
+  margin-top: 40px !important;
+}
+.mar-top{
+  margin-top: 10px !important;
+}
+.boton-invitados1 {
+  width: 60% !important;
+  margin-left: 20% !important;
+  margin-top: 50px !important;
+}
+.lici-margin {
+  margin-top: 20px;
+  padding: 0px 10px;
+}
    /*Est perfil 1*/
 .redes li {
   display: inline-block;
@@ -3207,6 +3229,21 @@ figure.snip1084:before, figure.snip1084:after {
 .E-titulo-img {
   margin: 79px 0;
   font-size: 12px;
+}
+/*perfil 1 2 3*/
+.e-fonfo-muro {
+  height: 300px;
+}
+.e-texto {
+  margin-top: 65px !important;
+}
+.perfilimg {
+  width: 200px;
+  height: 200px;   
+}
+.properties-perfil {
+  width: 190px;
+  height: 190px;
 }
 /**/
 
@@ -3548,6 +3585,9 @@ figure.snip1084:before, figure.snip1084:after {
 }
 .padin-cero2{
   padding: 0px !important;
+}
+.listas-centradas{
+  text-align: center;
 }
 /**/
 }

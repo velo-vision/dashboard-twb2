@@ -56,7 +56,7 @@
               <a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
             </span>          
           </div>
-        <div class="col-md-6 col-md-offset-3 top-30">
+        <div class="col-md-10 col-md-offset-2 top-30">
           <a href="#" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
             <p class="boton-ceremonia">
               <i class="fa fa-pencil-square-o" aria-hidden="true"></i> <span>EDITAR REDES</span>
@@ -64,7 +64,7 @@
           </a>
         </div>
 
-        <div class="col-lg-12 col-md-12 top-dotted top-30">
+        <div class="col-lg-12 col-md-12 top-dotted top-30 listas-centradas">
           <p class="red-colaboracion top-30 centers">RED DE COLABORACIÓN</p>
              <ul class="redes">
                 <li>
@@ -115,7 +115,7 @@
              </ul>
         </div>
         
-        <div class="col-md-8 col-md-offset-2 top-30">
+        <div class="col-md-10 col-md-offset-1 top-30">
           <a href="#!">
             <p class="boton-ceremonia">
               <span>Ver toda la red de colaboración</span>
@@ -136,19 +136,19 @@
           </p>
            
            <div class="col-x-12 col-md-12 col-lg-12 separaracion-btn-edit-perfil">
-               <a href="#" class="btn boton-registro hvr-back-pulse editar-texto-perfil">Guardar</a>
+               <a href="#" class="btn boton-registro hvr-back-pulse editar-texto-perfil">Editar</a>
            </div>
         </div>
       </div>
       <div class="col-md-12 top-30">
-        <div class="col-md-4 col-md-offset-2">
+        <div class="col-md-5 col-md-offset-1">
           <a href="#!">
             <p class="boton-ceremonia">
               <i class="fa fa-comments-o" aria-hidden="true"></i> <span>Enviar mensaje</span>
             </p>
           </a>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-5">
           <a href="#!">
             <p class="boton-ceremonia">
               <i class="fa fa-heart" aria-hidden="true"></i> <span>Añadir favoritos</span>
