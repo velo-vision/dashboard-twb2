@@ -256,12 +256,13 @@
           </div>
           <div class="box-footer">
             <div class="row top-10 text-modal">
-                <div class="col-md-12">
+                <div class="col-xs-12 col-md-12 col-lg-12 parrafo-modal-solicitud">
                   <p>
                     Una vez que el administrador apruebe la colaboración, esta se verá
                     reflejada en tu perfil y tu administrador.
                   </p>
                 </div>
+                 <button type="button" class="btn btn-secondary boton-crear btn-modal-sol" data-dismiss="modal">Cerrar</button>
               </div>
           </div>
         </div>
@@ -270,7 +271,7 @@
 
       </div>
       <div class="modal-footer centers">
-        <button type="button" class="btn btn-secondary boton-crear" data-dismiss="modal">Cerrar</button>
+       
       </div>
     </div>
   </div>

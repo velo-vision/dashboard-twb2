@@ -1931,7 +1931,17 @@ input:checked + .slider:before {
   width: 90%;
   margin-left: 5% !important;
 }
-
+.parrafo-modal-solicitud{
+  font-family: "Montserrat",sans-serif;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.parrafo-modal-solicitud p{
+  margin: 25px 0 0 0;
+}
+.btn-modal-sol{
+  width: 100px;
+}
 /*solicitudes colaboracion*/
 .E-aumento-div{
   margin: 4% 0 0 0;
