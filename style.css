@@ -2090,11 +2090,14 @@ resize: none;
 .E-btn-Editar-text{
   width: 100px;
   position: absolute;
-  right: 13px;
-  top: 110px;
-  border-radius: 8px !important;
+  right: 27px;
+  top: 100px;
   height: 30px;
   padding: 5px !important;
+}
+
+.Esconder div{
+  display: none;
 }
 /*perfil 10*/
 

@@ -133,7 +133,7 @@
                           <p>
                             VENCIMIENTO
                           </p>
-                          <div class="col-sm-6 nomargin">
+                          <div class="col-sm-6 nomargin Esconder">
                             <select class="form-control select3">
                               <option selected="selected">Enero</option>
                               <option>Febrero</option>
@@ -149,7 +149,7 @@
                               <option>Diciembre</option>
                             </select>
                           </div>
-                          <div class="col-sm-6">
+                          <div class="col-sm-6 Esconder">
                             <select class="form-control select3">
                               <option selected="selected">2017</option>
                               <option>2018</option>
