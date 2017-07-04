@@ -2149,6 +2149,9 @@ resize: none;
   margin-left: 15%;
 }
 @media only screen and (min-width:1300px) and (max-width:1500px){
+  .nav-tabs>li {
+    font-size: 13px !important;
+}
   .boton-favoritos img {
     margin: 0 5%;
   }
@@ -2175,6 +2178,9 @@ resize: none;
 /*fin*/
 }
 @media only screen and (min-width:1200px) and (max-width:1300px){
+  .nav-tabs>li {
+    font-size: 17px !important;
+}
   .boton-favoritos img {
     margin: 0 5%;
   }
@@ -2223,6 +2229,9 @@ resize: none;
   /**/
 }
 @media only screen and (min-width:992px) and (max-width:1200px){
+  .nav-tabs>li {
+    font-size: 15px !important;
+}
   .form-control1 {
     width: 100% !important;
   }
@@ -2395,6 +2404,9 @@ resize: none;
 
 }
 @media only screen and (min-width:768px) and (max-width:992px){
+  .top-fijo{
+    margin-top: 40px !important;
+  }
   .boton-ceremonia1 {
       margin: 15px auto !important;
   }
@@ -2575,6 +2587,9 @@ resize: none;
   /****************VELOSOFT FRONT-2************************/
 }
 @media only screen and (min-width:200px) and (max-width:768px){
+  .margin-pago{
+    margin-top: 10px !important;
+  }
   .boton-ceremonia1 {
       margin: 15px auto !important;
   }
@@ -2640,9 +2655,6 @@ resize: none;
   }
   .box .knob-label {
     font-size: 1em;
-  }
-  .nav-tabs>li {
-    font-size: .75em !important;
   }
   .content-face {
     width: 90%;
@@ -2993,6 +3005,9 @@ resize: none;
   }
 }
 @media only screen and (min-width:600px) and (max-width:768px){
+  .top-fijo{
+    margin-top: 40px !important;
+  }
   .mar-top{
     margin-top: 10px !important;
   }
@@ -3039,6 +3054,30 @@ resize: none;
 
   /****************VELOSOFT FRONT-2************************/
 @media only screen and (min-width:200px) and (max-width:600px){
+  .bancos-img{
+    width: 250px !important;
+  }
+  .top-fijo{
+    margin-top: 40px !important;
+  }
+  .top-cambiar {
+    margin-top: 0px !important;
+}
+  .margin-bancos{
+    margin-bottom: 50px !important;
+  }
+  .red-actualizar {
+    font-size: 1.2em !important;
+}
+  .pago-titular {
+    padding: 0px !important;
+}
+  .nav-tabs>li {
+    font-size: .7em !important;
+  }
+  .padding-pago{
+    padding: 0px !important;
+  }
   .bottom-100 {
     margin-bottom: 30px !important;
   }
@@ -3706,7 +3745,7 @@ resize: none;
   font-weight: 200;
   font-family: 'Montserrat', sans-serif;
   text-align:center;
-  margin: 15px 15px;
+  margin: 15px 0px;
 }
 .xxxx{
   color: #808080;
@@ -3761,7 +3800,22 @@ resize: none;
   color: #808080;
   margin-bottom: 30px;
 }
-.select3{
-  width: 100%;
+.select3 {
+  font-weight: 300;
+  width: 100px;
   display: block !important;
+}
+.select4 {
+  font-weight: 300;
+  width: 100px;
+  display: block !important;
+}
+.pago-titular1 {
+  text-transform: none;
+  text-align: justify;
+  margin: 0px;
+  font-weight: 500;
+}
+.bancos-img{
+  width: 300px;
 }
