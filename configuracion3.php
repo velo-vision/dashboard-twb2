@@ -51,9 +51,64 @@
             </ul>
             <!-- Tab panes -->
             <div class="tab-content">
-              <div role="tabpanel" class="tab-pane active" id="A">                
+              <div role="tabpanel" class="tab-pane active" id="A">
+              <div class="col-xs-12 col-md-12 col-lg-8 col-lg-offset-2 E-perfil-12">
+                 <p class="titulo">
+                 BE<span>NE</span>FICIOS
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Lorem ipsum dolor sit amet Lorem ipsum dolor sit
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Lorem ipsum dolor sit amet Lorem ipsum
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Lorem ipsum dolor sit amet Lorem 
+                </p>
+                 <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Lorem ipsum dolor sit amet Lorem 
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Lorem ipsum dolor sit amet
+                </p>
+                <button type="button" 
+                  class="btn btn-success btn-sm"  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
+                  Añadir estos beneficios
+                </button>                
+                </div>                
               </div>
-              <div role="tabpanel" class="tab-pane" id="B"><p>prueba 2sdf</p></div>
+              <div role="tabpanel" class="tab-pane" id="B">
+                <div class="col-xs-12 col-md-12 col-lg-8 col-lg-offset-2 E-perfil-12">
+                 <p class="titulo">
+                 BE<span>NE</span>FICIOS
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Lorem ipsum dolor sit amet Lorem ipsum dolor sit
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Lorem ipsum dolor sit amet Lorem ipsum
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Lorem ipsum dolor sit amet Lorem 
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Lorem ipsum dolor sit amet
+                </p>
+                <button type="button" 
+                  class="btn btn-success btn-sm"  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
+                  Añadir estos beneficios
+                </button>                
+                </div>
+              </div>
               <div role="tabpanel" class="tab-pane" id="C">
                 <div class="col-xs-12 col-md-12 col-lg-8 col-lg-offset-2 E-perfil-12">
                  <p class="titulo">
@@ -88,11 +143,31 @@
 <!-- /.content -->
 </div>
 
-<!-- /.content-wrapper -->
+<!--MODAL-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true"><img src="images/recursos/close-popoup.png" alt="The Wedding Board"> <strong>cerrar</strong></span>
+        </button>
+      </div>
+      <div class="modal-body col-xs-12 col-md-12 col-lg-12 e-modal">
+        <p class="titulo-popoup">
+           MEMBRESÍ<span>A A</span>CTUALIZADA
+        </p>
+        <p>Se realizará un ajuste en el cobro de tu membresía que<br> se verá reflejado en el estado de cuenta de tu<br> método de pago</p>
 
-<!-- /.control-sidebar -->
-<!-- Add the sidebar's background. This div must be placed
-   immediately after the control sidebar -->
+
+      </div>
+      <div class="modal-footer centers">
+        <button type="button" class="btn btn-secondary boton-crear" data-dismiss="modal">Regresar a mi cuenta</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--MODAL-->
+
 <div class="control-sidebar-bg"></div>
 </div>
 
