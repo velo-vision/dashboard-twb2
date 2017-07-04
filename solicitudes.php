@@ -72,7 +72,7 @@
               </div>
               <div role="tabpanel" class="tab-pane" id="B">
                 <!-- <div class="col-xs-12 col-md-12 col-lg-12 E-perfil-12"> -->
-                 <div class="col-md-4 col-md-offset-4">        
+                 <div class="col-md-4 col-md-offset-4 margin-busqueda-solicitud">        
                   <div class="form-group">
                     <input type="text" class="form-control input-sm E-search" >
                     <span class="glyphicon  form-control-feedback E-buscar"> Buscar</span>
