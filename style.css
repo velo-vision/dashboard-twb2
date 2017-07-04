@@ -1918,9 +1918,10 @@ input:checked + .slider:before {
   background: #67cfe3;
   color:#fff !important;
   width: 60px !important;
-  line-height: 25px !important;
+  line-height: 33px !important;
   height: 34px !important;
   right: 15px;
+  font-family: "Monserrat", sans-serif;
 }
 .E-sombra{
   -webkit-box-shadow: -1px 2px 16px -2px rgba(0,0,0,0.75);
@@ -1931,7 +1932,17 @@ input:checked + .slider:before {
   width: 90%;
   margin-left: 5% !important;
 }
-
+.parrafo-modal-solicitud{
+  font-family: "Montserrat",sans-serif;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.parrafo-modal-solicitud p{
+  margin: 25px 0 0 0;
+}
+.btn-modal-sol{
+  width: 100px;
+}
 /*solicitudes colaboracion*/
 .E-aumento-div{
   margin: 4% 0 0 0;
@@ -1957,6 +1968,24 @@ input:checked + .slider:before {
   color:#cacaca;
   font-size: 18px;
   font-weight: 500;
+}
+
+.e-borde-solicitud2{
+  border-top: solid 2px #e8eaee;
+  font-size: "Montserrat", sans-serif;
+}
+.e-borde-solicitud2 p{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.solicitudes >li{
+  width: 50%;
+}
+.anchura{
+  margin: 0 0 0 33%;
 }
 /*aside*/
 .centro{
@@ -2527,7 +2556,9 @@ figure.snip1084:before, figure.snip1084:after {
 }
 /*Est 992*/
 /*colaboracion*/
-
+.cero{
+  padding: 0px !important;
+}
 .E-favoritos p {
   width: 100%;
   margin: 8px 0 0 0px !important;
@@ -3653,6 +3684,10 @@ figure.snip1084:before, figure.snip1084:after {
 }
 .listas-centradas{
   text-align: center;
+}
+
+.cero{
+  padding: 0px !important;
 }
 /**/
 }
