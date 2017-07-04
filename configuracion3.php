@@ -6,10 +6,8 @@
 <link rel="stylesheet" type="text/css" href="css/galery.css">
 <link rel="stylesheet" href="css/hover-muro.css">
 <!-- Content Wrapper. Contains page content -->
-
 <div class="content-wrapper">
 <section>
-
   <div class="container-fluid nomargin">
     <div class="col-xs-12 col-md-6 col-md-offset-3 titulo-perfil1">
       <p>
@@ -29,7 +27,6 @@
          <p class="titulo-popoup nomargin" style="text-transform:none;">
            Decoration
          </p>
-        
        </div>
       </div>
     </div>
@@ -43,13 +40,13 @@
             <!-- Nav tabs -->
             <ul class="nav nav-tabs color-tabs" role="tablist">
               <li role="presentation" class="active">
-                <a href="#home" aria-controls="A" role="tab" data-toggle="tab">MEMBRESÍA A</a>
+                <a href="#A" aria-controls="A" role="tab" data-toggle="tab">MEMBRESÍA A</a>
               </li>
               <li role="presentation">
-                <a href="#profile" aria-controls="B" role="tab" data-toggle="tab">MEMBRESÍA B</a>
+                <a href="#B" aria-controls="B" role="tab" data-toggle="tab">MEMBRESÍA B</a>
               </li>
               <li role="presentation">
-                <a href="#messages" aria-controls="C" role="tab" data-toggle="tab">MEMBRESÍA C</a>
+                <a href="#C" aria-controls="C" role="tab" data-toggle="tab">MEMBRESÍA C</a>
               </li>
             </ul>
             <!-- Tab panes -->
@@ -73,14 +70,14 @@
                 </p>
                 <p>
                   <span><img src="images/recursos/dot.png"></span> 
-                  Lorem ipsum dolor sit amet 
+                  Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametconsectetuer adipiscing elit
                 </p>
                
-
+                  
                 </div>
               </div>
-              <div role="tabpanel" class="tab-pane" id="B"><p>prueba 2</p></div>
-              <div role="tabpanel" class="tab-pane" id="C"><p>prueba 3</p></div>
+              <div role="tabpanel" class="tab-pane" id="B"><p>prueba 2sdf</p></div>
+              <div role="tabpanel" class="tab-pane" id="C"><p>prueba 3dsfd</p></div>
             </div>
 
           </div>
