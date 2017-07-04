@@ -18,8 +18,8 @@
       </figure>
     </div>
     <div class="col-md-4">
-      <div class="col-md-12 nomargin content-muro">
-        <ul class="gallery">
+      <div class="col-md-12 nomargin content-muro1">
+        <ul class="gallery nomargin">
           <li>
             <a href="#">
               <img src="images/dashboard/perfil-muro.png" alt="The Wedding Board" />
@@ -41,33 +41,31 @@
       <div class="col-md-12 top-50">
         <p class="red-colaboracion centers">NUESTRO TRABAJO</p>
       </div>
-      <div class="col-md-12 top-30">
+      <div class="col-md-10 col-md-offset-1 top-30">
         <div class="col-md-4">
           <a href="#!">
-            <p class="boton-ceremonia">
+            <p class="boton-ceremonia1">
               <i class="fa fa-trash-o" aria-hidden="true"></i> <span>ELIMINAR GALERÍA</span>
             </p>
           </a>
         </div>
         <div class="col-md-4">
           <a href="#!">
-            <p class="boton-ceremonia">
+            <p class="boton-ceremonia1">
               <i class="fa fa-plus-square-o" aria-hidden="true"></i> <span>AÑADIR FOTOS</span>
             </p>
           </a>
         </div>
         <div class="col-md-4">
-          <a href="#!">
-            <p class="boton-ceremonia">
+          <a href="crear-galeria.php">
+            <p class="boton-ceremonia1">
               <i class="fa fa-folder-open-o" aria-hidden="true"></i> <span>CREAR GALERÍA</span>
             </p>
           </a>
         </div>
       </div>
-      <div class="col-md-12 top-30">
         <div class="col-md-12 top-30">
           <div class="gallery-container">
-
             <div class="sort-section top-10">
               <div class="sort-section-container">
                 <div class="sort-handle">Filters</div>
@@ -320,10 +318,8 @@
                 </figure>
               </li>
             </ul>
-
           </div>
         </div>
-      </div>
     </div>
 </section>
 <!-- /.content -->
