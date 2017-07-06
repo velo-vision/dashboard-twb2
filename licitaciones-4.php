@@ -38,7 +38,7 @@
               </div>
               <div class="row margin-tamano">
                 <div class="col-xs-12 col-md-12">
-                  <div class="box box-primary top-30">
+                  <div class="box box-primary top-20">
                     <!-- /.box-header -->
                     <div class="box-body no-padding">
                       <div class="col-xs-12 col-md-12 lici-margin">

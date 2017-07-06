@@ -1,114 +1,103 @@
 
-@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
-figure.snip1205 {
-  position: relative;
-  float: left;
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1532 {
   overflow: hidden;
-  width: 100%;
-  background: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #000000;
+  display: inline-block;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  position: relative;
   text-align: center;
+  width: 100%;
+  height: 500px;
+  background-color: #383838;
 }
-figure.snip1205 * {
+.snip1532 *,
+.snip1532 *:before {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
 }
-figure.snip1205 img {
+.snip1532 img {
   max-width: 100%;
   vertical-align: top;
+  -webkit-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
 }
-figure.snip1205 i {
+.snip1532 figcaption {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  border-radius: 50%;
-  font-size: 34px;
-  color: white;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  -webkit-transform: translate(-50%, -50%) scale(0);
-  transform: translate(-50%, -50%) scale(0);
-  transition: all 300ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
-}
-figure.snip1205 p {
-  position: absolute;
-  font-family: 'Montserrat', sans-serif;
-  top: 56%;
-  left: 50%;
-  letter-spacing: 1.5px;
-  font-size: 1em;
-  color: white;
+  top: 60%;
   width: 100%;
-  height: 60px;
-  line-height: 60px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  -webkit-transform: translate(-50%, -50%) scale(0);
-  transform: translate(-50%, -50%) scale(0);
-  transition: all 300ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  opacity: 0;
 }
-figure.snip1205 a {
-  left: 0;
-  right: 0;
+.snip1532 h3 {
+  color: #ebebeb;
+  font-size: 10em;
+  font-family: 'Montez', cursive;
+  margin: 0;
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+.snip1532 p {
+  border: 2px solid #ebebeb;
+  border-radius: 5px;
+  color: #ebebeb;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .8em;
+  font-weight: 400;
+  right: 1%;
+  /*-webkit-transform: translate(0%, 100%);
+  transform: translate(0%, 100%);*/
+  opacity: 0;
+  padding: 10px;
+  position: absolute;
+  top: 2%;
+}
+.snip1532 p i{
+  margin: 0 5px;
+}
+.snip1532 a {
+  position: absolute;
   top: 0;
   bottom: 0;
-  position: absolute;
+  left: 0;
+  right: 0;
 }
-figure.snip1205.blue {
-  background-color: #2472a4;
+.snip1532:hover figcaption,
+.snip1532.hover figcaption {
+  opacity: 1;
 }
-figure.snip1205.blue i {
-  color: #20638f;
+.snip1532:hover img,
+.snip1532.hover img {
+  opacity: 0.65;
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);
+  /*-webkit-transform: scale(1.001);
+  transform: scale(1.001);*/
+  -webkit-transition: all 500ms cubic-bezier(0.500, 0.250, 0.500, 0.750);
+   -moz-transition: all 500ms cubic-bezier(0.500, 0.250, 0.500, 0.750);
+     -o-transition: all 500ms cubic-bezier(0.500, 0.250, 0.500, 0.750);
+        transition: all 500ms cubic-bezier(0.500, 0.250, 0.500, 0.750); /* custom */
+
+-webkit-transition-timing-function: cubic-bezier(0.500, 0.250, 0.500, 0.750);
+   -moz-transition-timing-function: cubic-bezier(0.500, 0.250, 0.500, 0.750);
+     -o-transition-timing-function: cubic-bezier(0.500, 0.250, 0.500, 0.750);
+        transition-timing-function: cubic-bezier(0.500, 0.250, 0.500, 0.750); /* custom */
 }
-figure.snip1205.red {
-  background-color: #ab3326;
-}
-figure.snip1205.red i {
-  color: #962d22;
-}
-figure.snip1205.yellow {
-  background-color: #e08e0b;
-}
-figure.snip1205.yellow i {
-  color: #c87f0a;
-}
-figure.snip1205.green {
-  background-color: #229955;
-}
-figure.snip1205.green i {
-  color: #1e8449;
-}
-figure.snip1205.orange {
-  background-color: #d67118;
-}
-figure.snip1205.orange i {
-  color: #bf6516;
-}
-figure.snip1205.navy {
-  background-color: #2b3c4e;
-}
-figure.snip1205.navy i {
-  color: #222f3d;
-}
-figure.snip1205:hover img,
-figure.snip1205.hover img {
-  opacity: 0.3;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
-figure.snip1205:hover i,
-figure.snip1205.hover i {
-  -webkit-transform: translate(-50%, -50%) scale(1);
-  transform: translate(-50%, -50%) scale(1);
-  transition: all 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-figure.snip1205:hover p,
-figure.snip1205.hover p {
-  -webkit-transform: translate(-50%, -50%) scale(1);
-  transform: translate(-50%, -50%) scale(1);
-  transition: all 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+.snip1532:hover p,
+.snip1532.hover p {
+  -webkit-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
+  opacity: 1;
 }
 /************************/
 .gallery {
@@ -235,4 +224,29 @@ figure.snip1205.hover p {
   -o-transition-duration: 0.4s;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
+}
+
+/**********MEDIAS QUERYS*************/
+
+@media only screen and (min-width:200px) and (max-width:1600px){
+  .snip1532 {
+    height: auto;
+  }
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+  figure.snip1084 {
+    height: 200px;
+  }
+  .snip1532 h3 {
+    font-size: 7em;
+  }
+}
+@media only screen and (min-width:200px) and (max-width:768px){
+  .snip1532 h3 {
+    font-size: 2em;
+  }
+  .snip1532 p {
+    font-size: .7em;
+    padding: 5px;
+  }
 }

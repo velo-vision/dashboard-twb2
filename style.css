@@ -4249,6 +4249,39 @@ figure.snip1084:before, figure.snip1084:after {
   margin-bottom: 20px;
 }
 .modal-modal {
-    width: 550px;
-    margin: 30px auto;
+  width: 550px;
+  margin: 30px auto;
+}
+
+/*graficas*/
+.chart {
+  width: 100%;
+  min-height: 400px;
+}
+.mensajes-grafica{
+  font-size: 1.2em;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: 900;
+}
+.mensajes-grafica span{
+  text-align: center;
+}
+.legend {
+    margin-bottom: 76px;
+    display: none !important;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+.box.box-info {
+     border-top-color: none !important;
+}
+
+.box {
+    position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+     border-top: none !important;
+    margin-bottom: 20px;
+    width: 100%;
 }
