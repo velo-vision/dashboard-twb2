@@ -276,6 +276,90 @@ a:focus, a:hover {
   color: white;
 }
 /*HOVER*/
+/*HOVER*/
+
+.twb {
+  /* set your width and height here on the outer div */
+  width: 100%;
+  height: 110vh;
+  position: relative;
+  overflow: hidden; /* comment this line to see what happens behind the scenes */
+}
+.registro {
+  width: 120%;
+  height: 120%;
+  background-image: url(images/recursos/registro.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*transition-duration: 50s; /* set the speed of your animation */*/
+  -webkit-transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750);
+   -moz-transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750);
+     -o-transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750);
+        transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+-webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+   -moz-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+     -o-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+        transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+}
+.registro2 {
+  width: 120%;
+  height: 120%;
+  background-image: url(images/recursos/cuenta.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*transition-duration: 50s; /* set the speed of your animation */*/
+  -webkit-transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750);
+   -moz-transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750);
+     -o-transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750);
+        transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+-webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+   -moz-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+     -o-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+        transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+}
+.twb:hover .registro {
+  transform: scale(1.2);
+  -webkit-filter: blur(.5px);
+  -moz-filter: blur(.5px);
+  -o-filter: blur(.5px);
+  -ms-filter: blur(.5px);
+  filter: blur(.5px);
+}
+.twb:hover .registro2 {
+  transform: scale(1.2);
+  -webkit-filter: blur(.5px);
+  -moz-filter: blur(.5px);
+  -o-filter: blur(.5px);
+  -ms-filter: blur(.5px);
+  filter: blur(.5px);
+}
+.sesion {
+  width: 120%;
+  height: 120%;
+  background-image: url(images/recursos/cuenta.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*transition-duration: 50s; /* set the speed of your animation */*/
+  -webkit-transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750);
+   -moz-transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750);
+     -o-transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750);
+        transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+-webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+   -moz-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+     -o-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+        transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+}
+.twb:hover .sesion {
+  transform: scale(1.2);
+  -webkit-filter: blur(.5px);
+  -moz-filter: blur(.5px);
+  -o-filter: blur(.5px);
+  -ms-filter: blur(.5px);
+  filter: blur(.5px);
+}
 
 .logo-registro img{
   margin: 50px 0 !important;
@@ -291,7 +375,7 @@ a:focus, a:hover {
 .registrate span{
   border-bottom: 3px solid #60d0e4;
 }
-.boton-registro{
+.boton-registro {
   background: #60d0e4;
   border-radius: 0px !important;
   color: white;
@@ -300,6 +384,18 @@ a:focus, a:hover {
   font-weight: 400;
   padding: 10px 0 !important;
   width: 100%;
+  -webkit-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+  -moz-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+  -o-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+  transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+  -webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+  -moz-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+  -o-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+  transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+}
+.boton-registro:hover {
+  background: #1cb7d3;
+  color: white;
 }
 .boton-facebook{
   background: #3e5193;
@@ -347,7 +443,6 @@ a:focus, a:hover {
 .cuenta:hover{
   text-decoration: none;
 }
-
 /*DASHBOARD*/
 
 .boton-perfil{
@@ -1848,6 +1943,47 @@ input:checked + .slider:before {
   text-align: center;
 }
 /*EST-Velo************************************************************************************************/
+ .color-a{
+  color:#ddd;
+ }
+ .color-a:hover{
+  color:#ddd;
+ }
+.a2{
+  color:#808080;
+}
+.a2:hover{
+  color:#808080;
+}
+
+
+.btn-default2{
+    background-color: white;
+    color: #67cfe3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8em;
+    font-weight: 400;
+    border-color: #67cfe3
+}
+.btn-default2 active:hover{
+  color: #67cfe3;
+}
+.btn-default2:hover{
+    background-color:#67cfe3 ;   
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8em;
+    font-weight: 400;
+    border-color: #67cfe3
+}
+.btn-default3{
+}
+.btn-default3:hover{
+    background-color:#67cfe3;   
+    color: white;
+    border-color: #67cfe3
+}
+
 .E-titulo-Colaboracion1 p{
   font-size:28px;
 }
@@ -2292,6 +2428,94 @@ color: #000;
 .separaracion-btn-edit-perfil{
   padding-bottom: 12px;
 }
+
+
+
+
+/*login*/
+
+.bg-flower{
+  background: url(images/dashboard/bg-mobile.svg);
+  background-size: cover;
+  height: 110vh;
+}
+/*******TIPO DE MEMBESIAS*********/
+.titulo-proveedores{
+  color: #1e0606 ;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0px 0 50px;
+}
+.titulo-proveedores span{
+  border-bottom: 2px solid #67cfe3 ;
+}
+.bg-membresia{
+  background: url(images/recursos/bg-membresias.jpg) center center no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  height: 1400px;
+  padding: 20px !important;
+  -webkit-transition: all 300ms cubic-bezier(0.500, 0.250, 0.500, 0.750);
+   -moz-transition: all 300ms cubic-bezier(0.500, 0.250, 0.500, 0.750);
+     -o-transition: all 300ms cubic-bezier(0.500, 0.250, 0.500, 0.750);
+        transition: all 300ms cubic-bezier(0.500, 0.250, 0.500, 0.750); /* custom */
+
+-webkit-transition-timing-function: cubic-bezier(0.500, 0.250, 0.500, 0.750);
+   -moz-transition-timing-function: cubic-bezier(0.500, 0.250, 0.500, 0.750);
+     -o-transition-timing-function: cubic-bezier(0.500, 0.250, 0.500, 0.750);
+        transition-timing-function: cubic-bezier(0.500, 0.250, 0.500, 0.750); /* custom */
+}
+.bg-membresia:hover{
+  -webkit-box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75);
+}
+.top-membresias{
+  margin-top: 10%;
+}
+.logo-membresias{
+  text-align: center;
+  margin-top: -50px
+}
+.border-membresia3{
+  border: 2px solid #67cfe3 ;
+  height: 1360px;
+}
+.datos-membresia{
+  color: #6d6968 ;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  max-width: 80%;
+  margin-left: 10%;
+}
+.datos-membresia p{
+  padding: 10px 0;
+}
+.datos-membresia strong{
+  color: #6d6968 ;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.datos-membresia span{
+  border-bottom: 2px solid #67cfe3 ;
+}
+.datos-membresia i{
+  font-size: 5px;
+  vertical-align: middle;
+}
+.bg-tipo{
+  background: url(images/recursos/bg-tipo.jpg) center top no-repeat ;
+}
+/*******TIPO DE MEMBESIAS*********/
+
+
+
+
 /*fin*************************************************************************************************/
 /**********MEDIAS QUERYS*************/
 
@@ -2313,6 +2537,9 @@ figure.snip1084 figcaption {
     width: 86%;
     margin-left: 6% !important;
 }
+.cero2{
+  padding:0px !important;
+}
 /**/
 }
 @media only screen and (min-width:1300px) and (max-width:1500px){
@@ -2323,6 +2550,9 @@ figure.snip1084 figcaption {
 }
 .boton-favoritos img {
   margin: 0 5%;
+}
+.cero2{
+  padding:0px !important;
 }
 figure.snip1084 figcaption {
   top: 50%;
@@ -2374,6 +2604,9 @@ figure.snip1084:before, figure.snip1084:after {
 /*fin*/
 }
 @media only screen and (min-width:1200px) and (max-width:1300px){
+  .cero {
+    padding: 0px !important;
+}
   .elimina-foto {
     max-width: 70% !important;
     height: 50px !important;
@@ -2431,6 +2664,12 @@ figure.snip1084:before, figure.snip1084:after {
   /**/
 }
 @media only screen and (min-width:992px) and (max-width:1200px){
+/*login*/
+  .logo-registro img {
+    margin: 100px 0 !important;
+    width: 100%;
+  }
+  /*login*/
   .elimina-foto {
     max-width: 70% !important;
     height: 50px !important;
@@ -2631,6 +2870,16 @@ figure.snip1084:before, figure.snip1084:after {
 }
 
 @media only screen and (min-width:768px) and (max-width:992px){
+  /*login*/
+  .logo-registro img {
+    margin: 10% 0 5% !important;
+    width: 60%;
+  }
+
+  .form-control {
+    font-size: .8em;
+}
+  /*login*/
   .adios-bg{
     display: none;
   }
@@ -2846,6 +3095,28 @@ figure.snip1084:before, figure.snip1084:after {
   /****************VELOSOFT FRONT-2************************/
 }
 @media only screen and (min-width:200px) and (max-width:768px){
+/*isa logo*/
+.form-control {
+    font-size: .7em;
+}
+
+ /*menu configuracion*/
+.dropdown-menu a {
+    border-bottom: 2px dotted #f1f3f4;
+    color: #000 !important;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    padding: 15px 20px !important;
+}
+.dropdown-menu a:hover {
+   font-size: 1em;
+    background: #f7fdfe !important;
+    font-weight: 500 !important;
+}
+/**/
+ 
   .adios-bg{
     display: none;
   }
@@ -3092,13 +3363,13 @@ figure.snip1084:before, figure.snip1084:after {
     width: 80%;
     margin-left: 10%;
 }
-  .logo-registro img {
+  /*.logo-registro img {
     margin: 2em 0 !important;
     width: 50%;
-  }
-  .top-50 {
+  }*/
+  /*.top-50 {
     margin-top: 30px !important;
-  }
+  }*/
   .bg-mobile{
     background: url(images/dashboard/bg-mobile.svg);
     height: 100%;
@@ -3353,6 +3624,8 @@ figure.snip1084:before, figure.snip1084:after {
 
   /****************VELOSOFT FRONT-2************************/
 @media only screen and (min-width:200px) and (max-width:600px){
+
+
   .modal-close{
     padding: 10px 15px 0px 0px !important;
   }
@@ -3445,9 +3718,9 @@ figure.snip1084:before, figure.snip1084:after {
     padding-left: 15px;
     padding-right: 15px;
 }
-  .container-fluid, .top-50{
+  /*.container-fluid, .top-50{
     margin-top: 0px !important;
-  }
+  }*/
   .detalle {
     width: 70%;
     margin-left: 15%;
@@ -3622,6 +3895,7 @@ figure.snip1084:before, figure.snip1084:after {
 .E-botn-c {
   width: 100%;
   height: 30px;
+  margin: 9px 0;
 }
 /*perfil 7*/
 .bg-muro {

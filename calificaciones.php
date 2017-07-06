@@ -31,8 +31,8 @@
           <div class="pull-right">
             1-50/200
             <div class="btn-group">
-              <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
-              <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-right"></i></button>
+              <button type="button" class="btn btn-default btn-default2 btn-sm"><i class="fa fa-chevron-left"></i></button>
+              <button type="button" class="btn btn-default btn-default2 btn-sm"><i class="fa fa-chevron-right"></i></button>
             </div>
             <!-- /.btn-group -->
           </div>
@@ -149,8 +149,8 @@
             <div class="pull-right margin-pag">
               1-50/200
               <div class="btn-group">
-                <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
-                <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-right"></i></button>
+                <button type="button" class="btn btn-default btn-default2 btn-sm"><i class="fa fa-chevron-left"></i></button>
+                <button type="button" class="btn btn-default btn-default2 btn-sm"><i class="fa fa-chevron-right"></i></button>
               </div>
               <!-- /.btn-group -->
             </div>

@@ -31,7 +31,7 @@
               <!-- <button type="button" class="btn btn-default btn-sm checkbox-toggle">
                 Categorias <i class="fa fa-caret-down" aria-hidden="true"></i>
               </button> -->
-              <div class="dropdown boton-categoria">
+              <!-- <div class="dropdown boton-categoria">
                   <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-tag" aria-hidden="true"></i> Categorias <i class="fa fa-caret-down" aria-hidden="true"></i>
                   </button>
@@ -40,21 +40,21 @@
                     <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Flores</a>
                     <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos</a>
                   </div>
-                </div>
+                </div> -->
               <div class="btn-group">
                 <button type="button" class="btn btn-default btn-sm">
                   Borrar <i class="fa fa-trash-o"></i>
                 </button>
               </div>
               <!-- /.btn-group -->
-              <button type="button" class="btn btn-default btn-sm"><i class="fa fa-reply"></i></button>
-              <button type="button" class="btn btn-default btn-sm"><i class="fa fa-share"></i></button>
+             <!--  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-reply"></i></button>
+              <button type="button" class="btn btn-default btn-sm"><i class="fa fa-share"></i></button> -->
               <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i></button>
               <div class="pull-right pag-center">
                 1-50/200
                 <div class="btn-group">
-                  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
-                  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-right"></i></button>
+                  <button type="button" class="btn btn-default btn-default2 btn-sm"><i class="fa fa-chevron-left"></i></button>
+                  <button type="button" class="btn btn-default btn-default2 btn-sm"><i class="fa fa-chevron-right"></i></button>
                 </div>
                 <!-- /.btn-group -->
               </div>
@@ -174,8 +174,8 @@
               <div class="pull-right">
                 1-50/200
                 <div class="btn-group">
-                  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
-                  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-right"></i></button>
+                  <button type="button" class="btn btn-default btn-default2 btn-sm"><i class="fa fa-chevron-left"></i></button>
+                  <button type="button" class="btn btn-default btn-default2 btn-sm"><i class="fa fa-chevron-right"></i></button>
                 </div>
                 <!-- /.btn-group -->
               </div>

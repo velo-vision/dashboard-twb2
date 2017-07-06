@@ -1,4 +1,4 @@
-x<!-- Left side column. contains the logo and sidebar -->
+<!-- Left side column. contains the logo and sidebar -->
   <aside class="main-sidebar">
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
@@ -129,7 +129,7 @@ x<!-- Left side column. contains the logo and sidebar -->
 
         </li> -->
         <li class="treeview">
-          <a href="http://twblog.com.mx/" target="_blank">
+          <a href="http://capa3.developer.velosoft.net/twb/" target="_blank">
             <i class="fa fa-arrow-left" aria-hidden="true"></i> <span>twb.com.mx</span>
           </a>
         </li>

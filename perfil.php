@@ -66,7 +66,7 @@
               </p>
             </div>
             <div class="col-md-6 centers">
-              <a href="configuracion1.php">
+              <a href="#" data-toggle="modal" data-target="#exampleModal2" data-whatever="@mdo">
                 <p>
                   <span>Cambiar Teléfono</span>
                 </p>
@@ -80,7 +80,7 @@
               </p>
             </div>
             <div class="col-md-6 centers">
-              <a href="configuracion2.php">
+               <a href="#" data-toggle="modal" data-target="#exampleModal1" data-whatever="@mdo">
                 <p>
                   <span>Cambiar Contraseña</span>
                 </p>
@@ -124,16 +124,61 @@
           <div class="col-md-10 col-md-offset-1 cuenta-proveedor pad-perfil">
             <div class="col-md-6">
               <p>
-                <strong>Desactivar Notificaciones</strong>
+                <strong>Desactivar Notificaciones de Cotizaciones</strong>
               </p>
             </div>
             <div class="col-md-6 centers pad-perfil">
-              <span style="margin-right:10px;">no</span>
+              <span style="margin-right:10px;">No</span>
               <label class="switch nomargin">
                 <input type="checkbox">
                 <div class="slider round"></div>
               </label>
-              <span style="margin-left:10px;">si</span>
+              <span style="margin-left:10px;">Si</span>
+            </div>
+          </div>
+          <div class="col-md-10 col-md-offset-1 cuenta-proveedor pad-perfil">
+            <div class="col-md-6">
+              <p>
+                <strong>Desactivar Notificaciones de Mensajes</strong>
+              </p>
+            </div>
+            <div class="col-md-6 centers pad-perfil">
+              <span style="margin-right:10px;">No</span>
+              <label class="switch nomargin">
+                <input type="checkbox">
+                <div class="slider round"></div>
+              </label>
+              <span style="margin-left:10px;">Si</span>
+            </div>
+          </div>
+          <div class="col-md-10 col-md-offset-1 cuenta-proveedor pad-perfil">
+            <div class="col-md-6">
+              <p>
+                <strong>Desactivar Notificaciones de Licitaciones</strong>
+              </p>
+            </div>
+            <div class="col-md-6 centers pad-perfil">
+              <span style="margin-right:10px;">No</span>
+              <label class="switch nomargin">
+                <input type="checkbox">
+                <div class="slider round"></div>
+              </label>
+              <span style="margin-left:10px;">Si</span>
+            </div>
+          </div>
+          <div class="col-md-10 col-md-offset-1 cuenta-proveedor pad-perfil">
+            <div class="col-md-6">
+              <p>
+                <strong>Desactivar Notificaciones de Visitas</strong>
+              </p>
+            </div>
+            <div class="col-md-6 centers pad-perfil">
+              <span style="margin-right:10px;">No</span>
+              <label class="switch nomargin">
+                <input type="checkbox">
+                <div class="slider round"></div>
+              </label>
+              <span style="margin-left:10px;">Si</span>
             </div>
           </div>
           <div class="col-md-12 border-top top-30">
@@ -150,6 +195,99 @@
   <div class="control-sidebar-bg"></div>
 </div>
 
+<!--MODAL TELÉFONO-->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><img src="images/recursos/close-popoup.png" alt="The Wedding Board"> cerrar</span>
+          </button>
+        </div>
+        <div class="modal-body col-md-12">
+          <div class="col-md-4 col-md-offset-4 centers">
+            <img width="50%;" src="images/recursos/logo.png" title="Logo" alt="The Wedding Board">
+          </div>
+          <div class="col-md-12">
+            <p class="titulo-popoup bottom-20">
+              CAMBIAR <span>TELÉ</span>FONO
+            </p>
+            <p class="titulo-popoup nomargin" style="text-transform:none;">
+              Nuevo número
+            </p>
+            <div class="form-group row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <input type="tel" class="form-control" id="inputEmail3" placeholder="">
+              </div>
+            </div>
+            <p class="titulo-popoup nomargin" style="text-transform:none;">
+              Introducir contraseña
+            </p>
+            <div class="form-group row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <input type="tel" class="form-control" id="inputEmail3" placeholder="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer centers">
+          <a href="#!"><button type="button" data-target="index.php" data-dismiss="modal"  class="btn btn-secondary boton-crear" >Confirmar</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--MODAL-->
+
+  <!--MODAL CONTRASEÑAS-->
+  <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><img src="images/recursos/close-popoup.png" alt="The Wedding Board"> cerrar</span>
+          </button>
+        </div>
+        <div class="modal-body col-md-12">
+          <div class="col-md-4 col-md-offset-4 centers">
+            <img width="50%;" src="images/recursos/logo.png" title="Logo" alt="The Wedding Board">
+          </div>
+          <div class="col-md-12">
+            <p class="titulo-popoup bottom-20">
+              CAMBIAR <span>CONT</span>RASEÑA
+            </p>
+            <p class="titulo-popoup nomargin" style="text-transform:none;">
+              Contraseña anterior
+            </p>
+            <div class="form-group row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <input type="text" class="form-control" id="inputEmail3" placeholder="">
+              </div>
+            </div>
+            <p class="titulo-popoup nomargin" style="text-transform:none;">
+              Nueva contraseña
+            </p>
+            <div class="form-group row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <input type="password" class="form-control" id="inputEmail3" placeholder="">
+              </div>
+            </div>
+            <p class="titulo-popoup nomargin" style="text-transform:none;">
+              Repetir contraseñas
+            </p>
+            <div class="form-group row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <input type="password" class="form-control" id="inputEmail3" placeholder="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer centers">
+          <a href="#!"><button type="button" data-target="index.php" data-dismiss="modal"  class="btn btn-secondary boton-crear" >Confirmar</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--MODAL-->
 <?php
   get_footer();
 ?>

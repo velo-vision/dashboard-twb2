@@ -25,8 +25,8 @@
                   <span>Anterior</span>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-4 centers nomargin">
-                  <a href="licitaciones-2.php">
-                    <p class="editar">
+                  <a href="licitaciones.php">
+                    <p class="editar btn-default3">
                       <img src="images/dashboard/volver.png" alt="The Wedding Board"> Volver a licitaciones
                     </p>
                   </a>

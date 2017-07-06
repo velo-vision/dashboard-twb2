@@ -40,9 +40,10 @@
           <!-- /.box-header -->
           <div class="box-header with-border">
             <h3 class="box-title"><span class="mensaje3span">Bienvenido a The Wedding Bible</span></h3>
-            <div class="box-tools pull-right">
-              <a href="#" class="btn btn-box-tool" data-toggle="tooltip" title="Previous"><i class="fa fa-chevron-left"></i></a>
-              <a href="#" class="btn btn-box-tool" data-toggle="tooltip" title="Next"><i class="fa fa-chevron-right"></i></a>
+            <div class="box-tools pull-right" >
+            <a href="#" class="btn btn-box-tool" data-toggle="tooltip"  style="float: right !important;"><i class="fa fa-chevron-right" ></i></a>
+            <a href="#" class="btn btn-box-tool" data-toggle="tooltip"  style="float: right !important;"><i class="fa fa-chevron-left" ></i></a>
+              
             </div>
           </div>
           <!-- /.box-header -->

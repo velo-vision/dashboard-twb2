@@ -17,9 +17,9 @@
       </div>
 
      
-          <div class="col-xs-12 col-md-12 top-30 cero">
+          <div class="col-xs-12 col-md-12 top-30 cero cero2">
 
-          <div class="col-xs-12 col-md-12 cero">
+          <div class="col-xs-12 col-md-12 cero cero2">
             <!-- Nav tabs -->
             <div class="col-md-8 col-md-offset-2">
                <ul class="nav nav-tabs color-tabs solicitudes" role="tablist">            
@@ -81,9 +81,9 @@
                 <div class="col-xs-12 col-md-12 col-lg-12 e-borde-solicitud2">
                   <p>2 Resultados de la búsqueda</p>
                 </div>
-                <div class="col-md-12 top-50">
+                <div class="col-md-12 top-50 cero2">
                 <!-- /.col -->
-                 <?php for ($x=0; $x <3 ; $x++) { ?>    
+                 <?php for ($x=0; $x <2 ; $x++) { ?>    
                <div class="col-md-4 box box-widget widget-user">
                   <div class="col-xs-12 col-md-12 border-solicitud">
                   <div class="widget-user-header bg-black" style="background: url('images/recursos/perfil-solicitud.jpg') center center no-repeat;background-size:cover">                    
@@ -97,8 +97,8 @@
                       </div>
                   </div>
                   <div class="box-footer">
-                    <div class="col-xs-12 col-md-12 col-lg-12 E-aumento-div cero">                      
-                      <div class="col-sm-6 col-md-6 col-lg-6 E-centrado">
+                    <div class="col-xs-12 col-md-12 col-lg-12 E-aumento-div cero cero2 ">                      
+                      <div class="col-sm-6 col-md-6 col-lg-6 E-centrado cero cero2">
                         <button type="button" class="btn btn-success btn-sm E-botn-c"  data-toggle="modal" data-target="#exampleModal2" data-whatever="@mdo">
                           Enviar solicitud
                         </button>
