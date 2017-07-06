@@ -76,7 +76,7 @@
            </div>
            <div class="form-group row top-20">
              <div class="col-md-8 col-md-offset-2">
-               <a href="perfil.php"><p type="submit" class="btn boton-registro">INGRESA</p></a>
+               <a href="reportes.php"><p type="submit" class="btn boton-registro">INGRESA</p></a>
              </div>
            </div>
            <div class="form-group row top-50">
