@@ -39,16 +39,15 @@
 
   <!--REGSITRO-->
   <div class="container-fluid nomargin">
-    <div class="col-md-12 col-sm-12 nomargin">
-      <div class="col-md-7 col-sm-6 nomargin hidden-xs">
-        <div class="twb">
-          <div class="registro2">
-          </div>
-        </div>
+    <div class="col-md-12 nomargin">
+      <div class="col-md-8 nomargin">
+        <img width="100%;" src="images/recursos/cuenta.jpg" title="registro" alt="The Wedding Board">
       </div>
-      <div class="col-md-5 col-sm-6 col-xs-12 bg-flower">
-        <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 centers logo-registro top-50 ">
-          <img width="100%;" src="images/recursos/logo.png" title="Logo" alt="The Wedding Board">
+      <div class="col-md-4">
+        <div class="col-md-6 col-md-offset-3 centers logo-registro top-20">
+          <div class="col-md-10 col-md-offset-1">
+            <img width="100%;" src="images/recursos/logo.png" title="Logo" alt="The Wedding Board">
+          </div>
           <p class="registrate">
             pre -<span> regi</span>stro
           </p>
@@ -86,7 +85,7 @@
           </div>
           <div class="form-group row top-20">
             <div class="col-md-12">
-              <a href="membresias.php"><p type="submit" class="btn boton-registro">CONTINUAR PRE-REGISTRO</p></a>
+              <a href="membresias.php"><p type="submit" class="btn boton-registro hvr-back-pulse">CONTINUAR PRE-REGISTRO</p></a>
             </div>
           </div>
            <div class="form-group row top-50">

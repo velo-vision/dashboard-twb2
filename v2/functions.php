@@ -14,6 +14,9 @@
   	include("aside.php");
   }
   function get_footer_graficas(){
-  	include("footer-graficas.php");
+  	include("footer-graficas2.php");
+  }
+ function get_graficas_footer(){
+    include("footer-graficas.php");
   }
 ?>

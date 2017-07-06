@@ -40,13 +40,13 @@
             <!-- Nav tabs -->
             <ul class="nav nav-tabs color-tabs" role="tablist">
               <li role="presentation" class="active">
-                <a href="#A" aria-controls="A" role="tab" data-toggle="tab">MEMBRESÍA A</a>
+                <a href="#A" aria-controls="A" role="tab" data-toggle="tab">MEMBRESÍA </a>
               </li>
               <li role="presentation">
-                <a href="#B" aria-controls="B" role="tab" data-toggle="tab">MEMBRESÍA B</a>
+                <a href="#B" aria-controls="B" role="tab" data-toggle="tab">GOLD</a>
               </li>
               <li role="presentation">
-                <a href="#C" aria-controls="C" role="tab" data-toggle="tab">MEMBRESÍA C</a>
+                <a href="#C" aria-controls="C" role="tab" data-toggle="tab">PREMIUM</a>
               </li>
             </ul>
             <!-- Tab panes -->
@@ -58,23 +58,39 @@
                 </p>
                 <p>
                   <span><img src="images/recursos/dot.png"></span> 
-                  Lorem ipsum dolor sit amet Lorem ipsum dolor sit
+                  Foto Perfil
                 </p>
                 <p>
                   <span><img src="images/recursos/dot.png"></span> 
-                  Lorem ipsum dolor sit amet Lorem ipsum
+                  Foto de portada de TWB
                 </p>
                 <p>
                   <span><img src="images/recursos/dot.png"></span> 
-                  Lorem ipsum dolor sit amet Lorem 
+                  1 Categoría 
                 </p>
                  <p>
                   <span><img src="images/recursos/dot.png"></span> 
-                  Lorem ipsum dolor sit amet Lorem 
+                  Mensajes ilimitados
                 </p>
                 <p>
                   <span><img src="images/recursos/dot.png"></span> 
-                  Lorem ipsum dolor sit amet
+                  12 licitaciones al año
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  1 Hasta 5 fotos
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Reportes estadísticos básicos
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Publicidad dentro del perfil
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Imagen destacada en FB y G+ (Logo de TWB)
                 </p>
                 <button type="button" 
                   class="btn btn-success btn-sm"  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
@@ -89,19 +105,71 @@
                 </p>
                 <p>
                   <span><img src="images/recursos/dot.png"></span> 
-                  Lorem ipsum dolor sit amet Lorem ipsum dolor sit
+                  Foto perfil
                 </p>
                 <p>
                   <span><img src="images/recursos/dot.png"></span> 
-                  Lorem ipsum dolor sit amet Lorem ipsum
+                  Foto de portada
                 </p>
                 <p>
                   <span><img src="images/recursos/dot.png"></span> 
-                  Lorem ipsum dolor sit amet Lorem 
+                  2 Categorias
                 </p>
                 <p>
                   <span><img src="images/recursos/dot.png"></span> 
-                  Lorem ipsum dolor sit amet
+                  Mensajes ilimitados
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Cotizaciones directas ilimitadas
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  licitaciones ilimitadas
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Fotos ilimitadas
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Reportes estadísticos
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Redes de colaboración limitadas
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Soporte de colaboraqción limitados
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Soporte y Asistencia 24hr (Mail)
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  1 mención en blog al año
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Editor de perfil HTML
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  1 año de menciones en redes
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Soporte y Asistencia 24hr (Teléfonica y Mail)
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Menciones en blog
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Imagen destacada en FB y G+
                 </p>
                 <button type="button" 
                   class="btn btn-success btn-sm"  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
@@ -116,19 +184,79 @@
                 </p>
                 <p>
                   <span><img src="images/recursos/dot.png"></span> 
-                  Lorem ipsum dolor sit amet Lorem ipsum dolor sit
+                  Foto de perfil
                 </p>
                 <p>
                   <span><img src="images/recursos/dot.png"></span> 
-                  Lorem ipsum dolor sit amet Lorem ipsum
+                  Foto de portada
                 </p>
                 <p>
                   <span><img src="images/recursos/dot.png"></span> 
-                  Lorem ipsum dolor sit amet Lorem 
+                  Categorias ilimitadas
                 </p>
                 <p>
                   <span><img src="images/recursos/dot.png"></span> 
-                  Lorem ipsum dolor sit amet
+                  Tus Redes Sociales
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Teléfono de contacto visible
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Página web en TWB
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Mensajes ilimitados
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Cotizaciones directas
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Fotos ilimitadas
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Posicioón TWB
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Reportes estadísticos avanzados
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Redes de colaboración ilimitadas
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Soporte y Asistencia 24hr (Télefonica y Mail)
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                 Menciones en Blog
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Editor de perfil HTML
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  1 año de mención en redes
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Menciones publicitarias 1 año en blog y redes
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Banner de publicidad en área de membresías
+                </p>
+                <p>
+                  <span><img src="images/recursos/dot.png"></span> 
+                  Imagen destacada en FB y G+
                 </p>
                 <p class="e-mensaje">Ya cuentas con estos beneficios</p>
                 <p class="e-vigencia">Vigencia 18 / 10 / 17</p>
