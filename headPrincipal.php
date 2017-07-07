@@ -49,8 +49,8 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/animate.css">
 
-  
-    
+
+
   <link rel="stylesheet" href="style.css">
   <!--FONTS-->
   <link href="https://fonts.googleapis.com/css?family=Montez" rel="stylesheet">
