@@ -28,10 +28,10 @@
           <div class="box-body no-padding">
             <div class="mailbox-controls">
               <!-- Check all button -->
-              <!-- <button type="button" class="btn btn-default btn-sm checkbox-toggle">
+              <button type="button" class="btn btn-default btn-sm checkbox-toggle">
                 Categorias <i class="fa fa-caret-down" aria-hidden="true"></i>
-              </button> -->
-              <!-- <div class="dropdown boton-categoria">
+              </button>
+              <div class="dropdown boton-categoria">
                   <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-tag" aria-hidden="true"></i> Categorias <i class="fa fa-caret-down" aria-hidden="true"></i>
                   </button>
@@ -40,7 +40,7 @@
                     <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Flores</a>
                     <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos</a>
                   </div>
-                </div> -->
+                </div>
               <div class="btn-group">
                 <button type="button" class="btn btn-default btn-sm">
                   Borrar <i class="fa fa-trash-o"></i>
@@ -61,8 +61,26 @@
               <!-- /.pull-right -->
             </div>
             <div class="table-responsive mailbox-messages">
-              <table class="table table-hover table-striped">
-                <tbody >
+              <table class="tablesorter table table-hover table-striped">
+               <!-- <thead>
+                <tr>
+                  <th></th>
+                  <th>Nombre</th>
+                  <th>Fecha de Evento</th>
+                  <th>Presupuesto</th>
+                  <th>Entregado</th>                
+                </tr>
+              </thead>
+              <tfoot>
+                <tr>
+                  <th></th>
+                  <th>Nombre</th>
+                  <th>Fecha de Evento</th>
+                  <th>Presupuesto</th>
+                  <th>Entregado</th>                
+                </tr>
+              </tfoot> -->
+                <tbody>
                 <tr class="texto-mail-active">
                   <td ><input type="checkbox"></td>
                   <td class=""><a href="cotizaciones-2.php"><strong>Lorena Martínez</strong></a></td>

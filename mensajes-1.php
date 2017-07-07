@@ -3,6 +3,7 @@
   get_header();
   get_aside();
 ?>
+
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
   <section>
@@ -28,9 +29,9 @@
           <div class="box-body no-padding">
             <div class="mailbox-controls">
               <!-- Check all button -->
-              <!-- <button type="button" class="btn btn-default btn-sm checkbox-toggle">
+              <button type="button" class="btn btn-default btn-sm checkbox-toggle">
                 Categorias <i class="fa fa-caret-down" aria-hidden="true"></i>
-              </button> -->
+              </button>
               <div class="dropdown boton-categoria">
                   <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-tag" aria-hidden="true"></i> Categorias <i class="fa fa-caret-down" aria-hidden="true"></i>
@@ -61,14 +62,30 @@
               <!-- /.pull-right -->
             </div>
             <div class="table-responsive mailbox-messages">
-              <table class="table table-hover table-striped">
+              <table class="tablesorter table table-hover table-striped">
+              <!-- <thead>
+                <tr>
+                  <th></th>
+                  <th>Nombre</th>
+                  <th>Categoria</th>                  
+                  <th>Entregado</th>                
+                </tr>
+              </thead>
+              <tfoot>
+                <tr>
+                  <th></th>
+                  <th>Nombre</th>
+                  <th>Categoria</th>                  
+                  <th>Entregado</th>                
+                </tr>
+              </tfoot> -->
                 <tbody >
                 <tr class="texto-mail-active">
                   <td ><input type="checkbox"></td>
                   <td class=""><a href="mensajes-2.php" class="color-a"><strong>The Wedding Board</strong></a></td>
                   <td class=""><a href="mensajes-2.php" class="color-a"><strong>Lorem ipsum dolor sit amet</strong> -  Consectetuer adipiscing elit, orem ipsum dolor sit amet, consectetuer adipiscing...</a>
                   </td>
-                  <td class=""></td>
+                  <!-- <td class=""></td> -->
                   <td class=""><strong>hace 5 min.</strong></td>
                 </tr>
                 <tr class="texto-mail-active">
@@ -76,7 +93,7 @@
                   <td class=""><a href="mensajes-2.php" class="color-a"><strong>The Wedding Board</strong></a></td>
                   <td class=""><a href="mensajes-2.php" class="color-a"><i class="fa fa-tag" aria-hidden="true"></i> <span>Vestidos</span> <strong>Lorem ipsum dolor sit amet</strong> -  Consectetuer adipiscing elit, orem ipsum dolor sit amet, consectetuer adipiscing...</a>
                   </td>
-                  <td class=""><a href="mensajes-2.php" class="color-a"><i class="fa fa-paperclip"></i></a></td>
+                  <!-- <td class=""><a href="mensajes-2.php" class="color-a"><i class="fa fa-paperclip"></i></a></td> -->
                   <td class=""><a href="mensajes-2.php" class="color-a"><strong>hace 1 Hora</strong></a></td>
                 </tr>
                 <tr class="texto-mail-active">
@@ -84,7 +101,7 @@
                   <td class=""><a href="mensajes-2.php" class="color-a"><strong>The Wedding Board</strong></a></td>
                   <td class=""><a href="mensajes-2.php" class="color-a"><strong>Lorem ipsum dolor sit amet</strong> -  Consectetuer adipiscing elit, orem ipsum dolor sit amet, consectetuer adipiscing...</a>
                   </td>
-                  <td class=""></td>
+                 <!--  <td class=""></td> -->
                   <td class=""><a href="mensajes-2.php" class="color-a"><strong>hace 1 día</strong></a></td>
                 </tr>
                 <?php for ($i=0; $i <7 ; $i++) { ?>
@@ -94,7 +111,7 @@
                   <td class=""><a href="mensajes-2.php" class="color-a"><strong>The Wedding Board</strong></a></td>
                   <td class=""><a href="mensajes-2.php" class="color-a"><i class="fa fa-tag" aria-hidden="true"></i> <span>Flores</span> <strong>Lorem ipsum dolor sit amet</strong> -  Consectetuer adipiscing elit, orem ipsum dolor sit amet, consectetuer adipiscing...</a>
                   </td>
-                  <td class=""></td>
+                  <!-- <td class=""></td> -->
                   <td class=""><a href="mensajes-2.php"><strong>13 marzo 2017</strong></a></td>
                 </tr>
 
@@ -184,14 +201,7 @@
 </div>
 <div class="control-sidebar-bg"></div>
 </div>
+
 <?php
   get_footer();
 ?>
-<script type="text/javascript">
-  $(document).ready(function(){
-    $('#categoria-mensaje').onclick(function(){
-      $('#flores').hide();
-    });
-  });
-
-</script>
