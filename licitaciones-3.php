@@ -13,7 +13,7 @@
         <p>
           LICITACIONES
         </p>
-        <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
+        <img src="images/recursos/linea-greca.png" alt="The Wedding Board" width="100%">
       </div>
       <div class="col-md-8 col-md-offset-2 padding-cero">
           <!-- /.box-header -->
@@ -25,8 +25,8 @@
                   <span>Anterior</span>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-4 centers nomargin">
-                  <a href="licitaciones-2.php">
-                    <p class="editar">
+                  <a href="licitaciones.php">
+                    <p class="editar btn-default3">
                       <img src="images/dashboard/volver.png" alt="The Wedding Board"> Volver a licitaciones
                     </p>
                   </a>
@@ -38,14 +38,14 @@
               </div>
               <div class="row margin-tamano">
                 <div class="col-xs-12 col-md-12">
-                  <div class="box box-primary top-30">
+                  <div class="box box-primary top-20">
                     <!-- /.box-header -->
                     <div class="box-body no-padding">
                       <div class="col-xs-12 col-md-12 lici-margin">
                                 <div class="col-xs-12 col-md-6 no-padding izquierda">
                                   <p class="asunto-licitacion"><strong>Licitación:</strong> Lorem ipsum </p>
                                 </div>
-                                <div class="col-xs-12 col-md-6 redecha-lici  no-padding izquierda">
+                                <div class="col-xs-12 col-md-6 derecha-lici  no-padding izquierda">
                                    <p class="asunto-licitacion" style="margin-top:5px;"><strong>Usuario:</strong> Mónica Galindo</p>
                                 </div>
                               </div>

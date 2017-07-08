@@ -29,6 +29,7 @@
   <!--STYLE VELOSOFT-->
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/animate.css">
 
   <!--FONTS-->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -38,29 +39,32 @@
 
   <!--REGSITRO-->
   <div class="container-fluid nomargin">
-    <div class="col-md-12 nomargin">
-      <div class="col-md-8 nomargin">
-        <img width="100%;" src="images/recursos/registro.jpg" title="registro" alt="The Wedding Board">
-      </div>
-      <div class="col-md-4">
-        <div class="col-md-8 col-md-offset-2 centers logo-registro top-20">
-          <div class="col-md-8 col-md-offset-2">
-            <img width="100%;" src="images/recursos/logo.png" title="Logo" alt="The Wedding Board">
+    <div class="col-md-12 col-sm-12 nomargin">
+      <div class="col-md-7 col-sm-6 nomargin hidden-xs">
+        <div class="twb">
+          <div class="registro">
           </div>
-          <p class="registrate">
-            bienveni<span>do pr</span>oveedor
+        </div>
+      </div>
+      <div class="col-md-5 col-sm-6 col-xs-12 bg-flower">
+        <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 centers logo-registro top-50">
+          <img width="100%;" class="wow fadeInDown" data-wow-duration="2.5s" data-wow-delay="" src="images/recursos/logo.png" title="Logo" alt="The Wedding Board">
+          <!-- <div style="overflow:hidden">
+          </div> -->
+          <p class="registrate wow fadeIn" data-wow-duration="2.5s" data-wow-delay="" >
+            reg<span>istr</span>ate
           </p>
         </div>
         <div class="col-md-10 col-md-offset-1 top-50">
           <form>
            <div class="form-group row">
              <div class="col-sm-12">
-               <input type="email" class="form-control" id="inputEmail3" placeholder="Correo">
+               <input type="email" class="form-control centers" id="inputEmail3" placeholder="Correo">
              </div>
            </div>
            <div class="form-group row top-20">
              <div class="col-sm-12">
-               <input type="email" class="form-control" id="inputEmail3" placeholder="Contraseña">
+               <input type="email" class="form-control centers" id="inputEmail3" placeholder="Contraseña">
              </div>
              <div class="col-sm-12">
                <a href="#" style="color:#303030;">
@@ -71,15 +75,15 @@
              </div>
            </div>
            <div class="form-group row top-20">
-             <div class="col-md-12">               
-               <a href="perfil.php"><p type="submit" class="btn boton-registro hvr-back-pulse">INGRESA</p></a>
+             <div class="col-md-8 col-md-offset-2">
+               <a href="reportes.php"><p type="submit" class="btn boton-registro">INGRESA</p></a>
              </div>
            </div>
            <div class="form-group row top-50">
              <div class="col-md-8 col-md-offset-2 cuenta">
                <p class="nomargin">no tienes cuenta</p>
                <a href="inicia-sesion.php"><p class="nomargin"><strong>registrate aqui</strong></p></a>
-               <img class="top-20" src="images/recursos/greca-registro.jpg" alt="The Wedding Board">
+               <img class="top-20" width="200px;" src="images/recursos/greca-registro.png" alt="The Wedding Board">
              </div>
            </div>
          </form>
@@ -100,6 +104,11 @@
 <!-- Bootstrap 3.3.6 -->
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+ </script>
 
 </body>
 </html>

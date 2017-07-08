@@ -5,15 +5,15 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="image centers">
-          <img src="images/dashboard/perfil-muro.png" class="user-image" alt="The Wedding Board"><br>          
+          <img src="images/dashboard/perfil-muro.png" class="user-image" alt="The Wedding Board"><br>
         </div>
-        <div class="col-xs-12 col-md-12 col-lg-12 centro  info nomargin alineado"><!-- pull-left -->
+        <div class="col-xs-12 col-md-12 col-lg-12 centro  info nomargin alineado E-panel-nombre-aside"><!-- pull-left -->
           <p>
             Event Planner
             <!-- <small>jl.event planner@mailtest.mx</small> -->
           </p>
         </div>
-        <div id="capa-variable" class="top-50 centers margin-est">
+        <div id="capa-variable" class="top-50 centers">
           <div class="star-rating">
             <fieldset>
               <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Outstanding">5 stars</label>
@@ -126,10 +126,10 @@
             </li>
             <li class=""><a href="#!">Mis proveedores</a></li>
           </ul>
-          
+
         </li> -->
         <li class="treeview">
-          <a href="http://twblog.com.mx/" target="_blank">
+          <a href="http://capa3.developer.velosoft.net/twb/" target="_blank">
             <i class="fa fa-arrow-left" aria-hidden="true"></i> <span>twb.com.mx</span>
           </a>
         </li>

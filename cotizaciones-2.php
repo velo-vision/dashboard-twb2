@@ -25,10 +25,10 @@
                   <img src="images/dashboard/anterior.png" alt="The Wedding Board">
                   <span>Anterior</span>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-4 centers nomargin">
-                  <a href="licitaciones-2.php">
-                    <p class="editar">
-                      <img src="images/dashboard/volver.png" alt="The Wedding Board"> Volver a licitaciones
+                <div class="col-xs-6 col-sm-6 col-md-4 centers nomargin ">
+                  <a href="cotizaciones.php">
+                    <p class="editar btn-default3">
+                      <img src="images/dashboard/volver.png" alt="The Wedding Board"> Volver a cotizaciones
                     </p>
                   </a>
                 </div>
@@ -46,7 +46,7 @@
                     <!-- /.box-header -->
                     <div class="box-body no-padding">
                       <div class="mailbox-read-info">
-                        <h5><strong>Fecha del Evento:</strong> 28-Oct-2017 <span class="span-coti">Lugar del Evento: </span>Lorem ipsum dolor sit amet, consectetuer</h5>
+                        <h5><strong>Fecha del Evento:</strong> 28-Oct-2017 <!-- <span class="span-coti">Lugar del Evento: </span>Lorem ipsum dolor sit amet, consectetuer --></h5>
                         <h5><strong># Invitados: </strong>300</h5>
                       </div>
 
@@ -74,7 +74,7 @@
                     <div class="box-header">
                       <!-- tools box -->
                       <div class="box-tools centers top-10 alineacion">
-                      <button type="button" class="btn btn-default btn-sm btn1" data-widget="remove" data-toggle="tooltip" title="Remove">
+                      <button type="button" class="btn btn-default btn-sm btn1" data-widget="remove" data-toggle="tooltip" >
                           <i class="fa fa-trash-o"></i> Borrar
                         </button>
                         <button type="button" class="btn btn-success btn-sm btn1" data-widget="collapse">

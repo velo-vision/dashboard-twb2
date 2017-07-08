@@ -159,5 +159,59 @@ function () {
   });
 </script>
 
+<script src="sorttable.js"></script>
+<?php 
+/*
+
+<link rel="stylesheet" href="tablas/jq.css" type="text/css" media="print, projection, screen" />
+  <link rel="stylesheet" href="tablas/style.css" type="text/css" media="print, projection, screen" />
+
+
+  <script type="text/javascript" src="tablas/jquery-latest.js"></script>
+  
+  <script type="text/javascript" src="tablas/jquery.tablesorter.js"></script>
+  <script type="text/javascript" src="tablas/jquery.tablesorter.pager.js"></script>
+  <!-- <script type="text/javascript" src="js/chili/chili-1.8b.js"></script> -->
+  <script type="text/javascript" src="tablas/docs.js"></script>
+  
+  <script type="text/javascript">
+  $(function() {
+    // add new widget called repeatHeaders
+    $.tablesorter.addWidget({
+      // give the widget a id
+      id: "repeatHeaders",
+      // format is called when the on init and when a sorting has finished
+      format: function(table) {
+        // cache and collect all TH headers
+        if(!this.headers) {
+          var h = this.headers = []; 
+          $("thead th",table).each(function() {
+            h.push(
+              "<th>" + $(this).text() + "</th>"
+            );
+            
+          });
+        }
+        
+        // remove appended headers by classname.
+        $("tr.repated-header",table).remove();
+        
+      }
+    });
+    
+    // call the tablesorter plugin and assign widgets with id "zebra" (Default widget in the core) and the newly created "repeatHeaders"
+    $("table").tablesorter({
+      widgets: ['zebra','repeatHeaders']
+    });
+
+  });     
+  </script>
+
+
+
+*/
+ ?>
+
+  
 </body>
 </html>

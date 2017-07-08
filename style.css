@@ -1,10 +1,25 @@
-/* Sortable tables */
-table.sortable thead {
-    background-color:#eee;
-    color:#666666;
-    font-weight: bold;
-    cursor: default;
+table.sortable thead  thead tr th {
+  background-color: #fafafa;
+  border: 1px solid #FFF;
+  /*font-size: 8pt;
+  padding: 4px;*/
 }
+#fafafatable tables */
+table.sortable thead {
+  color: #303030;
+  font-family: 'Montserrat', sans-serif;
+
+  font-weight: 600;
+  background:#fafafa;     
+  cursor: default;
+}
+
+  .sorttable_sorted{
+    background:#fafafa;
+  }
+  .sorttable_sorted_reverse{
+    background:#fafafa;
+  }
 /*HELPERS*/
 .nomargin{
   margin: 0px !important;
@@ -49,7 +64,7 @@ a:focus, a:hover {
 }
 .border-top{
   border-top: 1px solid #d3d3d3;
-  padding-top: 10px !important;
+  padding-top: 15px !important;
 }
 .top-dotted{
   border-top: 1px dotted #969696;
@@ -78,7 +93,7 @@ a:focus, a:hover {
 
 /*TABS*/
 .nav-tabs { border-bottom: 2px solid #f5f5f5; }
-.nav-tabs>li {color:#f5f5f5;font-family: 'Montserrat', sans-serif;font-size: 1.5em;font-weight: 300;text-align: center;width: 33%;}
+.nav-tabs>li {color:#f5f5f5;font-family: 'Montserrat', sans-serif;font-size: 14px;font-weight: 300;text-align: center;width: 33%;}
 .tabs-proveedor>li{
   width: 50%;
 }
@@ -282,6 +297,90 @@ a:focus, a:hover {
   color: white;
 }
 /*HOVER*/
+/*HOVER*/
+
+.twb {
+  /* set your width and height here on the outer div */
+  width: 100%;
+  height: 110vh;
+  position: relative;
+  overflow: hidden; /* comment this line to see what happens behind the scenes */
+}
+.registro {
+  width: 120%;
+  height: 120%;
+  background-image: url(images/recursos/registro.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*transition-duration: 50s; /* set the speed of your animation */*/
+  -webkit-transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750);
+   -moz-transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750);
+     -o-transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750);
+        transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+-webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+   -moz-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+     -o-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+        transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+}
+.registro2 {
+  width: 120%;
+  height: 120%;
+  background-image: url(images/recursos/cuenta.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*transition-duration: 50s; /* set the speed of your animation */*/
+  -webkit-transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750);
+   -moz-transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750);
+     -o-transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750);
+        transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+-webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+   -moz-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+     -o-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+        transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+}
+.twb:hover .registro {
+  transform: scale(1.2);
+  -webkit-filter: blur(.5px);
+  -moz-filter: blur(.5px);
+  -o-filter: blur(.5px);
+  -ms-filter: blur(.5px);
+  filter: blur(.5px);
+}
+.twb:hover .registro2 {
+  transform: scale(1.2);
+  -webkit-filter: blur(.5px);
+  -moz-filter: blur(.5px);
+  -o-filter: blur(.5px);
+  -ms-filter: blur(.5px);
+  filter: blur(.5px);
+}
+.sesion {
+  width: 120%;
+  height: 120%;
+  background-image: url(images/recursos/cuenta.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*transition-duration: 50s; /* set the speed of your animation */*/
+  -webkit-transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750);
+   -moz-transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750);
+     -o-transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750);
+        transition: all 30s cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+-webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+   -moz-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+     -o-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+        transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+}
+.twb:hover .sesion {
+  transform: scale(1.2);
+  -webkit-filter: blur(.5px);
+  -moz-filter: blur(.5px);
+  -o-filter: blur(.5px);
+  -ms-filter: blur(.5px);
+  filter: blur(.5px);
+}
 
 .logo-registro img{
   margin: 50px 0 !important;
@@ -297,7 +396,7 @@ a:focus, a:hover {
 .registrate span{
   border-bottom: 3px solid #60d0e4;
 }
-.boton-registro{
+.boton-registro {
   background: #60d0e4;
   border-radius: 0px !important;
   color: white;
@@ -306,6 +405,18 @@ a:focus, a:hover {
   font-weight: 400;
   padding: 10px 0 !important;
   width: 100%;
+  -webkit-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+  -moz-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+  -o-transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+  transition: all 500ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+  -webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+  -moz-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+  -o-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+  transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+}
+.boton-registro:hover {
+  background: #1cb7d3;
+  color: white;
 }
 .boton-facebook{
   background: #3e5193;
@@ -353,7 +464,6 @@ a:focus, a:hover {
 .cuenta:hover{
   text-decoration: none;
 }
-
 /*DASHBOARD*/
 
 .boton-perfil{
@@ -1165,7 +1275,7 @@ input[type=number]::-webkit-inner-spin-button {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2em;
   font-weight: 300;
-  margin: 20px 0 ;
+  margin: 10px 0 ;
   text-align: center;
   text-transform: uppercase;
 }
@@ -1419,11 +1529,11 @@ cursor:pointer;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2em;
   font-weight: 400;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .cuenta-proveedor strong{
   color: #303030;
-  font-weight: 500;
+  font-weight: 400;
 }
 .cuenta-proveedor span{
   color: #60d0e4;
@@ -1853,14 +1963,52 @@ input:checked + .slider:before {
   margin-top: 50px !important;
   text-align: center;
 }
-/*EST. Velo************************************************************************************************/
+/*EST-Velo************************************************************************************************/
+ .color-a{
+  color:#ddd;
+ }
+ .color-a:hover{
+  color:#ddd;
+ }
+.a2{
+  color:#808080;
+}
+.a2:hover{
+  color:#808080;
+}
+
+
+.btn-default2{
+    background-color: white;
+    color: #67cfe3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8em;
+    font-weight: 400;
+    border-color: #67cfe3
+}
+.btn-default2 active:hover{
+  color: #67cfe3;
+}
+.btn-default2:hover{
+    background-color:#67cfe3 ;   
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8em;
+    font-weight: 400;
+    border-color: #67cfe3
+}
+.btn-default3{
+}
+.btn-default3:hover{
+    background-color:#67cfe3;   
+    color: white;
+    border-color: #67cfe3
+}
+
 .E-titulo-Colaboracion1 p{
   font-size:28px;
 }
 
-.user-panel > .image > img {
-  max-width: 100px;
-}
 .span-coti{
   font-weight: 700;
   margin-left: 60px;
@@ -1927,9 +2075,10 @@ input:checked + .slider:before {
   background: #67cfe3;
   color:#fff !important;
   width: 60px !important;
-  line-height: 25px !important;
+  line-height: 33px !important;
   height: 34px !important;
   right: 15px;
+  font-family: "Monserrat", sans-serif;
 }
 .E-sombra{
   -webkit-box-shadow: -1px 2px 16px -2px rgba(0,0,0,0.75);
@@ -1940,7 +2089,17 @@ input:checked + .slider:before {
   width: 90%;
   margin-left: 5% !important;
 }
-
+.parrafo-modal-solicitud{
+  font-family: "Montserrat",sans-serif;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.parrafo-modal-solicitud p{
+  margin: 25px 0 0 0;
+}
+.btn-modal-sol{
+  width: 100px;
+}
 /*solicitudes colaboracion*/
 .E-aumento-div{
   margin: 4% 0 0 0;
@@ -1967,6 +2126,29 @@ input:checked + .slider:before {
   font-size: 18px;
   font-weight: 500;
 }
+
+.e-borde-solicitud2{
+  border-top: solid 2px #e8eaee;
+  font-size: "Montserrat", sans-serif;
+}
+.e-borde-solicitud2 p{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.solicitudes >li{
+  width: 50%;
+}
+.anchura{
+  margin: 0 0 0 33%;
+}
+.margin-busqueda-solicitud{
+  margin-top: 36px;
+  margin-bottom: 20px;
+}
+
 /*aside*/
 .centro{
   text-align: center;
@@ -2005,19 +2187,415 @@ input:checked + .slider:before {
 }
 
 .imagen img{
-   width: 135px;
+  width: 135px;
   height: auto;
   -webkit-box-shadow: -2px 0px 6px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: -2px 0px 6px 0px rgba(0,0,0,0.75);
   box-shadow: -2px 0px 6px 0px rgba(0,0,0,0.75);
 }
+
+
+/*perfil 7*/
+.E-color{
+  color:#6b6b6b;
+}
+.E-centro-7{
+  text-align: center;
+  border:none;
+}
+.E-add-img-7{
+  margin-top: 140px !important;
+  width: 350px;
+  height: 52px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25.85px;
+}
+.E-marco-foto{
+  background: #c8c8c8;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: solid 5px #fff;
+  position: absolute;
+  top: -105px;
+  left: 136px;
+}
+.E-titulo-img{
+  margin: 104px 0;
+  font-size: 13.69px;
+  text-transform: uppercase;
+}
+.E-titulo-F2{
+  margin-top: 150px;
+  text-align: left;
+}
+.E-separacion-icons{
+  margin: 0 12px;
+  font-size: 20px;
+}
+.E-red-colabortacion{
+  color: #6b6b6b;
+}
+.E-margin-pie{
+  margin-bottom: 80px;
+}
+
+.E-panel-nombre-aside{
+  left: 75px !important;
+}
+.E-form{
+resize: none;
+}
+.E-centro-form{
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.E-centro-form p{
+  font-size: 15px;
+}
+.E-centro-form input[type="text"]{
+  border:solid 1px #67cfe3;
+  margin: 4px 0%;
+  height: 27px;
+  width: 100%;
+  padding-left: 10px;
+}
+.E-centro-form textarea{
+  border:solid 1px #67cfe3 !important;
+}
+.E-centro-form button{
+  margin: 12px 0;
+}
+.E-border-no{
+  border:none;
+}
+.E-boton-colaboracion{
+  text-align: center;
+  width: 100%;
+  margin:30px 0;
+}
+.E-btn-buscar{
+  width: 170px;
+}
+.E-btn-Editar-text{
+  width: 100px;
+  position: absolute;
+  right: 27px;
+  top: 100px;
+  height: 30px;
+  padding: 5px !important;
+}
+
+.Esconder div{
+  display: none;
+}
+/*perfil 10*/
+
+.E-perfil-10{
+  border-top: solid 1px #d3d3d3;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin: 30px 0 30px 0;
+}
+.E-perfil-10 .titulo-popoup{
+  color:#808080;
+  font-size: 25px;
+  font-weight: 200;
+  margin: 30px 0 50px 0 !important;
+}
+.E-perfil-10 p{
+  color:#303030;
+  font-size: 18px;
+  font-weight: 500;
+}
+.E-perfil-10 input[type="text"]{
+  border:solid 1px #60d0e4;
+  width: 400px;
+  height: 40px;
+  margin-bottom: 40px;
+  padding-left: 10px;
+}
+.E-perfil-10 button{
+  width: 185px;
+  height: 34px;
+  color:#fff;
+  background: #60d0e4;
+  font-size: 15.18px;
+  border:#60d0e4;
+}
+/*Perfil 12 13 14 15*/
+.E-perfil-12{
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+}
+.E-perfil-12 p{
+  color:#808080;
+  font-size: 14px;
+  margin: 20px 0;
+}
+.E-perfil-12 .titulo{
+  font-size: 18px;
+  color: #303030;
+  font-weight: 400;
+}
+.E-perfil-12 .e-mensaje{
+  font-size: 25px;
+  color:#60d0e4;
+  margin: 30px 0 15px 0;
+}
+.E-perfil-12 .e-vigencia{
+  font-weight: bold;
+}
+
+.e-modal{
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.e-modal .titulo-popoup{
+  font-size: 21px;
+  margin: 0 0 18px 0;
+}
+.e-modal p{
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/*perfil 1 y 2*/
+.e-texto{
+  margin-top: 140px !important;
+  width: 350px;
+  height: 52px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25.85px;
+  color: #808080;
+}
+.e-texto:hover{
+border:solid 1px ;
+color: #000;
+-webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.e-fonfo-muro{
+  background-repeat: no-repeat !important;
+  background-size: 110% !important;
+  height: 450px;
+  text-align: center;
+   -webkit-transition-property: all;
+    transition-property: all;
+    -moz-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+    -moz-transition-duration: 0.9s;
+    -o-transition-duration: 0.9s;
+    -webkit-transition-duration: 0.9s;
+    transition-duration: 0.9s;
+}
+.e-fonfo-muro:hover{
+  background: #000;
+  opacity: .4;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.perfilimg{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: solid 5px #fff;
+  position: absolute;
+  top: -105px;
+  left: 136px;
+}
+
+.properties-perfil{
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  -webkit-transition-property: all;
+    transition-property: all;
+    -moz-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+    -moz-transition-duration: 0.9s;
+    -o-transition-duration: 0.9s;
+    -webkit-transition-duration: 0.9s;
+    transition-duration: 0.9s;
+}
+.properties-perfil:hover{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transform-origin: center center;
+  -moz-transform-origin: center center;
+  -o-transform-origin: center center;
+  transform-origin: center center;
+}
+.editar-texto-perfil{
+    width: 100px;
+    padding: 5px !important;
+    float: right;
+}
+.separaracion-btn-edit-perfil{
+  padding-bottom: 12px;
+}
+
+
+
+
+/*login*/
+
+.bg-flower{
+  background: url(images/dashboard/bg-mobile.svg);
+  background-size: cover;
+  height: 110vh;
+}
+/*******TIPO DE MEMBESIAS*********/
+.titulo-proveedores{
+  color: #1e0606 ;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0px 0 50px;
+}
+.titulo-proveedores span{
+  border-bottom: 2px solid #67cfe3 ;
+}
+.bg-membresia{
+  background: url(images/recursos/bg-membresias.jpg) center center no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  height: 1400px;
+  padding: 20px !important;
+  -webkit-transition: all 300ms cubic-bezier(0.500, 0.250, 0.500, 0.750);
+   -moz-transition: all 300ms cubic-bezier(0.500, 0.250, 0.500, 0.750);
+     -o-transition: all 300ms cubic-bezier(0.500, 0.250, 0.500, 0.750);
+        transition: all 300ms cubic-bezier(0.500, 0.250, 0.500, 0.750); /* custom */
+
+-webkit-transition-timing-function: cubic-bezier(0.500, 0.250, 0.500, 0.750);
+   -moz-transition-timing-function: cubic-bezier(0.500, 0.250, 0.500, 0.750);
+     -o-transition-timing-function: cubic-bezier(0.500, 0.250, 0.500, 0.750);
+        transition-timing-function: cubic-bezier(0.500, 0.250, 0.500, 0.750); /* custom */
+}
+.bg-membresia:hover{
+  -webkit-box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75);
+}
+.top-membresias{
+  margin-top: 10%;
+}
+.logo-membresias{
+  text-align: center;
+  margin-top: -50px
+}
+.border-membresia3{
+  border: 2px solid #67cfe3 ;
+  height: 1360px;
+}
+.datos-membresia{
+  color: #6d6968 ;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  max-width: 80%;
+  margin-left: 10%;
+}
+.datos-membresia p{
+  padding: 10px 0;
+}
+.datos-membresia strong{
+  color: #6d6968 ;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.datos-membresia span{
+  border-bottom: 2px solid #67cfe3 ;
+}
+.datos-membresia i{
+  font-size: 5px;
+  vertical-align: middle;
+}
+.bg-tipo{
+  background: url(images/recursos/bg-tipo.jpg) center top no-repeat ;
+}
+/*******TIPO DE MEMBESIAS*********/
+
+
+
+
 /*fin*************************************************************************************************/
 /**********MEDIAS QUERYS*************/
+
 .content-face{
   width: 70%;
   margin-left: 15%;
 }
+
+@media only screen and (min-width:1500px) and (max-width:1700px){
+figure.snip1084 figcaption {
+  top: 50%;
+  left: 9px;
+  right: 7px;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.E-favoritos p {
+    width: 86%;
+    margin-left: 6% !important;
+}
+.cero2{
+  padding:0px !important;
+}
+/**/
+}
 @media only screen and (min-width:1300px) and (max-width:1500px){
+  .elimina-foto {
+    max-width: 60% !important;
+    height: 50px !important;
+    line-height: 50px !important;
+}
+.boton-favoritos img {
+  margin: 0 5%;
+}
+.cero2{
+  padding:0px !important;
+}
+figure.snip1084 figcaption {
+  top: 50%;
+  left: 9px;
+  right: 7px;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+figure.snip1084:before, figure.snip1084:after {
+  top: 8%;
+  right: 5%;
+  bottom: 8%;
+  left: 5%;
+}
+.boton-favoritos {
+  font-size: .8em !important;
+}
+  .nav-tabs>li {
+    font-size: 13px !important;
+}
   .boton-favoritos img {
     margin: 0 5%;
   }
@@ -2030,7 +2608,6 @@ input:checked + .slider:before {
   .boton-favoritos {
     font-size: .8em !important;
   }
-/*Est 1300*/
   /*perfil 1*/
 .redes li {
   display: inline-block;
@@ -2042,10 +2619,24 @@ input:checked + .slider:before {
   width: 91%;
   height: 30px;
 }
-
+/*.x{
+  display: none;
+}*/
 /*fin*/
 }
 @media only screen and (min-width:1200px) and (max-width:1300px){
+  .cero {
+    padding: 0px !important;
+}
+  .elimina-foto {
+    max-width: 70% !important;
+    height: 50px !important;
+    line-height: 50px !important;
+    font-size: .8em !important;
+}
+  .nav-tabs>li {
+    font-size: 17px !important;
+}
   .boton-favoritos img {
     margin: 0 5%;
   }
@@ -2085,10 +2676,33 @@ input:checked + .slider:before {
   width: 91%;
   height: 30px;
 }
-  /**/
+/*perfil 7*/
+.E-padding-7-1200{
+  font-size: 12px;
+  padding: 0px;
 }
 
+  /**/
+}
 @media only screen and (min-width:992px) and (max-width:1200px){
+/*login*/
+  .logo-registro img {
+    margin: 100px 0 !important;
+    width: 100%;
+  }
+  /*login*/
+  .elimina-foto {
+    max-width: 70% !important;
+    height: 50px !important;
+    line-height: 50px !important;
+    font-size: .9em !important;
+}
+  .nav-tabs>li {
+    font-size: 15px !important;
+}
+  .form-control1 {
+    width: 100% !important;
+  }
   .asunto-licitacion {
     font-size: 1em !important;
 }
@@ -2202,13 +2816,18 @@ input:checked + .slider:before {
   margin: 20px 0 0 0px;
   line-height: 2px;
 }
+.x{
+  display: none;
+}
 /*Est 992*/
 /*colaboracion*/
-
+.cero{
+  padding: 0px !important;
+}
 .E-favoritos p {
   width: 100%;
   margin: 8px 0 0 0px !important;
-  text-align: left;
+  text-align: center;
   font-size: 10px !important;
 }
 .E-figura figure.snip1084 figcaption {
@@ -2224,10 +2843,90 @@ input:checked + .slider:before {
     width: 100%;
     height: 30px;
 }
+
+/*perfil 7*/
+.E-marco-foto {
+  width: 200px;
+  height: 200px;
+  top: -18px;
+  left: 16%;
+}
+.E-titulo-img {
+  margin: 81px 0;
+  font-size: 12px;
+}
+.E-titulo-F2 {
+  margin-top: 225px;
+}
+.E-padding-7{
+  padding:0px !important;
+}
+.red-colaboracion {
+  font-size: 15px;
+}
+.E-red-colabortacion {
+  padding: 20px 5px;
+}
+.E-padding-7{
+  padding: 0px !important;
+}
+/*perfil 1 2 3*/
+.boton-ceremonia {
+  font-size: 12px;
+}
+.e-fonfo-muro {
+  height: 400px;
+}
+.perfilimg {
+  width: 200px;
+  height: 200px;
+  top: -20px;
+}
+.properties-perfil {
+  width: 190px;
+  height: 190px;
+}
   /****************VELOSOFT FRONT-2************************/
+
 }
-}
+
 @media only screen and (min-width:768px) and (max-width:992px){
+  /*login*/
+  .logo-registro img {
+    margin: 10% 0 5% !important;
+    width: 60%;
+  }
+
+  .form-control {
+    font-size: .8em;
+}
+  /*login*/
+  .adios-bg{
+    display: none;
+  }
+  .modal-close{
+    padding: 10px 15px 0px 0px !important;
+  }
+  .gallery li .name {
+    top: 35% !important;
+}
+  .gallery li {
+    width: 135px !important;
+    margin-top: 20px !important;
+    height: 135px !important;
+}
+  .top-fijo{
+    margin-top: 40px !important;
+  }
+  .boton-ceremonia1 {
+      margin: 15px auto !important;
+  }
+  .nombre-usuario {
+    margin-bottom: 20px !important;
+}
+  .margin-pag-center{
+    margin: 20px auto !important;
+  }
   .derecha-lici {
     text-align: left !important;
 }
@@ -2392,10 +3091,70 @@ input:checked + .slider:before {
   .confirmar-check span{
     display: none;
   }
+/*perfil 7*/
+.E-titulo-F2 {
+  margin-top: 140px;
+}
+/*perfil 1 2 3*/
+.e-fonfo-muro {
+  height: 300px;
+}
+.e-texto {
+  margin-top: 80px !important;
+}
+.perfilimg {
+  width: 200px;
+  height: 200px;
+  top: -120px;
+}
+.properties-perfil {
+  width: 190px;
+  height: 190px;
+}
+
 
   /****************VELOSOFT FRONT-2************************/
 }
 @media only screen and (min-width:200px) and (max-width:768px){
+/*isa logo*/
+.form-control {
+    font-size: .7em;
+}
+
+ /*menu configuracion*/
+.dropdown-menu a {
+    border-bottom: 2px dotted #f1f3f4;
+    color: #000 !important;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    padding: 15px 20px !important;
+}
+.dropdown-menu a:hover {
+   font-size: 1em;
+    background: #f7fdfe !important;
+    font-weight: 500 !important;
+}
+/**/
+ 
+  .adios-bg{
+    display: none;
+  }
+  .gallery li .name {
+    top: 35% !important;
+}
+  .gallery li {
+    width: 135px !important;
+    margin-top: 20px !important;
+    height: 135px !important;
+}
+  .margin-pago{
+    margin-top: 10px !important;
+  }
+  .boton-ceremonia1 {
+      margin: 15px auto !important;
+  }
   .derecha-lici {
       text-align: left !important;
   }
@@ -2458,9 +3217,6 @@ input:checked + .slider:before {
   }
   .box .knob-label {
     font-size: 1em;
-  }
-  .nav-tabs>li {
-    font-size: .75em !important;
   }
   .content-face {
     width: 90%;
@@ -2581,6 +3337,14 @@ input:checked + .slider:before {
   .centrar{
     text-align: center;
   }
+
+/*Est Perfil 7*/
+.E-marco-foto {
+  left: 36%;
+}
+
+/**/
+
   /****************VELOSOFT FRONT-2************************/
 }
 @media only screen and (min-width:1200px) and (max-width:1980px){
@@ -2620,13 +3384,13 @@ input:checked + .slider:before {
     width: 80%;
     margin-left: 10%;
 }
-  .logo-registro img {
+  /*.logo-registro img {
     margin: 2em 0 !important;
     width: 50%;
-  }
-  .top-50 {
+  }*/
+  /*.top-50 {
     margin-top: 30px !important;
-  }
+  }*/
   .bg-mobile{
     background: url(images/dashboard/bg-mobile.svg);
     height: 100%;
@@ -2647,9 +3411,9 @@ input:checked + .slider:before {
   .box .knob-label {
     font-size: 1em;
   }
-  .nav-tabs>li {
+  /*.nav-tabs>li {
     font-size: .75em !important;
-  }
+  }*/
   .content-face {
     width: 90%;
     margin-left: 5%;
@@ -2803,18 +3567,35 @@ input:checked + .slider:before {
   }
 }
 @media only screen and (min-width:600px) and (max-width:768px){
-  .mar-top{
-    margin-top: 10px !important;
+  .text-verificacion {
+    font-size: .9em !important;
+    padding: 0 30px !important;
+}
+  .titulo-modal {
+    font-size: 14px !important;
+}
+  .modal-dialog {
+    width: 75% !important;
+    margin: 0 auto !important;
+}
+  .modal-close{
+    padding: 10px 15px 0px 0px !important;
   }
-  .boton-invitados1 {
-    width: 60% !important;
-    margin-left: 20% !important;
-    margin-top: 50px !important;
-  }
-  .lici-margin {
-    margin-top: 20px;
-    padding: 0px 10px;
-  }
+.top-fijo{
+  margin-top: 40px !important;
+}
+.mar-top{
+  margin-top: 10px !important;
+}
+.boton-invitados1 {
+  width: 60% !important;
+  margin-left: 20% !important;
+  margin-top: 50px !important;
+}
+.lici-margin {
+  margin-top: 20px;
+  padding: 0px 10px;
+}
    /*Est perfil 1*/
 .redes li {
   display: inline-block;
@@ -2823,11 +3604,96 @@ input:checked + .slider:before {
   text-align: center;
 }
 /**/
+/*perfil 7*/
+.border-dotted {
+  height: 330px;
+  width: 95%;
+}
+.E-add-img-7 {
+  margin-top: 118px !important;
+  width: 273px;
+  height: 37px;
+  font-size: 18px;
+}
+.E-marco-foto {
+  width: 200px;
+  height: 200px;
+  left: 36%;
+}
+.E-titulo-img {
+  margin: 79px 0;
+  font-size: 12px;
+}
+/*perfil 1 2 3*/
+.e-fonfo-muro {
+  height: 300px;
+}
+.e-texto {
+  margin-top: 65px !important;
+}
+.perfilimg {
+  width: 200px;
+  height: 200px;
+}
+.properties-perfil {
+  width: 190px;
+  height: 190px;
+}
+/**/
 
 }
 
   /****************VELOSOFT FRONT-2************************/
 @media only screen and (min-width:200px) and (max-width:600px){
+
+
+  .modal-close{
+    padding: 10px 15px 0px 0px !important;
+  }
+  .pad-modal{
+    padding: 0px;
+  }
+  .titulo-modal {
+    font-size: 14px !important;
+}
+  .text-verificacion {
+    font-size: .9em !important;
+    padding: 0px 15px !important;
+}
+  .padding-modal {
+    padding: 0 20px !important;
+}
+  .bancos-img{
+    width: 250px !important;
+  }
+  .top-fijo{
+    margin-top: 40px !important;
+  }
+  .top-cambiar {
+    margin-top: 0px !important;
+}
+  .margin-bancos{
+    margin-bottom: 50px !important;
+  }
+  .red-actualizar {
+    font-size: 1.2em !important;
+}
+  .pago-titular {
+    padding: 0px !important;
+}
+  .nav-tabs>li {
+    font-size: .7em !important;
+  }
+  .padding-pago{
+    padding: 0px !important;
+  }
+  .bottom-100 {
+    margin-bottom: 30px !important;
+  }
+  .pad-perfil{
+    padding: 0px !important;
+    font-size: 1em;
+  }
    .aunto-top{
     padding:0px !important;
   }
@@ -2873,9 +3739,9 @@ input:checked + .slider:before {
     padding-left: 15px;
     padding-right: 15px;
 }
-  .container-fluid, .top-50{
+  /*.container-fluid, .top-50{
     margin-top: 0px !important;
-  }
+  }*/
   .detalle {
     width: 70%;
     margin-left: 15%;
@@ -3020,12 +3886,16 @@ input:checked + .slider:before {
   width: 50%;
   text-align: center;
 }
+
+.x{
+  display: none;
+}
 /*colaboracion*/
 .E-favoritos p {
   width: 100%;
   margin-left: 0% !important;
   margin: 4px 0px !important;
-  text-align: left;
+  text-align: center;
   font-size: 10px !important;
 }
 .E-figura figure.snip1084 figcaption {
@@ -3046,6 +3916,95 @@ input:checked + .slider:before {
 .E-botn-c {
   width: 100%;
   height: 30px;
+  margin: 9px 0;
+}
+/*perfil 7*/
+.bg-muro {
+  height: 200px;
+  background-size: 140%;
+}
+.border-dotted {
+  height: 200px;
+  width: 88%;
+}
+.E-add-img-7 {
+  margin-top: 61px !important;
+  width: 233px;
+  height: 41px;
+  font-size: 15px;
+}
+.E-marco-foto {
+  width: 100px;
+  height: 100px;
+  top: -46px;
+  left: 35%;
+}
+.E-marco-foto span{
+  display: none;
+}
+.E-titulo-img {
+  margin: 20px 25px;
+  font-size: 29px;
+  border: none;
+}
+.E-titulo-F2 {
+  margin-top: 70px;
+}
+.E-galeria-200{
+  padding: 50px 15px;
+}
+/*perfil 10*/
+.E-perfil-10 input[type="text"] {
+  width: 200px;
+}
+.E-perfil-10 .titulo-popoup {
+  font-size: 20px;
+}
+/*perfil 12-15*/
+.e-modal .titulo-popoup {
+  font-size: 14px;
+}
+.e-modal p {
+  font-size: 11px;
+}
+.E-perfil-12 .e-mensaje {
+  font-size: 15px;
+}
+/*perfil 1-3*/
+.e-fonfo-muro {
+  height: 200px;
+  background-size: 140% !important;
+}
+.e-texto {
+  margin-top: 61px !important;
+  width: 233px;
+  height: 41px;
+  font-size: 15px;
+  color:#fff;
+}
+.perfilimg {
+  width: 100px;
+  height: 100px;
+  top: -48px;
+  left: 35%;
+}
+.properties-perfil {
+  width: 90px;
+  height: 90px;
+  background-size: 110% !important;
+}
+.esconder-muro{
+  display: none;
+}
+.padin-cero2{
+  padding: 0px !important;
+}
+.listas-centradas{
+  text-align: center;
+}
+
+.cero{
+  padding: 0px !important;
 }
 /**/
 }
@@ -3300,4 +4259,329 @@ input:checked + .slider:before {
     color: #81d5e6;
     background: #f5f4f4;
     border-left-color: #3c8dbc;
+}
+/*Perfil*/
+.foto-perfil1 img {
+  width: 100px;
+  text-align: center;
+  margin-top: 20px;
+}
+.titulo-muro1 {
+    color: #959595;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+    text-transform:none;
+}
+.boton-guardar {
+    background: #60d0e4;
+    border-radius: 0px !important;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 10px 0 !important;
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;
+}
+/*perfil 05*/
+.content-muro1 {
+  margin-top: -130px !important;
+}
+.red-editar {
+    color: #5b5b5b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7em;
+    font-weight: 200;
+}
+.width-cargar{
+  width: 150px !important;
+}
+.boton-ceremonia1 {
+  border: 1px solid #67cfe3;
+  border-radius: 5px;
+  color: #67cfe3;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  width: 85%;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+}
+.boton-ceremonia1:hover {
+  background: #67cfe3;
+  border: 1px solid #67cfe3;
+  border-radius: 5px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  width: 85%;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+}
+.boton-ceremonia2 {
+  background: #67cfe3;
+  border: 1px solid #67cfe3;
+  border-radius: 5px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  width: 85%;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+}
+.form-control1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: none;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.form-control1 {
+  border-radius: 0;
+  box-shadow: none;
+  border-bottom: 1px solid #e6e6e6;
+}
+/*perfil 06*/
+.bottom-cargar{
+  margin-bottom: 50px;
+}
+.nombre-imagen1 {
+    color: #303030;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*perfil 16*/
+.color-tabs li a{
+  color: #7c7c7c;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.red-actualizar{
+  color: #959595;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  font-weight: 200;
+  margin-top: 15px;
+}
+.boton-cambiar {
+    background: #60d0e4;
+    border-radius: 0px !important;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 10px 0 !important;
+    width: 190px;
+    margin: 0 auto;
+    text-align: center;
+}
+.metodo{
+  color: #a7a7a7;
+  font-size: 1em;
+  font-weight: 200;
+  font-family: 'Montserrat', sans-serif;
+  text-align:center;
+  margin: 15px 0px;
+}
+.xxxx{
+  color: #808080;
+  font-size: 1.1em;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.visa{
+  width: 40px;
+}
+.forma-pago{
+  color: #a7a7a7;
+  font-size: 1em;
+  font-weight: 200;
+  font-family: 'Montserrat', sans-serif;
+  text-align:center;
+  margin: 15px 0 10px 0px;
+}
+.pago-titular {
+  text-transform: none;
+  text-align: justify;
+  padding: 0px 20px;
+  margin: 0px;
+  font-weight: 500;
+}
+.top-pago{
+  margin-top: 30px;
+}
+.top-cambiar{
+  margin-top: 50px;
+}
+/*perfil 17*/
+.forma-pago2 {
+  color: #a7a7a7;
+  font-size: 1em;
+  font-weight: 200;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 15px 0 20px 0px;
+}
+.radio-pagar{
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  color: #a7a7a7;
+  margin: 15px 0 20px 0px;
+}
+.color-pagar{
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  color: #808080;
+  margin-bottom: 30px;
+}
+.select3 {
+  font-weight: 300;
+  width: 100px;
+  display: block !important;
+}
+.select4 {
+  font-weight: 300;
+  width: 100px;
+  display: block !important;
+}
+.pago-titular1 {
+  text-transform: none;
+  text-align: justify;
+  margin: 0px;
+  font-weight: 500;
+}
+.bancos-img{
+  width: 300px;
+}
+.gallery li {
+  border-radius: 50%;
+  width: 300px;
+  border: 3px solid #fff;
+  min-height: 100%;
+  text-align: center;
+  height: 300px;
+  position: relative;
+  margin: 0 auto;
+  display: inline-block;
+  overflow: hidden;
+  background-color: black;
+}
+.top-registro{
+  margin-top: 50px !important;
+}
+/*iniciar-sesion*/
+.radio-registro {
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: #a7a7a7;
+    margin: 0px 0 0px 0px;
+}
+.text-membresia {
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: #a7a7a7;
+    margin-bottom: 20px;
+}
+.text-membresia span{
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: #67cfe3;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.text-verificacion{
+  color: #303030;
+  line-height: 25px;
+  font-size: 1.2em;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 60px;
+}
+/*modal*/
+.modal-close{
+  padding: 15px;
+}
+.modal-img{
+  width: 90px;
+  margin-bottom: 30px;
+}
+.titulo-modal {
+  color: #303030;
+  font-size: 21px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 0 18px 0;
+}
+.titulo-modal span{
+  border-bottom: 2px solid #67cfe3;
+}
+.boton-modal {
+  background: #67cfe3;
+  color: white;
+  border-radius: 0px;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  width: 100px;
+  margin-bottom: 20px;
+}
+.modal-modal {
+  width: 550px;
+  margin: 30px auto;
+}
+
+/*graficas*/
+.chart {
+  width: 100%;
+  min-height: 400px;
+}
+.mensajes-grafica{
+  font-size: 1.2em;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: 900;
+}
+.mensajes-grafica span{
+  text-align: center;
+}
+.legend {
+    margin-bottom: 76px;
+    display: none !important;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+.box.box-info {
+     border-top-color: none !important;
+}
+
+.box {
+    position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+     border-top: none !important;
+    margin-bottom: 20px;
+    /*width: 100%;*/
 }

@@ -9,57 +9,54 @@
 <div class="content-wrapper">
 <section>
   <div class="container-fluid nomargin">
-    <div class="col-md-12 nomargin">
-      <figure class="snip1205">
-        <img src="images/dashboard/muro-2.jpg" alt="The Wedding Board"/>
-        <p>Cambiar imagen</p>
-        <i class="fa fa-file-image-o" aria-hidden="true"></i>
-        <a href="#!"></a>
-      </figure>
+    <div style="background: url('images/dashboard/muro-2.jpg');" class="col-xs-12 col-md-12 col-lg-12 nomargin snip1205 e-fonfo-muro" >      
+        <div class="btn btn-file añadir-foto e-texto  ">
+         <p><i class="fa fa-file-image-o" aria-hidden="true"></i> Cambiar imagen</p>         
+          <input type="file" name="attachment" >
+        </div>       
     </div>
     <div class="col-md-4">
       <div class="col-md-12 nomargin content-muro">
-        <ul class="gallery">
-          <li>
-            <a href="#">
-              <img src="images/dashboard/perfil-muro.png" alt="The Wedding Board" />
-              <span class="name"><i class="fa fa-file-image-o" aria-hidden="true"></i><span class="title">Cambiar imagen</span></span>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="position: relative;">
+            <div  class="foto-perfil perfilimg" >
+                <div style="background: url('images/dashboard/perfil-muro.png');" class="properties-perfil">
+                    <div class="btn btn-file añadir-foto E-titulo-img ">
+                        <i class="fa fa-file-image-o" aria-hidden="true"></i> <span class="esconder-muro">Cambiar imagen</span>
+                        <input type="file" name="attachment">
+                    </div>
+                </div>              
+            </div>              
+          </div>       
+         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-3 titulo-muro E-titulo-F2">
+            <p>
+              <strong><span>JL</span> Event Planner</strong>
+            </p>
+            <p>
+              Decoration
+            </p>
+          </div>
+        <div class="col-md-10 col-md-offset-2 col-lg-8 col-lg-offset-2 top-30 E-padding-7 E-padding-7-1200">
+             <a href="#" data-toggle="modal" data-target="#cotizacion" data-whatever="@mdo">
+              <p class="btn boton-registro hvr-back-pulse radius-5"><i class="fa fa-envelope-o E-separacion-icons" aria-hidden="true"></i>   Solicitar cotización</p>
             </a>
-          </li>
-        </ul>
-        <div class="titulo-muro centers">
-          <p>
-            <strong><span>JL</span> Event Planner</strong>
-          </p>
-          <p>
-            Decoration
-          </p>
-        </div>
-        <div class="col-md-8 col-md-offset-2 top-30">
-          <a href="#!">
-            <p class="btn boton-registro hvr-back-pulse radius-5"><i class="fa fa-envelope-o" aria-hidden="true"></i> Solicitar cotización</p>
-          </a>
-        </div>
-        <div class="col-md-8 col-md-offset-2 top-30">
-          <a href="#!">
-            <p class="btn boton-registro hvr-back-pulse radius-5"><i class="fa fa-plus-square-o" aria-hidden="true"></i> Añadir a porveedores</p>
-          </a>
-        </div>
+          </div>
+          <div class="col-md-10 col-md-offset-2 col-lg-8 col-lg-offset-2 top-30 E-padding-7 E-padding-7-1200">
+           <a href="#" data-toggle="modal" data-target="#proveedor" data-whatever="@mdo">
+              <p class="btn boton-registro hvr-back-pulse radius-5"><i class="fa fa-plus-square-o E-separacion-icons" aria-hidden="true"></i>    Añadir a porveedores</p>
+            </a>
+          </div>
         <div class="col-md-12 sociales top-30">
-          <span>
-            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-          </span>
-          <span>
-            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-          </span>
-          <span>
-            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-          </span>
-          <span>
-            <a href="https://es.pinterest.com/" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-          </span>
-        </div>
-        <div class="col-md-6 col-md-offset-3 top-30">
+            <span>
+              <a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </span>
+            <span>
+              <a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </span>
+            <span>
+              <a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </span>          
+          </div>
+        <div class="col-md-10 col-md-offset-2 top-30">
           <a href="#" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
             <p class="boton-ceremonia">
               <i class="fa fa-pencil-square-o" aria-hidden="true"></i> <span>EDITAR REDES</span>
@@ -67,9 +64,9 @@
           </a>
         </div>
 
-        <div class="col-lg-12 col-md-12 top-dotted top-30">
+        <div class="col-lg-12 col-md-12 top-dotted top-30 listas-centradas">
           <p class="red-colaboracion top-30 centers">RED DE COLABORACIÓN</p>
-             <ul class="redes">         
+             <ul class="redes">
                 <li>
                     <div class="imagen">
                         <img src="images/dashboard/colaborador-1.png" alt="The Wedding Board">
@@ -117,44 +114,8 @@
                 </li>
              </ul>
         </div>
-        <!-- <div class="col-lg-12 col-md-12 top-20">
-          
-        </div> -->
-        <!-- <div class="col-md-12 top-20">
-          <div class="col-md-4">
-            
-          </div>
-          <div class="col-md-8 colaboradores top-30">
-           
-          </div>
-        </div> -->
-        <!-- <div class="col-md-12 top-20">
-          <div class="col-md-4">
-           
-          </div>
-          <div class="col-md-8 colaboradores top-30">
-            
-          </div>
-        </div> -->
-        <!-- <div class="col-md-12 top-20">
-          <div class="col-md-4">
-            
-          </div>
-          <div class="col-md-8 colaboradores top-30">
-            
-          </div>
-        </div> -->
-        <!-- <div class="col-md-12 top-20">
-          <div class="col-md-4">
-            <img src="images/dashboard/colaborador-5.png" alt="The Wedding Board">
-          </div>
-          <div class="col-md-8 colaboradores top-30">
-            <p><strong><span>ART</span> OF CULINARY</strong></p>
-            <p>Florists & Event Stylists</p>
-          </div>
-        </div> -->
-
-        <div class="col-md-8 col-md-offset-2 top-30">
+        
+        <div class="col-md-10 col-md-offset-1 top-30">
           <a href="#!">
             <p class="boton-ceremonia">
               <span>Ver toda la red de colaboración</span>
@@ -171,18 +132,23 @@
             Ut eum bonorum salutandi mediocritatem, mea vivendo minimum consulatu no. Odio legere voluptatibus cum in.
             Mea senserit mediocrem eu, ad corpora tractatos intellegat vix, apeirian intellegat et sea. Est ut probo mollis suscipit, quo assueverit disputationi an,
             per ne harum commodo comprehensam.
+            
           </p>
+           
+           <div class="col-x-12 col-md-12 col-lg-12 separaracion-btn-edit-perfil">
+               <a href="#" class="btn boton-registro hvr-back-pulse editar-texto-perfil">Editar</a>
+           </div>
         </div>
       </div>
       <div class="col-md-12 top-30">
-        <div class="col-md-4 col-md-offset-2">
+        <div class="col-md-5 col-md-offset-1">
           <a href="#!">
             <p class="boton-ceremonia">
               <i class="fa fa-comments-o" aria-hidden="true"></i> <span>Enviar mensaje</span>
             </p>
           </a>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-5">
           <a href="#!">
             <p class="boton-ceremonia">
               <i class="fa fa-heart" aria-hidden="true"></i> <span>Añadir favoritos</span>
@@ -474,77 +440,75 @@
         <span aria-hidden="true"><img src="images/recursos/close-popoup.png" alt="The Wedding Board"> cerrar</span>
         </button>
       </div>
-      <div class="modal-body col-md-12">
-        <div class="col-md-12">
+      <div class="modal-body col-xs-12 col-md-12 padin-cero2">
+        <div class="col-xs-12 col-md-12 padin-cero2">
           <p class="titulo-popoup">
             Elige tus <span>red</span>es sociales
           </p>
           <form>
             <div class="col-md-12 col-xs-12">
-              <div class="col-md-2 nomargin top-10">
-                <label class="custom-control custom-checkbox selecciona-sociales">
-                  <input type="checkbox" class="custom-control-input">
-                  <span class="custom-control-indicator"></span>
+              <div class="col-xs-1 col-md-1 nomargin top-10">
+                <label class="custom-control custom-checkbox selecciona-sociales">                 
                   <span class="custom-control-description"><i class="fa fa-facebook" aria-hidden="true"></i></span>
                 </label>
               </div>
-              <div class="col-md-10">
+              <div class="col-xs-11 col-md-10">
                 <div class="form-group">
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe la URL de tu red social">
                 </div>
               </div>
             </div>
-            <div class="col-md-12 col-xs-12">
-              <div class="col-md-2 nomargin top-10">
+            <div class="col-xs-1col-md-12 col-xs-12">
+              <div class="col-xs-1 col-md-1 nomargin top-10">
                 <label class="custom-control custom-checkbox selecciona-sociales">
-                  <input type="checkbox" class="custom-control-input">
-                  <span class="custom-control-indicator"></span>
+                 <!--  <input type="checkbox" class="custom-control-input">
+                  <span class="custom-control-indicator"></span> -->
                   <span class="custom-control-description"><i class="fa fa-twitter" aria-hidden="true"></i></span>
                 </label>
               </div>
-              <div class="col-md-10">
+              <div class="col-xs-11 col-md-10">
                 <div class="form-group">
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe la URL de tu red social">
                 </div>
               </div>
             </div>
             <div class="col-md-12 col-xs-12">
-              <div class="col-md-2 nomargin top-10">
+              <div class="col-xs-1 col-md-1 nomargin top-10">
                 <label class="custom-control custom-checkbox selecciona-sociales">
-                  <input type="checkbox" class="custom-control-input">
+                  <!-- <input type="checkbox" class="custom-control-input"> -->
                   <span class="custom-control-indicator"></span>
                   <span class="custom-control-description"><i class="fa fa-instagram" aria-hidden="true"></i></span>
                 </label>
               </div>
-              <div class="col-md-10">
+              <div class="col-xs-11 col-md-10">
                 <div class="form-group">
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe la URL de tu red social">
                 </div>
               </div>
             </div>
             <div class="col-md-12 col-xs-12">
-              <div class="col-md-2 nomargin top-10">
+              <div class="col-xs-1 col-md-1 nomargin top-10">
                 <label class="custom-control custom-checkbox selecciona-sociales">
-                  <input type="checkbox" class="custom-control-input">
-                  <span class="custom-control-indicator"></span>
+                  <!-- <input type="checkbox" class="custom-control-input">
+                  <span class="custom-control-indicator"></span> -->
                   <span class="custom-control-description"><i class="fa fa-youtube-play" aria-hidden="true"></i>
                 </label>
               </div>
-              <div class="col-md-10">
+              <div class="col-xs-11 col-md-10">
                 <div class="form-group">
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe la URL de tu red social">
                 </div>
               </div>
             </div>
             <div class="col-md-12 col-xs-12">
-              <div class="col-md-2 nomargin top-10">
+              <div class="col-xs-1 col-md-1 nomargin top-10">
                 <label class="custom-control custom-checkbox selecciona-sociales">
-                  <input type="checkbox" class="custom-control-input">
-                  <span class="custom-control-indicator"></span>
+                  <!-- <input type="checkbox" class="custom-control-input">
+                  <span class="custom-control-indicator"></span> -->
                   <span class="custom-control-description"><i class="fa fa-pinterest" aria-hidden="true"></i></span>
                 </label>
               </div>
-              <div class="col-md-10">
+              <div class="col-xs-11 col-md-10">
                 <div class="form-group">
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe la URL de tu red social">
                 </div>

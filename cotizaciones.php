@@ -3,7 +3,7 @@
   get_header();
   get_aside();
 ?>
-<script src="sorttable.js"></script>
+
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
   <section>
@@ -29,10 +29,10 @@
           <div class="box-body no-padding">
             <div class="mailbox-controls">
               <!-- Check all button -->
-              <!-- <button type="button" class="btn btn-default btn-sm checkbox-toggle">
+              <!--<button type="button" class="btn btn-default btn-sm checkbox-toggle">
                 Categorias <i class="fa fa-caret-down" aria-hidden="true"></i>
-              </button> -->
-              <div class="dropdown boton-categoria">
+              </button>-->
+              <!--<div class="dropdown boton-categoria">
                   <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-tag" aria-hidden="true"></i> Categorias <i class="fa fa-caret-down" aria-hidden="true"></i>
                   </button>
@@ -41,38 +41,41 @@
                     <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Flores</a>
                     <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Vestidos</a>
                   </div>
-                </div>
+                </div>-->
               <div class="btn-group">
                 <button type="button" class="btn btn-default btn-sm">
                   Borrar <i class="fa fa-trash-o"></i>
                 </button>
               </div>
               <!-- /.btn-group -->
-              <button type="button" class="btn btn-default btn-sm"><i class="fa fa-reply"></i></button>
-              <button type="button" class="btn btn-default btn-sm"><i class="fa fa-share"></i></button>
+             <!--  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-reply"></i></button>
+              <button type="button" class="btn btn-default btn-sm"><i class="fa fa-share"></i></button> -->
               <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i></button>
               <div class="pull-right pag-center">
                 1-50/200
                 <div class="btn-group">
-                  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
-                  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-right"></i></button>
+                  <button type="button" class="btn btn-default btn-default2 btn-sm"><i class="fa fa-chevron-left"></i></button>
+                  <button type="button" class="btn btn-default btn-default2 btn-sm"><i class="fa fa-chevron-right"></i></button>
                 </div>
                 <!-- /.btn-group -->
               </div>
               <!-- /.pull-right -->
             </div>
             <div class="table-responsive mailbox-messages">
-              <table class="table table-hover table-striped sortable">
-              <thead>
+
+              <table class="sortable table table-hover table-striped ">
+                <thead>
                 <tr>
-                <th></th>
-                <th>Nombre</th>
-                <th>Fecha de Evento</th>
-                <th>Invitados</th>
-                <th>Recibido</th>
+                  <th></th>
+                  <th>Nombre</th>
+                  <th><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span>Fecha de Evento</th>
+                  <th><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span><span style="font-style:normal;font-weight:400;visibility:hidden">(1)</span>Invitados</th>
+                  <th>Recibido</th>                
                 </tr>
               </thead>
-                <tbody >
+             
+                <tbody>
+
                 <tr class="texto-mail-active">
                   <td ><input type="checkbox"></td>
                   <td class=""><a href="cotizaciones-2.php"><strong>Lorena Martínez</strong></a></td>
@@ -184,8 +187,8 @@
               <div class="pull-right">
                 1-50/200
                 <div class="btn-group">
-                  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
-                  <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-right"></i></button>
+                  <button type="button" class="btn btn-default btn-default2 btn-sm"><i class="fa fa-chevron-left"></i></button>
+                  <button type="button" class="btn btn-default btn-default2 btn-sm"><i class="fa fa-chevron-right"></i></button>
                 </div>
                 <!-- /.btn-group -->
               </div>
