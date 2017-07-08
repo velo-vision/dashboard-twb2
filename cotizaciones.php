@@ -3,6 +3,7 @@
   get_header();
   get_aside();
 ?>
+<script src="sorttable.js"></script>
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
   <section>
@@ -61,7 +62,16 @@
               <!-- /.pull-right -->
             </div>
             <div class="table-responsive mailbox-messages">
-              <table class="table table-hover table-striped">
+              <table class="table table-hover table-striped sortable">
+              <thead>
+                <tr>
+                <th></th>
+                <th>Nombre</th>
+                <th>Fecha de Evento</th>
+                <th>Invitados</th>
+                <th>Recibido</th>
+                </tr>
+              </thead>
                 <tbody >
                 <tr class="texto-mail-active">
                   <td ><input type="checkbox"></td>
