@@ -3,6 +3,8 @@
   get_header();
   get_aside();
 ?>
+
+
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
   <section>
@@ -28,19 +30,19 @@
           <div class="box-body no-padding">
             <div class="mailbox-controls">
               <!-- Check all button -->
-              <!-- <button type="button" class="btn btn-default btn-sm checkbox-toggle">
+              <!--<button type="button" class="btn btn-default btn-sm checkbox-toggle">
                 Categorias <i class="fa fa-caret-down" aria-hidden="true"></i>
-              </button> -->
+              </button>
               <div class="dropdown boton-categoria">
                   <button class="btn btn-secondary dropdown-toggle btn btn-default btn-sm btn-default2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <!-- <i class="fa fa-tag" aria-hidden="true"></i> -->Mostrar<i class="fa fa-caret-down" aria-hidden="true"></i>
+                    <i class="fa fa-tag" aria-hidden="true"></i>Mostrar<i class="fa fa-caret-down" aria-hidden="true"></i>
                   </button>
                   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Todos</a>
-                    <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Mayor a menor</a>
-                    <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> Menor a Mayor</a>
+                    <a class="dropdown-item" href="#"><i class="fa fa-circle" aria-hidden="true"></i> <button id="menor">Todos</button></a>
+                    <a class="dropdown-item" href="#" id="mayor"><i class="fa fa-circle" aria-hidden="true"></i> Mayor a menor</a>
+                    <a class="dropdown-item" href="#" id="menor"><i class="fa fa-circle" aria-hidden="true"></i> Menor a Mayor</a>
                   </div>
-                </div>
+                </div> -->
               <div class="btn-group">
                 <button type="button" class="btn btn-default btn-sm">
                   Borrar <i class="fa fa-trash-o"></i>
@@ -61,10 +63,29 @@
               <!-- /.pull-right -->
             </div>
             <div class="table-responsive mailbox-messages">
-              <table class="table table-hover table-striped">
-                <tbody >
+            <table cellspacing="1" class="sortable table table-hover table-striped">
+               <thead>
+                <tr>
+                  <th></th>
+                  <th>Nombre</th>
+                  <th>Fecha de Evento</th>
+                  <th>Presupuesto</th>
+                  <th>Entregado</th>                
+                </tr>
+              </thead>
+             <!-- <tfoot>
+                <tr>
+                  <th></th>
+                  <th>Nombre</th>
+                  <th>Fecha de Evento</th>
+                  <th>Presupuesto</th>
+                  <th>Entregado</th>                
+                </tr>
+              </tfoot> -->
+              <tbody>
+
                 <?php for ($i=0; $i <3 ; $i++) { ?>
-                  <tr class="texto-mail-active">
+                  <tr id="cincuenta" class="texto-mail-active">
                   <td ><input type="checkbox"></td>
                   <td class=""><a href="licitaciones-3.php"><strong>Lorena Martínez</strong></a></td>
                   <td class=""><a href="licitaciones-3.php" class="a2">
@@ -75,16 +96,45 @@
                 </tr>
                 <?php } ?>
                 <?php for ($i=0; $i <7 ; $i++) { ?>
-                 <tr class="texto-mail-desactive">
+                 <tr id="veinte" class="texto-mail-desactive">
                   <td><input type="checkbox"></td>
                   <td class=""><a href="licitaciones-3.php"><strong>Mónica Galván</strong></a></td>
                   <td class=""><a href="licitaciones-3.php" class="color-a">
                     <strong>Fecha de Evento:</strong> 28-Oct-2017</a>
                   </td>
-                  <td class=""><a href="licitaciones-3.php" class="color-a"><strong>Presupuesto:</strong> $50.000.00</a></td>
+                  <td class=""><a href="licitaciones-3.php" class="color-a"><strong>Presupuesto:</strong> $20.000.00</a></td>
                   <td class=""><a href="licitaciones-3.php" class="color-a"><strong>hace 1 Hora</strong></a></td>
                 </tr>
                 <?php } ?>
+              </tbody>
+            </table>
+
+
+            
+              <!-- <table class="table table-hover table-striped">
+                <tbody >
+                <?php /*for ($i=0; $i <3 ; $i++) { ?>
+                  <tr id="cincuenta" class="texto-mail-active">
+                  <td ><input type="checkbox"></td>
+                  <td class=""><a href="licitaciones-3.php"><strong>Lorena Martínez</strong></a></td>
+                  <td class=""><a href="licitaciones-3.php" class="a2">
+                    <strong>Fecha de Evento:</strong> 28-Oct-2017</a>
+                  </td>
+                  <td class=""><a href="licitaciones-3.php" class="a2"><strong>Presupuesto:</strong> $50.000.00</a></td>
+                  <td class=""><a href="licitaciones-3.php" class="a2"><strong>hace 5 min.</strong></a></td>
+                </tr>
+                <?php } ?>
+                <?php for ($i=0; $i <7 ; $i++) { ?>
+                 <tr id="veinte" class="texto-mail-desactive">
+                  <td><input type="checkbox"></td>
+                  <td class=""><a href="licitaciones-3.php"><strong>Mónica Galván</strong></a></td>
+                  <td class=""><a href="licitaciones-3.php" class="color-a">
+                    <strong>Fecha de Evento:</strong> 28-Oct-2017</a>
+                  </td>
+                  <td class=""><a href="licitaciones-3.php" class="color-a"><strong>Presupuesto:</strong> $20.000.00</a></td>
+                  <td class=""><a href="licitaciones-3.php" class="color-a"><strong>hace 1 Hora</strong></a></td>
+                </tr>
+                <?php } */?> -->
                 <!-- <tr class="texto-mail-active">
                   <td><input type="checkbox"></td>
                   <td class=""><a href="#!"><strong>Ernestina Alfonso</strong></a></td>
@@ -192,9 +242,7 @@
     </div>
   </section>
   <!-- /.content -->
-</div>
-<div class="control-sidebar-bg"></div>
-</div>
+
 <?php
   get_footer();
 ?>
