@@ -1,3 +1,4 @@
+
 <!-- jQuery 2.2.3 -->
 <script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
 <!-- Bootstrap 3.3.6 -->
@@ -21,15 +22,6 @@
 <script src="plugins/knob/jquery.knob.js"></script>
 <!-- Sparkline -->
 <script src="plugins/sparkline/jquery.sparkline.min.js"></script>
-
-
-<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts-all-3.js"></script>
-<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
-<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
-<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
-<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
-<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>
-<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
 
 <script>
   $(function () {
@@ -922,10 +914,11 @@ if (option && typeof option === "object") {
 
 
 
+
 <!-- graficas chart 1-->
 <script>
 
-
+  
     var lineChartData = {
       labels : ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio"],
       datasets : [
@@ -953,7 +946,7 @@ if (option && typeof option === "object") {
 
     }
 
-var ctx4 = document.getElementById("chart-area4").getContext("2d");
+var ctx4 = document.getElementById("chart-area4").getContext("2d");   
 window.myPie = new Chart(ctx4).Line(lineChartData, {responsive:true});
 </script>
 <!-- fin graficas -->
@@ -994,9 +987,9 @@ var pieData = [
       ];
 
 
-
+  
 var ctx = document.getElementById("chart-area").getContext("2d");
-window.myPie = new Chart(ctx).Pie(pieData);
+window.myPie = new Chart(ctx).Pie(pieData);   
 </script>
 <!-- fin graficas -->
 
@@ -1022,21 +1015,16 @@ window.myPie = new Chart(ctx).Pie(pieData);
       // }
     ]
 
-  }
+  } 
+    
 
-
-var ctx3 = document.getElementById("chart-area3").getContext("2d");
+var ctx3 = document.getElementById("chart-area3").getContext("2d"); 
 window.myPie = new Chart(ctx3).Bar(barChartData, {responsive:true});
 </script>
 <!-- fin graficas -->
 
 
           <script src="js/Chart.js"></script>
-
-
-
-
-
 
 
 </body>

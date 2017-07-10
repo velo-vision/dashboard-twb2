@@ -1969,7 +1969,7 @@ input:checked + .slider:before {
   color: #67cfe3;
 }
 .btn-default2:hover{
-    background-color:#67cfe3 ;   
+    background-color:#67cfe3 ;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: .8em;
@@ -1979,7 +1979,7 @@ input:checked + .slider:before {
 .btn-default3{
 }
 .btn-default3:hover{
-    background-color:#67cfe3;   
+    background-color:#67cfe3;
     color: white;
     border-color: #67cfe3
 }
@@ -3116,7 +3116,7 @@ figure.snip1084:before, figure.snip1084:after {
     font-weight: 500 !important;
 }
 /**/
- 
+
   .adios-bg{
     display: none;
   }
@@ -4563,4 +4563,7 @@ figure.snip1084:before, figure.snip1084:after {
      border-top: none !important;
     margin-bottom: 20px;
     width: 100%;
+}
+.chart svg, .chart canvas {
+    width: initial !important;
 }
