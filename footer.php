@@ -159,7 +159,7 @@ function () {
   });
 </script>
 
-<script src="sorttable.js"></script>
+<script src="js/sorttable.js"></script>
   
 </body>
 </html>
