@@ -8,7 +8,7 @@
 <div class="content-wrapper">
 <section>
   <div class="container-fluid nomargin">
-    <div class="col-md-6 col-md-offset-3 titulo-perfil E-titulo-Colaboracion1">
+    <div class="col-md-6 col-md-offset-3 titulo-perfil">
       <p>
         RED DE COLABORACIÓN
       </p>

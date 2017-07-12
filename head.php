@@ -52,6 +52,8 @@
   <!-- bootstrap wysihtml5 - text editor -->
   <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
   <!--STYLE VELOSOFT-->
+  <link rel="stylesheet" type="text/css" href="css/galery.css">
+<link rel="stylesheet" href="css/hover-muro.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
   <!--FONTS-->
@@ -91,7 +93,7 @@
             <!-- User Account: style can be found in dropdown.less -->
             <li class="dropdown user user-menu">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                <img src="dist/img/avatar.png" class="user-image" alt="The Wedding Board">
+                <img src="images/dashboard/perfil-muro.png" class="user-image" alt="The Wedding Board">
                 <span class="hidden-xs">Mi cuenta</span>
               </a>
               <ul class="dropdown-menu drop-perfil" style="box-shadow:none;">

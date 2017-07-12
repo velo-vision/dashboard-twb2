@@ -52,7 +52,7 @@
           <!-- <div style="overflow:hidden">
           </div> -->
           <p class="registrate wow fadeIn" data-wow-duration="2.5s" data-wow-delay="" >
-            reg<span>istr</span>ate
+            Ini<span>ciar </span>Sesión
           </p>
         </div>
         <div class="col-md-10 col-md-offset-1 top-50">
@@ -64,7 +64,7 @@
            </div>
            <div class="form-group row top-20">
              <div class="col-sm-12">
-               <input type="email" class="form-control centers" id="inputEmail3" placeholder="Contraseña">
+               <input type="password" class="form-control centers" id="inputEmail3" placeholder="Contraseña">
              </div>
              <div class="col-sm-12">
                <a href="#" style="color:#303030;">

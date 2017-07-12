@@ -10,7 +10,7 @@
   <section class="content">
     <div class="row">
       <!-- /.col -->
-      <div class="col-xs-12 col-md-6 col-md-offset-3 titulo-perfil">
+      <div class="col-xs-12 col-md-6 col-md-offset-3 titulo-perfil1">
         <p>
           mensajes
         </p>

@@ -72,7 +72,7 @@
            </div>
            <div class="form-group row top-20">
              <div class="col-sm-12">
-               <input type="email" class="form-control" id="inputEmail3" placeholder="Repetir Contraseña">
+               <input type="password" class="form-control" id="inputEmail3" placeholder="Repetir Contraseña">
              </div>
            </div>
            <div class="form-group">

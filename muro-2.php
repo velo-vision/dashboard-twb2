@@ -3,8 +3,7 @@
   get_header();
   get_aside();
 ?>
-<link rel="stylesheet" type="text/css" href="css/galery.css">
-<link rel="stylesheet" href="css/hover-muro.css">
+
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
 <section>

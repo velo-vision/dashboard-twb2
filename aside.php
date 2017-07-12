@@ -13,7 +13,7 @@
             <!-- <small>jl.event planner@mailtest.mx</small> -->
           </p>
         </div>
-        <div id="capa-variable" class="top-50 centers">
+        <div id="capa-variable1" class="top-50 centers">
           <div class="star-rating">
             <fieldset>
               <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Outstanding">5 stars</label>
@@ -35,7 +35,7 @@
           </a>
         </div>
         <div class="cols">
-          <a href="inicia-sesion.php">
+          <a href="index.php">
             <p class="boton-perfil">
               Salir
             </p>

@@ -1,7 +1,7 @@
 <?php
   require("functions.php");
-  //get_header();
-  get_headerPrincipal();
+  get_header();
+  // get_headerPrincipal();
 
   get_aside();
 ?>
@@ -11,7 +11,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <div class="container-fluid">
-      <div class="col-md-6 col-md-offset-3 titulo-perfil no-50">
+      <div class="col-md-6 col-md-offset-3 titulo-perfil1 no-50">
         <p>
           reportes
         </p>
