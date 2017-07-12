@@ -96,11 +96,11 @@
                         <h5 >Fashion</h5>
                       </div>
                   </div>
-                  <div class="box-footer">
+                  <div class="box-footer cero">
                     <div class="col-xs-12 col-md-12 col-lg-12 E-aumento-div cero cero2 ">                      
                       <div class="col-sm-6 col-md-6 col-lg-6 E-centrado cero cero2">
                         <button type="button" class="btn btn-success btn-sm E-botn-c"  data-toggle="modal" data-target="#exampleModal2" data-whatever="@mdo">
-                          Enviar solicitud
+                          Cancelar solicitud
                         </button>
                       </div>
                       <div class="col-sm-6 col-md-6 col-lg-6 E-centrado">
