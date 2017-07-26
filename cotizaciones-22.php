@@ -16,7 +16,7 @@
         </p>
         <img src="images/recursos/linea-greca.png" alt="The Wedding Board" width="100%">
       </div>
-      <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 top-20 botton-volver paddingno">
+      <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 top-20 botton-volver paddingno">
           <div class="col-xs-3 col-sm-3 col-md-4 prev-next nomargin">
             <img src="images/dashboard/anterior.png" alt="The Wedding Board">
             <span class="atras">Anterior</span>
@@ -33,8 +33,7 @@
             <img src="images/dashboard/siguiente.png" alt="The Wedding Board">
           </div>
         </div>
-
-      <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 top-20">
+      <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 top-20">
         <div class="box box-primary">
            <!-- /.box-header -->          
           <div class="col-md-12 col-xs-12">

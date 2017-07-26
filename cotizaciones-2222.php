@@ -16,28 +16,29 @@
         </p>
         <img src="images/recursos/linea-greca.png" alt="The Wedding Board" width="100%">
       </div>
-      <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 top-20 botton-volver paddingno">
-          <div class="col-xs-3 col-sm-3 col-md-4 prev-next nomargin">
-            <img src="images/dashboard/anterior.png" alt="The Wedding Board">
-            <span class="atras">Anterior</span>
-          </div>
-          <div class="col-xs-6 col-sm-6 col-md-4 centers nomargin">
-            <a href="mensajes-1.php">
-              <p class="editar" style="margin: 0 auto;">
-                <img src="images/dashboard/volver.png" alt="The Wedding Board"> Volver a cotizaciones
-              </p>
-            </a>
-          </div>
-          <div class="col-xs-3 col-sm-3 col-md-4 prev-next nomargin" style="text-align:right;">
-            <span class="siguiente">Siguiente</span>
-            <img src="images/dashboard/siguiente.png" alt="The Wedding Board">
-          </div>
-        </div>
-
-      <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 top-20">
-        <div class="box box-primary">
-           <!-- /.box-header -->          
-          <div class="col-md-12 col-xs-12">
+      <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 top-20">
+          <!-- /.box-header -->
+          <div class="box-body">
+            <section class="content padding-cero">
+              <div class="col-md-12 col-xs-12 padding-cero">
+                <div class="col-xs-3 col-sm-3 col-md-4 prev-next nomargin">
+                  <img src="images/dashboard/anterior.png" alt="The Wedding Board">
+                  <span>Anterior</span>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-4 centers nomargin ">
+                  <a href="cotizaciones.php">
+                    <p class="editar btn-default3">
+                      <img src="images/dashboard/volver.png" alt="The Wedding Board"> Volver a cotizaciones
+                    </p>
+                  </a>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-4 prev-next nomargin" style="text-align:right;">
+                  <span>Siguiente</span>
+                  <img src="images/dashboard/siguiente.png" alt="The Wedding Board">
+                </div>
+              </div>
+              <div class="row margin-tamano">
+                <div class="col-md-12 col-xs-12">
                   <div class="box box-primary top-30">
                     <div class="box-header with-border">
                       <h3 class="box-title"><strong>Cotización: Matilde Obregón</strong></h3>
@@ -71,11 +72,12 @@
                 
                 <!-- /.col -->
               </div>
-         
-          
+              </div>
+              <!-- /.row -->
+            </section>
+          </div>
           <!-- /.box-body -->
-          
-        </div>
+          <!-- /.box-footer -->
         <!-- /. box -->
       </div>
       <!-- /.col -->
@@ -88,5 +90,5 @@
 <div class="control-sidebar-bg"></div>
 </div>
 <?php
-  include("footer-3.php");
+	include("footer-3.php");
 ?>

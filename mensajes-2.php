@@ -14,7 +14,7 @@
         <p>
           mensajes
         </p>
-        <img src="images/recursos/linea-greca.png" alt="The Wedding Board">
+        <img src="images/recursos/linea-greca.png" alt="The Wedding Board" width="100%">
       </div>
 
         <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 top-20 botton-volver paddingno">
@@ -35,7 +35,7 @@
           </div>
         </div>
 
-      <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 top-20">
+      <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 top-20">
         <div class="box box-primary">
           <!-- /.box-header -->
           <div class="box-header with-border">
